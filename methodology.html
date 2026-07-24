@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Metodologia | ColPulse</title>
+  <meta name="description" content="Metodologia, auditoria y estado publico de datos de ColPulse.">
+  <link rel="canonical" href="https://colpulse.online/methodology.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Metodologia | ColPulse">
+  <meta property="og:description" content="Metodologia, auditoria y estado publico de datos de ColPulse.">
+  <meta property="og:url" content="https://colpulse.online/methodology.html">
+  <meta property="og:image" content="https://colpulse.online/social-card.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Metodologia | ColPulse">
+  <meta name="twitter:description" content="Metodologia, auditoria y estado publico de datos de ColPulse.">
+  <meta name="twitter:image" content="https://colpulse.online/social-card.svg">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" aria-label="ColPulse"><path d="M3 13.5h3.7l2-5.2 3.6 10.4 2.5-7.2H21" fill="none" stroke="#f3c66b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" fill="none" stroke="rgba(255,255,255,0.72)" stroke-width="1.4"/></svg></span><span class="brand-stack"><span class="brand-name">ColPulse</span><span class="brand-sub">public macro terminal</span></span></div>
+    <nav class="nav" aria-label="Secciones"><a href="index.html">Pulse</a><a href="news.html">Radar</a><a href="indicators.html">Indicadores</a><a href="methodology.html">Metodologia</a><a href="audit.html">Auditoria</a><a href="status.html">Estado</a></nav>
+  </header>
+  <main class="trust-main">
+    <section class="section section-surface trust-page">
+      <span class="eyebrow">ColPulse trust layer</span>
+      <h1>Metodologia</h1>
+      
+      <div class="trust-copy">
+        <p><strong>Version metodologica publica 1.0.</strong> ColPulse organiza, valida y presenta informacion economica sobre Colombia. No produce estadisticas oficiales, no sustituye a las entidades fuente y no convierte asociaciones estadisticas en relaciones causales. Esta pagina documenta el significado de los datos, sus transformaciones, controles, limitaciones y condiciones de publicacion.</p>
+        <p>La transparencia cubre definiciones, procedencia, fechas, unidades, formulas, estados y riesgos de interpretacion. No incluye credenciales, archivos raw privados, rutas de infraestructura ni detalles operativos que no sean necesarios para auditar una afirmacion publica.</p>
+        <h2>Principios no negociables</h2>
+        <ul>
+          <li>Fuente primaria antes que conveniencia.</li>
+          <li>Cada indicador publico debe tener fuente, fecha y estado de calidad.</li>
+          <li>Un dato fallido se marca como pendiente; no se reemplaza con estimaciones silenciosas.</li>
+          <li>Las hipotesis editoriales se separan de los hechos observados.</li>
+          <li>Una derivacion se identifica como derivacion y un modelo se identifica como modelo.</li>
+          <li>La ausencia de historia suficiente impide publicar una tendencia.</li>
+        </ul>
+        <h2>1. Alcance de las afirmaciones</h2>
+        <p>Una tarjeta puede contener un nivel observado, un cambio entre cortes comparables, una derivacion aritmetica, una referencia editorial o un resultado estadistico. Estas categorias tienen fuerza epistemica distinta. Un nivel oficial informa lo publicado por la entidad; una derivacion informa el resultado de una formula; una interpretacion resume un patron; un modelo estima bajo supuestos.</p>
+        <p>ColPulse no presenta recomendaciones de inversion, asesoramiento profesional ni garantias sobre resultados futuros. Las expresiones mejor, peor, aceleracion o deterioro se aplican solo bajo reglas declaradas y no implican por si mismas causalidad, bienestar integral o evaluacion de politica publica.</p>
+        <h2>2. Jerarquia de fuentes</h2>
+        <p>La prioridad corresponde a Banco de la Republica, DANE, Superintendencia Financiera y datos.gov.co para las operaciones bajo su responsabilidad. Se prefieren recursos tabulares reproducibles frente a transcripciones, imagenes o documentos secundarios. Una fuente periodistica puede aportar contexto, pero no reemplaza una serie primaria disponible.</p>
+        <p>Por cada observacion se conserva, cuando aplica, entidad, operacion, URL, hash SHA-256, fecha de descarga, fecha de parseo e identificador de corrida. El hash identifica la version descargada; no certifica la metodologia del productor ni prueba que la fuente nunca sera revisada.</p>
+        <h2>3. Contrato de observacion</h2>
+        <p>La clave nacional es indicador y periodo. El registro incluye valor, unidad, estado, marca preliminar, marca de revision, fuente, hash, timestamps y bandera de calidad. La clave territorial agrega codigo DIVIPOLA, ISO 3166-2 y nivel geografico. Las claves duplicadas son un error critico salvo que se registren como revision.</p>
+        <p>Los estados distinguen oficial, derivado, revisado, ultimo valido atrasado y estimado. El estado describe el origen del valor, no su conveniencia politica ni su signo economico.</p>
+        <h2>4. Tiempo, frecuencia y frescura</h2>
+        <p>Fecha del periodo, fecha de publicacion y fecha de descarga son conceptos distintos. La interfaz muestra el periodo economico informado por la fuente. Las frecuencias diaria, mensual, trimestral y anual mantienen calendarios independientes. No se compara un periodo parcial con uno completo sin advertencia.</p>
+        <p>Cada serie tiene rezago esperado y umbral de obsolescencia. Un valor puede ser autentico pero estar atrasado. La frescura se evalua contra la frecuencia y la naturaleza de la operacion; una serie anual no se juzga con el umbral de una serie diaria.</p>
+        <h2>5. Unidades y agregaciones</h2>
+        <p>Porcentajes, razones, indices, pesos, dolares, saldos y flujos no son intercambiables. El ICV se almacena como razon y se presenta como porcentaje. Exportaciones FOB e importaciones CIF conservan bases de valoracion distintas. Unidades incompatibles no se agregan.</p>
+        <p>Stocks usan el ultimo corte; precios diarios pueden resumirse por promedio o cierre; componentes compatibles pueden sumarse; razones exigen numerador y denominador con igual fecha y cobertura. ColPulse no suma tasas, no promedia promedios sin ponderacion y no transforma escalas sin dejar una regla reproducible.</p>
+        <h2>6. Derivaciones activas</h2>
+        <p>El promedio mensual de TRM es la media de observaciones diarias validas del mes. El cierre mensual es el ultimo valor valido disponible. La cartera vencida y el indice de calidad de cartera siguen formulas documentadas sobre componentes del mismo conjunto y corte. Una derivacion de datos oficiales no se denomina automaticamente dato oficial.</p>
+        <p>No se imputan faltantes para la portada. Una formula requiere prueba automatica, consistencia de unidad y procedencia de todos sus insumos.</p>
+        <h2>7. Controles de calidad</h2>
+        <p>La validacion revisa columnas requeridas, conjunto no vacio, fechas parseables, timestamps, hashes, valores numericos, booleanos, duplicados, estados permitidos, consistencia de unidad y rangos amplios. Las fallas criticas bloquean; las no criticas producen advertencias.</p>
+        <p>El estado OK significa que el artefacto satisface el contrato para el uso declarado. No equivale a una auditoria independiente de la operacion oficial ni garantiza que la entidad no publique una revision posterior.</p>
+        <h2>8. Preliminariedad y revisiones</h2>
+        <p>Una cifra preliminar es una estimacion oficial sujeta a revision, no una cifra falsa. ColPulse conserva esa etiqueta. Cuando cambia una observacion almacenada se deben registrar valor anterior, valor nuevo, hashes, fecha de deteccion y motivo conocido.</p>
+        <p>Las narrativas se reevaluan despues de revisiones materiales. No se defiende una conclusion antigua si la evidencia actualizada cambia el diagnostico.</p>
+        <h2>9. Cobertura territorial</h2>
+        <p>El mapa reconcilia 32 departamentos y Bogota D.C. mediante DIVIPOLA e ISO. Cada operacion tiene dominios propios: PIB departamental cubre 33 territorios, mientras algunas publicaciones laborales y de pobreza cubren subconjuntos. Ausencia nunca significa cero.</p>
+        <p>Las regiones son una ayuda descriptiva. No se extrapolan departamentos sin observacion desde promedios nacionales y no se comparan dominios muestrales incompatibles sin caveat.</p>
+        <h2>10. Lectura de indicadores</h2>
+        <p>La pestaña incluye las series activas presentes en el almacen. Un indicador con un solo corte muestra nivel, fuente y fecha, pero no tendencia. Una flecha requiere por lo menos dos cortes comparables. Las variables con interpretacion ambigua mantienen una lectura neutral.</p>
+        <p>Las categorias macro, actividad, laboral, credito, sector externo y mercados organizan la lectura; no alteran las definiciones de origen.</p>
+        <h2>11. Econometria y modelos</h2>
+        <p>Los modelos se ejecutan fuera del navegador. R-cuadrado no es un objetivo aislado: puede elevarse por tendencias comunes, sobreajuste, multicolinealidad o fuga temporal. La promocion exige muestra suficiente, fundamento economico, diagnosticos, estabilidad y validacion fuera de muestra contra baselines simples.</p>
+        <p>OLS describe relaciones lineales bajo supuestos; SARIMAX modela dinamica y estacionalidad; logit y probit estiman probabilidades binarias; una valoracion compara precio con una referencia. Ninguno demuestra causalidad sin estrategia de identificacion. Los modelos que no superan gates permanecen pendientes.</p>
+        <h2>12. Radar de prensa</h2>
+        <p>Cada titular debe enlazar al articulo original. Las etiquetas Izquierda, Centro y Derecha describen tendencia editorial general; no califican confiabilidad ni verifican una noticia. ColPulse no reproduce articulos completos y puede retirar enlaces rotos.</p>
+        <h2>13. Mercado de valores</h2>
+        <p>Las cotizaciones intradia requieren fuente y licencia de redistribucion. El cierre oficial se separa de cualquier feed de demostracion. Ningun precio, variacion, semaforo o texto constituye recomendacion de compra o venta.</p>
+        <h2>14. Limitaciones y fallas esperables</h2>
+        <p>Las entidades pueden cambiar formatos, hojas, URLs, calendarios, metodologias o dominios. Un conector puede fallar aunque la operacion siga vigente. Tambien pueden existir rupturas de serie, outliers reales, revisiones y retrasos institucionales.</p>
+        <p>La respuesta ante una discrepancia material es marcar, retirar, investigar y corregir. ColPulse no garantiza ausencia absoluta de errores; garantiza un proceso explicito para detectarlos y dejar rastro de la correccion.</p>
+        <h2>15. Reproducibilidad y transparencia protegida</h2>
+        <p>El paquete publico contiene version, commit, tamaños y hashes. Auditoria y estado muestran salud y periodos. Los raw, secretos, credenciales, rutas locales y mecanismos operativos sensibles permanecen privados. Esta separacion permite auditar afirmaciones sin exponer elementos que no agregan evidencia y facilitarian copiar la operacion completa.</p>
+        <h2>No endoso oficial</h2>
+        <p>ColPulse utiliza informacion publica oficial, pero no esta afiliado, avalado ni operado por las entidades fuente.</p>
+      </div>
+    
+    </section>
+    <footer class="footer">
+      <div>Generado 2026-07-24. ColPulse no representa ni sustituye a las entidades fuente.</div>
+      <div class="links"><a href="index.html">Volver al pulso</a><a href="package_manifest.json">Package manifest</a></div>
+      <div class="signature">Por Felipe Cuello Castro</div>
+    </footer>
+  </main>
+</body>
+</html>

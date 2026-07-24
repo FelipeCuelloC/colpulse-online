@@ -1,0 +1,5056 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-07-24T13:07:39.252652+00:00",
+  "departmentCount": 33,
+  "departments": [
+    {
+      "code": "05",
+      "iso": "CO-ANT",
+      "slug": "antioquia",
+      "name": "Antioquia",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 2,
+        "gdp_share_pct": 14.955838300324226,
+        "gdp_nominal_growth_pct": 9.575395859919954,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 277082.33458816534,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 51006.83699479885,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 57285.04771720126,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 64513.561945045,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 68424.94881898418,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 71308.81497403723,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 75981.8714210716,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 85578.12207356477,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 92318.04367653646,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 98572.84854174512,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 106818.96132105797,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 115446.2569833156,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 126021.64407252638,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 132368.59065390422,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 141680.0803320556,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 153559.44893857834,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 148361.90535377676,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 177769.07224721386,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 211751.30428331,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 231404.93876936543,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 252869.1157478313,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 277082.33458816534,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "08",
+      "iso": "CO-ATL",
+      "slug": "atlantico",
+      "name": "Atl\u00e1ntico",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 6,
+        "gdp_share_pct": 4.443635841555885,
+        "gdp_nominal_growth_pct": 7.473045365737896,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 82325.90967577253,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 13506.772992886752,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 15431.79588329677,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 18052.020785127286,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 19527.149199310064,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 20809.219457275856,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 21443.21359624548,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 23549.405763091636,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 26444.987110190366,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 29112.427026687204,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 32382.665874534057,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 35716.29568989337,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 38575.33309511425,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 40874.78022790941,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 43368.866167068525,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 46574.75300738313,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 44832.64284382072,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 52768.25634254646,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 63907.14276607257,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 70838.52868222224,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 76601.4486661395,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 82325.90967577253,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "11",
+      "iso": "CO-DC",
+      "slug": "bogota-dc",
+      "name": "Bogot\u00e1 D.C.",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 1,
+        "gdp_share_pct": 25.434052640802406,
+        "gdp_nominal_growth_pct": 9.623775179509963,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 471209.0718177292,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 89831.7763182392,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 100461.8171476559,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 112440.5199121258,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 122100.65199049123,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 130672.4438232072,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 139740.38710868623,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 152691.34548669757,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 164542.1562234019,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 177360.95560648688,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 191025.60168172722,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 206478.40891632767,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 221455.5703288083,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 236785.8974946024,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 253941.0244985886,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 273524.35423723026,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 260747.48438242183,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 303287.4307466849,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 362156.84836966207,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 395601.7709698293,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 429842.0402381873,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 471209.0718177292,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "13",
+      "iso": "CO-BOL",
+      "slug": "bolivar",
+      "name": "Bol\u00edvar",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 7,
+        "gdp_share_pct": 3.5919482967019247,
+        "gdp_nominal_growth_pct": 7.87208461383524,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 66546.9497452762,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 11169.047763639473,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 12844.796309745636,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 14687.660722084038,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 16047.691294450937,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 16432.357120825563,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 18363.00389008468,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 21489.009083860077,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 23078.33285253121,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 25858.703060108404,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 26623.46238676746,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 28105.21128828678,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 30917.85884539364,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 33393.78051998379,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 35410.28620845884,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 38285.298968000636,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 34625.95131822444,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 42169.88048979814,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 51340.96471645614,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 56717.10260617792,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 61690.612528258454,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 66546.9497452762,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "15",
+      "iso": "CO-BOY",
+      "slug": "boyaca",
+      "name": "Boyac\u00e1",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 9,
+        "gdp_share_pct": 2.63526509840425,
+        "gdp_nominal_growth_pct": 7.318431404585413,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 48822.766805972446,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 8225.995953619826,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 9214.996356271175,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 10950.741460920619,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 12771.129629614044,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 13261.199689609115,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 14474.527544591601,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 17260.034051694256,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 18313.93916853476,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 19380.059108227397,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 20839.474104019195,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 22164.683372837735,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 23671.130606445055,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 24782.2625694136,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 26884.20724344469,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 28573.546284721087,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 26480.06365550627,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 31175.99129304581,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 39424.19001558095,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 42353.180374282194,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 45493.366020150745,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 48822.766805972446,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "17",
+      "iso": "CO-CAL",
+      "slug": "caldas",
+      "name": "Caldas",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 15,
+        "gdp_share_pct": 1.7064309214784257,
+        "gdp_nominal_growth_pct": 9.364034378717445,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 31614.534340507424,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 6015.344484385062,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 6888.067019027826,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 7609.454209624905,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 8181.235796860499,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 8363.561927907655,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 8821.971192117922,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 9343.10195945864,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 9748.222330316024,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 10497.853683289919,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 11518.624890664774,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 12513.501744755558,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 13798.295281628802,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 14749.498122878505,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 15710.828928008199,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 17012.43929113095,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 16674.101383261353,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 19594.584180210244,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 23873.25703337365,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 26282.251808218407,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 28907.61530525588,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 31614.534340507424,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "18",
+      "iso": "CO-CAQ",
+      "slug": "caqueta",
+      "name": "Caquet\u00e1",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 26,
+        "gdp_share_pct": 0.40847099761135974,
+        "gdp_nominal_growth_pct": 9.988542533516132,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 7567.619772089864,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 1253.9589434269135,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 1364.9980836927848,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 1559.8567416252595,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 1746.3272870008275,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 1904.369198852417,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 1972.1308924390798,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 2165.800905859396,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 2554.3054104443668,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 2835.584118965049,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 3175.1891591617896,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 3349.8674772843992,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 3665.700438596257,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 3866.2745722036757,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 4071.6149609350214,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 4313.452682771472,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 4170.644755381683,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 4778.32850118428,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 5585.7707663515375,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 6246.968289903817,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 6880.3709893544865,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 7567.619772089864,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "19",
+      "iso": "CO-CAU",
+      "slug": "cauca",
+      "name": "Cauca",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 11,
+        "gdp_share_pct": 1.829918486713793,
+        "gdp_nominal_growth_pct": 7.379549780228012,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 33902.35145787237,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 5058.549077684048,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 5721.865115817302,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 6282.347714484655,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 7086.319402220475,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 7646.249624847073,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 8503.38744999442,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 9289.682643507489,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 10373.337586126505,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 11624.41262825716,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 13085.761667518203,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 14622.036080438851,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 16070.029533409768,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 16738.90220224114,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 17478.959533504327,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 18755.358542324724,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 18193.667869684934,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 21449.465903985514,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 26176.24062801896,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 28685.54748533568,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 31572.447013662997,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 33902.35145787237,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "20",
+      "iso": "CO-CES",
+      "slug": "cesar",
+      "name": "Cesar",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 16,
+        "gdp_share_pct": 1.7021465798316495,
+        "gdp_nominal_growth_pct": -1.4696031830720546,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 31535.159626644927,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 6461.70787751182,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 7402.761913491523,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 7971.221099758187,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 9789.401737768401,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 10334.868426422825,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 10890.935871063428,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 13247.489062709057,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 13975.243042778307,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 13383.024187931756,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 13653.577178969175,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 14570.402494107215,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 16992.10250093489,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 19550.61196996064,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 21262.81048609059,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 20724.528497966643,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 17710.496387355233,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 23309.93541314569,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 39132.730014453606,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 35207.14875420667,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 32005.51367436191,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 31535.159626644927,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "23",
+      "iso": "CO-COR",
+      "slug": "cordoba",
+      "name": "C\u00f3rdoba",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 12,
+        "gdp_share_pct": 1.8157045837164931,
+        "gdp_nominal_growth_pct": 8.279913595798849,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 33639.014736318204,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 6023.182901513912,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 6803.0054832472515,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 8192.763953186093,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 8202.446657467184,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 8472.974975756277,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 9010.53834604455,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 9757.804504445952,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 10779.266910289518,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 11696.56314268667,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 12912.7227901379,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 13656.567300133398,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 14661.594925601574,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 15792.563628677657,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 16800.14008514014,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 18278.6899727221,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 17892.891361562757,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 21115.98298177936,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 25760.156984972436,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 28305.34716082713,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 31066.71738018764,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 33639.014736318204,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "25",
+      "iso": "CO-CUN",
+      "slug": "cundinamarca",
+      "name": "Cundinamarca",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 5,
+        "gdp_share_pct": 6.3154903561816615,
+        "gdp_nominal_growth_pct": 7.742084730718712,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 117005.19735640113,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 19546.122756424116,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 21386.534735801102,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 24213.561525856458,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 27379.264923667248,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 29326.806444094356,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 31675.6268441774,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 35465.02448676346,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 38213.81569803601,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 40742.22156091668,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 43758.94166214047,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 48055.14651495274,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 53515.877953187504,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 55731.03975812489,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 59084.777423068386,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 63112.19819409349,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 61314.817260784366,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 73405.27777640104,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 91540.42573116426,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 100410.29863132162,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 108597.48783294276,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 117005.19735640113,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "27",
+      "iso": "CO-CHO",
+      "slug": "choco",
+      "name": "Choc\u00f3",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 25,
+        "gdp_share_pct": 0.4591613129594109,
+        "gdp_nominal_growth_pct": 11.45575945877324,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 8506.744054902138,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 1232.3891947835477,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 1373.8438894697285,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 1490.3916574090958,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 1672.2310820671812,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 2103.760986967659,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 2902.509986246909,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 3652.437652653007,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 3555.1330592380173,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 3080.432031956231,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 3145.1658556659936,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 3570.631209841738,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 4221.643444815469,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 3957.6387726357484,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 3777.1277515496986,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 4167.56081874851,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 4489.398512316525,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 5197.924623872647,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 6107.769942096247,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 6886.968507726752,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 7632.3952178072295,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 8506.744054902138,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "41",
+      "iso": "CO-HUI",
+      "slug": "huila",
+      "name": "Huila",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 13,
+        "gdp_share_pct": 1.7340006619697794,
+        "gdp_nominal_growth_pct": 8.860047800280624,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 32125.31066116132,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 6075.571950775916,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 6576.913084644796,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 7186.912631313594,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 8491.332263945998,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 8587.106501395132,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 9561.72556736631,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 11262.865513085691,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 11689.550685886106,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 12413.573109667841,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 13383.483390462263,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 13805.323974530787,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 14693.322327379261,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 15222.315991816256,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 15989.263313235671,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 17197.916997849272,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 16652.937917443956,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 19728.563125538243,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 24496.54592109838,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 26476.17086280968,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 29510.652723669395,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 32125.31066116132,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "44",
+      "iso": "CO-LAG",
+      "slug": "la-guajira",
+      "name": "La Guajira",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 21,
+        "gdp_share_pct": 0.958422710651645,
+        "gdp_nominal_growth_pct": -2.7481473575563964,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 17756.41036343101,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 4199.264618048752,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 4758.813486056479,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 4961.205373825723,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 6488.155323817296,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 6792.355403510565,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 6930.999569354496,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 8080.173994529969,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 8473.430770908806,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 8187.840757527259,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 8360.965732634646,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 8665.814100215299,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 9442.274699374408,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 10784.60889795219,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 11881.877816786746,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 11225.06962789734,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 8708.805357386897,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 14472.54679809174,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 22880.066463093575,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 20483.298253784094,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 18258.171830118517,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 17756.41036343101,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "47",
+      "iso": "CO-MAG",
+      "slug": "magdalena",
+      "name": "Magdalena",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 19,
+        "gdp_share_pct": 1.449707829608093,
+        "gdp_nominal_growth_pct": 9.753474548515495,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 26858.302545959225,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 4323.062244338637,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 4690.697001360469,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 5238.777996683525,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 6100.408204972894,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 6856.889562188466,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 7269.826918175172,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 7761.431790631215,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 8479.979941204652,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 9319.121885163246,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 9549.745068884453,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 10513.57745023304,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 11691.731420937815,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 12422.281853603205,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 13233.303483567734,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 14147.657795101226,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 13840.792687047004,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 16353.260743179237,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 20057.935455851373,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 22061.955485415256,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 24471.48270835541,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 26858.302545959225,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "50",
+      "iso": "CO-MET",
+      "slug": "meta",
+      "name": "Meta",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 8,
+        "gdp_share_pct": 3.0180218904157883,
+        "gdp_nominal_growth_pct": 0.7896206022183438,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 55913.987196322254,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 7952.542024961738,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 9656.126613333854,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 10623.2649792904,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 15252.705843601185,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 16835.923830592714,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 23608.04394670394,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 35741.19513772885,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 39465.57685181661,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 42213.62837418853,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 37363.5321967689,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 30712.162600333504,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 26335.37608313578,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 30238.58628683476,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 35330.9263489603,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 38495.85366826669,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 30525.101566745325,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 40270.4452390793,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 55686.0202831136,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 53981.23799014608,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 55475.93776247592,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 55913.987196322254,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "52",
+      "iso": "CO-NAR",
+      "slug": "narino",
+      "name": "Nari\u00f1o",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 18,
+        "gdp_share_pct": 1.5433400060254536,
+        "gdp_nominal_growth_pct": 9.424097556296939,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 28592.997821029887,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 5169.190676011977,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 5989.033995298471,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 6516.6617495623705,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 6915.338705316167,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 7418.009256595435,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 7703.606402632075,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 8552.743333537222,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 9342.660711884257,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 10148.914629847774,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 10991.226702379536,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 12229.742977637798,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 13892.975264616009,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 14061.814833181741,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 14834.913337482303,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 15907.400597626256,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 15702.347173163633,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 18226.034695999915,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 21587.23752245492,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 23654.381153411465,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 26130.43969251768,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 28592.997821029887,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "54",
+      "iso": "CO-NSA",
+      "slug": "norte-de-santander",
+      "name": "Norte de Santander",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 17,
+        "gdp_share_pct": 1.62646287985516,
+        "gdp_nominal_growth_pct": 8.912073623638772,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 30132.99039623132,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 5098.198135479671,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 5987.274145737565,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 6756.326097413515,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 7712.421029147879,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 8301.865539847353,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 8697.738486731112,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 9408.132258500475,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 9896.699612191202,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 10747.05322544526,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 11642.742330881032,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 12534.024866470347,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 13810.526031951034,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 14445.495559430157,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 15442.66754244835,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 16288.625466563772,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 15813.893302502898,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 18596.47994654376,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 23326.917668603237,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 25379.482051535255,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 27667.26350318163,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 30132.99039623132,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "63",
+      "iso": "CO-QUI",
+      "slug": "quindio",
+      "name": "Quind\u00edo",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 22,
+        "gdp_share_pct": 0.8676875510475148,
+        "gdp_nominal_growth_pct": 9.008577268649699,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 16075.387250751519,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 2749.6112972891633,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 3255.1327076140856,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 3549.387345125761,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 3834.1865786334893,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 4018.1755604837963,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 4280.828447407906,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 4767.023399710755,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 5242.262342793133,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 5460.354340073177,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 5720.352538326582,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 6380.692344865627,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 7133.132377739345,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 7633.45202491977,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 7950.511940845779,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 8532.6562693147,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 8274.921119768707,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 9865.227652304056,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 12137.101493575208,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 13326.62447919843,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 14746.901256342437,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 16075.387250751519,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "66",
+      "iso": "CO-RIS",
+      "slug": "risaralda",
+      "name": "Risaralda",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 14,
+        "gdp_share_pct": 1.7080065550742831,
+        "gdp_nominal_growth_pct": 9.935630194731559,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 31643.725631990317,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 5511.516318530591,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 6342.31917082062,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 6851.839733539376,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 7438.184244398238,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 7969.274210456741,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 8420.282877153857,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 8979.657554120235,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 9629.11830885337,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 10612.879412937771,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 11727.873606362667,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 12655.73442082919,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 13890.500660602378,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 14922.396078169428,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 15876.729648894343,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 17078.041375727913,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 16410.227771874976,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 19404.903798867002,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 23879.672720459246,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 26359.77593159622,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 28783.867046506253,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 31643.725631990317,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "68",
+      "iso": "CO-SAN",
+      "slug": "santander",
+      "name": "Santander",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 4,
+        "gdp_share_pct": 6.424882514013946,
+        "gdp_nominal_growth_pct": 7.666165279990644,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 119031.87308457808,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 18732.738209111307,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 21572.05219981113,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 24619.739094337056,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 28389.110596492137,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 28494.32379089781,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 32726.18072306035,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 37783.839003809946,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 40282.52648478359,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 43409.315436218036,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 50858.40912311322,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 51999.22965436837,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 55182.20197913644,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 59462.532179605296,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 63776.07829165889,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 69123.52536650244,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 61639.0287079949,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 75156.6958043688,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 93020.4745320935,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 101514.760538467,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 110556.43411746895,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 119031.87308457808,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "70",
+      "iso": "CO-SUC",
+      "slug": "sucre",
+      "name": "Sucre",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 23,
+        "gdp_share_pct": 0.8220566737408616,
+        "gdp_nominal_growth_pct": 8.735309467713304,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 15229.99766044286,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 2386.3437895385773,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 2758.28937677892,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 3161.0812370858002,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 3485.8484008797964,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 3878.94226442949,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 4011.2231162617363,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 4472.58944977276,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 4994.469289695406,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 5480.308141218194,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 6088.779641525371,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 6577.321279881526,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 7186.33762119666,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 7702.08730372015,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 8122.917706159184,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 8696.662719700864,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 8457.481891883615,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 9794.039266623007,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 11524.437988192352,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 12758.775375724228,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 14006.487621176166,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 15229.99766044286,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "73",
+      "iso": "CO-TOL",
+      "slug": "tolima",
+      "name": "Tolima",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 10,
+        "gdp_share_pct": 2.211684530076143,
+        "gdp_nominal_growth_pct": 9.995674618868676,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 40975.21654488213,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 7701.879452327135,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 8762.612870053543,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 10046.53671676625,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 11345.134775431736,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 11432.051267468467,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 11964.982485524186,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 13517.517617762327,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 14387.03047853898,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 15274.905241838225,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 16560.261699278773,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 17380.832886711047,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 18863.07779823518,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 19988.03035008489,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 21002.251550227564,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 22526.051955292904,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 21417.451681531624,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 25149.255410419,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 30964.53553869395,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 33757.30359833041,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 37251.66165566044,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 40975.21654488213,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "76",
+      "iso": "CO-VAC",
+      "slug": "valle-del-cauca",
+      "name": "Valle del Cauca",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 3,
+        "gdp_share_pct": 9.76446949707677,
+        "gdp_nominal_growth_pct": 8.464809633937254,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 180903.40039356446,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 34638.57157030165,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 39675.02128165634,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 45059.05479285934,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 48319.492287334004,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 51607.00589815443,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 54213.03125296259,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 58464.86633568951,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 62545.18962810775,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 66718.92039653524,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 72278.80993053308,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 78074.26193077292,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 85102.00876612526,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 89765.7909621959,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 95893.69296763356,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 103173.46341021024,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 100115.42354789039,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 116549.46748125955,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 140858.30374842143,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 154002.63170297732,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 166785.33895380763,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 180903.40039356446,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "81",
+      "iso": "CO-ARA",
+      "slug": "arauca",
+      "name": "Arauca",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 24,
+        "gdp_share_pct": 0.5075215846706556,
+        "gdp_nominal_growth_pct": 2.1409703682236936,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 9402.700317466115,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 3555.26547620587,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 4048.0781304824127,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 4450.890438283792,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 5837.064268230669,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 5062.336797825135,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 5216.711579909053,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 6170.812099254966,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 5983.518003020743,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 5673.981515289021,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 5009.854120191167,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 4534.093020485556,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 4151.50006261592,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 4366.763659847884,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 5091.156096412452,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 5618.911810735286,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 5129.916244952297,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 6682.496078423872,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 8911.394201646894,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 8723.432348380906,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 9205.610915550218,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 9402.700317466115,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "85",
+      "iso": "CO-CAS",
+      "slug": "casanare",
+      "name": "Casanare",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 20,
+        "gdp_share_pct": 1.2770534179375899,
+        "gdp_nominal_growth_pct": 0.30363299334281724,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 23659.585997815473,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 7841.715801457913,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 8269.530891540575,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 8009.129660904759,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 9909.798921556334,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 9165.234510062848,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 10453.855352838613,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 14433.358067031148,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 15729.475800269538,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 16781.103513794766,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 16687.927686124964,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 13304.992649276586,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 11667.468808624273,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 13145.422726425715,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 15507.121773227573,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 16464.684387055946,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 12620.253399259598,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 16935.308891496043,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 23122.323701772028,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 23116.763650263412,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 23587.965153152298,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 23659.585997815473,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "86",
+      "iso": "CO-PUT",
+      "slug": "putumayo",
+      "name": "Putumayo",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 27,
+        "gdp_share_pct": 0.3432052907693636,
+        "gdp_nominal_growth_pct": 3.4472223926272916,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 6358.461578668166,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 1115.7878486737345,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 1330.8770662367576,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 1565.850666810024,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 2025.110687839817,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 2292.4247999416543,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 2885.9047805638666,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 3637.4020772778094,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 3735.7983903592026,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 4497.281746945102,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 4485.3471781665985,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 3481.4379057421474,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 3297.989179137947,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 3613.0163260969407,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 4033.3848255987273,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 4048.8771683667387,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 3360.562464365152,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 4278.981351540006,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 5683.421964938756,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 5830.530215775015,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 6146.575453263534,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 6358.461578668166,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "88",
+      "iso": "CO-SAP",
+      "slug": "san-andres,-providencia-y-santa-catalina-(archipielago)",
+      "name": "San Andr\u00e9s, Providencia y Santa Catalina (Archipi\u00e9lago)",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 28,
+        "gdp_share_pct": 0.14801667012881004,
+        "gdp_nominal_growth_pct": 8.70538547942552,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 2742.260493440072,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 489.2860785286883,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 560.686346262909,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 655.2183844730968,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 688.5840629071868,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 753.1823092131799,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 785.3117612846373,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 857.3991693117242,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 933.9537673131764,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 1046.3722227870887,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 1144.491480431638,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 1253.0433402763442,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 1340.5336857358213,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 1438.5652601254476,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 1531.1140622086186,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 1639.4620540130093,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 1350.2290063771418,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 1701.135299994258,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 2113.062403251074,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 2307.8838030175953,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 2522.6537593752378,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 2742.260493440072,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "91",
+      "iso": "CO-AMA",
+      "slug": "amazonas",
+      "name": "Amazonas",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 30,
+        "gdp_share_pct": 0.07840744242351083,
+        "gdp_nominal_growth_pct": 8.964056207463166,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 1452.6311905446692,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 228.2455211992084,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 253.45799448585078,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 278.27884132821487,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 304.24095154446087,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 336.1911296866252,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 368.98975622538876,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 402.0919435317247,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 437.51824429308067,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 475.9593355994083,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 531.6700411881552,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 593.3644029666723,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 660.6209974837806,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 710.1469756460746,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 759.1816101512736,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 808.1778151795215,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 776.893244441762,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 911.4422211300202,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 1078.5597389551542,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 1204.7387289403184,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 1333.1287776025133,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 1452.6311905446692,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "94",
+      "iso": "CO-GUA",
+      "slug": "guainia",
+      "name": "Guain\u00eda",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 32,
+        "gdp_share_pct": 0.03629737127572565,
+        "gdp_nominal_growth_pct": 10.03160974331121,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 672.4705209117864,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 127.0437609124539,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 148.43576281548815,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 150.59457050860286,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 166.49092948001334,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 180.3747717961879,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 196.37101570709555,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 206.48748544394306,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 231.7691444491462,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 257.7399511349478,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 274.7812779727685,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 307.30493173785527,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 331.8144365220878,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 338.5262951560625,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 363.5590818212723,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 389.7612775461636,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 374.18050848099136,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 443.812712520037,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 500.6462799013795,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 554.6412736983972,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 611.1612131100951,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 672.4705209117864,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "95",
+      "iso": "CO-GUV",
+      "slug": "guaviare",
+      "name": "Guaviare",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 29,
+        "gdp_share_pct": 0.08311172778249902,
+        "gdp_nominal_growth_pct": 8.972780330109309,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 1539.7860757248006,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 348.88199447585083,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 374.7283214788353,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 420.68794547783295,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 441.9434474499454,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 450.3238126802311,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 471.54174511793144,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 483.9183264314793,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 530.2015811528164,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 571.9966810451875,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 619.9590040154236,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 677.3681224213441,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 717.7479520485845,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 757.7384542661498,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 783.3272804229998,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 832.3920097807767,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 826.1611315072871,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 954.8754033227303,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 1147.603773859653,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 1271.7067210706305,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 1413.0006328739655,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 1539.7860757248006,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "97",
+      "iso": "CO-VAU",
+      "slug": "vaupes",
+      "name": "Vaup\u00e9s",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 33,
+        "gdp_share_pct": 0.02804483046789333,
+        "gdp_nominal_growth_pct": 9.417857415059338,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 519.5781702858297,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 79.77128750081307,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 85.35399426130603,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 103.66719360560677,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 112.49334396031966,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 123.47162409854303,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 129.99350403576764,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 149.20478202363998,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 164.07834850537233,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 190.12726364908463,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 217.64220896081267,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 233.44163394143024,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 250.55171409756724,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 263.0854684282232,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 281.40440553071204,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 303.0820969050401,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 293.62725858752657,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 333.67119028421223,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 378.939472426875,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 424.21734684152773,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 474.8568310151533,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 519.5781702858297,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": "99",
+      "iso": "CO-VID",
+      "slug": "vichada",
+      "name": "Vichada",
+      "status": "available",
+      "profile": {
+        "gdp_rank": 31,
+        "gdp_share_pct": 0.071534948707029,
+        "gdp_nominal_growth_pct": 8.874620246986066,
+        "history_start": "2005.0",
+        "history_points": 21
+      },
+      "indicators": {
+        "pib_departamental_corriente": {
+          "value": 1325.3065588412092,
+          "unit": "billion_cop",
+          "source": "DANE",
+          "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+          "lastDate": "2025-12-31",
+          "periodLabel": "2025pr",
+          "preliminary": true,
+          "series": [
+            {
+              "period_date": "2005-12-31",
+              "period_label": "2005.0",
+              "value": 301.8266854168578,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2006-12-31",
+              "period_label": "2006.0",
+              "value": 329.03590455129245,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2007-12-31",
+              "period_label": "2007.0",
+              "value": 336.7928235579536,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2008-12-31",
+              "period_label": "2008.0",
+              "value": 367.15731315821887,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2009-12-31",
+              "period_label": "2009.0",
+              "value": 381.9105088719592,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2010-12-31",
+              "period_label": "2010.0",
+              "value": 382.7465682206486,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2011-12-31",
+              "period_label": "2011.0",
+              "value": 401.0329865092873,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2012-12-31",
+              "period_label": "2012.0",
+              "value": 435.40854554961766,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2013-12-31",
+              "period_label": "2013.0",
+              "value": 466.53812183639224,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2014-12-31",
+              "period_label": "2014.0",
+              "value": 464.9964694337357,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2015-12-31",
+              "period_label": "2015.0",
+              "value": 529.2264341276009,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2016-12-31",
+              "period_label": "2016.0",
+              "value": 573.5271068426745,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2017-12-31",
+              "period_label": "2017.0",
+              "value": 596.5020199581144,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2018-12-31",
+              "period_label": "2018.0",
+              "value": 634.8932988134707,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2019-12-31",
+              "period_label": "2019.0",
+              "value": 688.0966946923875,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2020-12-31",
+              "period_label": "2020.0",
+              "value": 686.698932697447,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2021-12-31",
+              "period_label": "2021.0",
+              "value": 803.2263891472562,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2022-12-31",
+              "period_label": "2022.0",
+              "value": 966.9978760847371,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2023-12-31",
+              "period_label": "2023.0",
+              "value": 1069.636449199479,
+              "is_preliminary": false
+            },
+            {
+              "period_date": "2024-12-31",
+              "period_label": "2024p",
+              "value": 1217.2777786362908,
+              "is_preliminary": true
+            },
+            {
+              "period_date": "2025-12-31",
+              "period_label": "2025pr",
+              "value": 1325.3065588412092,
+              "is_preliminary": true
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

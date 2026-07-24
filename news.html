@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar de prensa | ColPulse</title>
+  <meta name="description" content="APIs candidatas, fuentes colombianas y orientacion editorial con metodo visible.">
+  <link rel="canonical" href="https://colpulse.online/news.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Radar de prensa | ColPulse">
+  <meta property="og:description" content="APIs candidatas, fuentes colombianas y orientacion editorial con metodo visible.">
+  <meta property="og:url" content="https://colpulse.online/news.html">
+  <meta property="og:image" content="https://colpulse.online/social-card.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Radar de prensa | ColPulse">
+  <meta name="twitter:description" content="APIs candidatas, fuentes colombianas y orientacion editorial con metodo visible.">
+  <meta name="twitter:image" content="https://colpulse.online/social-card.svg">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" aria-label="ColPulse"><path d="M3 13.5h3.7l2-5.2 3.6 10.4 2.5-7.2H21" fill="none" stroke="#f3c66b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" fill="none" stroke="rgba(255,255,255,0.72)" stroke-width="1.4"/></svg></span><span class="brand-stack"><span class="brand-name">ColPulse</span><span class="brand-sub">public macro terminal</span></span></div>
+    <nav class="nav" aria-label="Secciones"><a href="index.html">Pulse</a><a href="news.html">Radar</a><a href="articles.html">Articulos</a><a href="indicators.html">Indicadores</a><a href="methodology.html">Metodologia</a><a href="audit.html">Auditoria</a><a href="status.html">Estado</a></nav>
+  </header>
+  <main class="trust-main">
+    <section class="section section-surface trust-page">
+      <span class="eyebrow">Radar de prensa</span>
+      <h1>Noticias con contexto de fuente</h1>
+      <div class="trust-copy">
+        <p>ColPulse prepara un radar de titulares colombianos con proveedor API, fuente original y tendencia editorial visible: derecha, centro o izquierda.</p>
+        <p>Esta pagina no replica articulos completos. Solo organiza metadatos, fuentes y criterios para leer titulares con mas contexto.</p>
+        <p class="news-disclaimer">La tendencia editorial no califica la confiabilidad de un medio ni la veracidad de una noticia concreta.</p>
+      </div>
+      <h2>Medios y orientacion editorial</h2>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Medio</th><th>Dominio</th><th>Tendencia</th><th>Revision</th><th>Notas</th></tr></thead>
+          <tbody>
+            <tr><td>El Tiempo</td><td>eltiempo.com</td><td>Centro</td><td>pending_review</td><td>Tendencia editorial general; requiere revision periodica documentada.</td></tr>
+            <tr><td>El Espectador</td><td>elespectador.com</td><td>Izquierda</td><td>pending_review</td><td>Tendencia editorial general; requiere revision periodica documentada.</td></tr>
+            <tr><td>Semana</td><td>semana.com</td><td>Derecha</td><td>pending_review</td><td>Tendencia editorial general; requiere revision periodica documentada.</td></tr>
+            <tr><td>La Silla Vacia</td><td>lasillavacia.com</td><td>Centro</td><td>pending_review</td><td>Tendencia editorial general; requiere revision periodica documentada.</td></tr>
+            <tr><td>Portafolio</td><td>portafolio.co</td><td>Derecha</td><td>pending_review</td><td>Tendencia editorial general; revisar separado de su grupo editorial.</td></tr>
+            <tr><td>W Radio Colombia</td><td>wradio.com.co</td><td>Centro</td><td>pending_review</td><td>Tendencia editorial general; puede variar por programa y tema.</td></tr>
+            <tr><td>Caracol Radio</td><td>caracol.com.co</td><td>Centro</td><td>pending_review</td><td>Tendencia editorial general; requiere revision periodica documentada.</td></tr>
+            <tr><td>RCN Radio</td><td>rcnradio.com</td><td>Derecha</td><td>pending_review</td><td>Tendencia editorial general; requiere revision periodica documentada.</td></tr>
+            <tr><td>Bloomberg Linea</td><td>bloomberglinea.com</td><td>Centro</td><td>pending_review</td><td>Tendencia editorial general de la edicion regional; no califica veracidad ni confiabilidad.</td></tr>
+            <tr><td>La Republica</td><td>larepublica.co</td><td>Derecha</td><td>pending_review</td><td>Tendencia editorial general de un medio economico; requiere revision periodica documentada.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h2>APIs candidatas</h2>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Proveedor</th><th>Filtro Colombia</th><th>Idioma</th><th>Plan</th><th>Estado</th><th>Notas</th></tr></thead>
+          <tbody>
+            <tr><td>GNews</td><td>country=co</td><td>lang=es</td><td>Registro gratis; maximo de resultados depende del plan</td><td>candidate</td><td>Soporta filtros de Colombia y espanol; buen primer candidato para titulares.</td></tr>
+            <tr><td>Currents API</td><td>country filter</td><td>language=es</td><td>Cuenta gratis documenta hasta 1000 requests/dia</td><td>candidate</td><td>Buena cuota inicial; validar calidad de cobertura colombiana antes de produccion.</td></tr>
+            <tr><td>NewsAPI</td><td>country parameter documented with limited visible country examples</td><td>not primary</td><td>Requiere API key; revisar plan y licencia</td><td>needs_validation</td><td>La documentacion visible muestra top headlines, pero ejemplos de pais son limitados; validar country=co antes de usar.</td></tr>
+            <tr><td>NewsData.io</td><td>country=co</td><td>language=es</td><td>Revisar plan y licencia</td><td>needs_validation</td><td>Candidato para datos estructurados de noticias; validar campos y redistribucion.</td></tr>
+            <tr><td>APITube</td><td>country or location filters to validate</td><td>language filters to validate</td><td>Revisar plan y licencia</td><td>needs_validation</td><td>Posible cobertura multilingue de America Latina; validar calidad de fuentes colombianas.</td></tr>
+            <tr><td>Bing News Search</td><td>mkt=es-CO</td><td>set market es-CO</td><td>Revisar precios/free tier de Azure</td><td>needs_validation</td><td>Producto fuerte de busqueda, pero requiere Azure y revision de licencia.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <footer class="footer">
+      <div>Generado 2026-07-24. El radar de prensa muestra contexto de fuente y no reemplaza lectura critica.</div>
+      <div class="links"><a href="index.html">Volver al pulso</a><a href="package_manifest.json">Package manifest</a></div>
+      <div class="signature">Por Felipe Cuello Castro</div>
+    </footer>
+  </main>
+</body>
+</html>

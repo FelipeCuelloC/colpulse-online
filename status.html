@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Estado de datos | ColPulse</title>
+  <meta name="description" content="Metodologia, auditoria y estado publico de datos de ColPulse.">
+  <link rel="canonical" href="https://colpulse.online/status.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Estado de datos | ColPulse">
+  <meta property="og:description" content="Metodologia, auditoria y estado publico de datos de ColPulse.">
+  <meta property="og:url" content="https://colpulse.online/status.html">
+  <meta property="og:image" content="https://colpulse.online/social-card.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Estado de datos | ColPulse">
+  <meta name="twitter:description" content="Metodologia, auditoria y estado publico de datos de ColPulse.">
+  <meta name="twitter:image" content="https://colpulse.online/social-card.svg">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" role="img" aria-label="ColPulse"><path d="M3 13.5h3.7l2-5.2 3.6 10.4 2.5-7.2H21" fill="none" stroke="#f3c66b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9" fill="none" stroke="rgba(255,255,255,0.72)" stroke-width="1.4"/></svg></span><span class="brand-stack"><span class="brand-name">ColPulse</span><span class="brand-sub">public macro terminal</span></span></div>
+    <nav class="nav" aria-label="Secciones"><a href="index.html">Pulse</a><a href="news.html">Radar</a><a href="indicators.html">Indicadores</a><a href="methodology.html">Metodologia</a><a href="audit.html">Auditoria</a><a href="status.html">Estado</a></nav>
+  </header>
+  <main class="trust-main">
+    <section class="section section-surface trust-page">
+      <span class="eyebrow">ColPulse trust layer</span>
+      <h1>Estado de datos</h1>
+      
+      <div class="trust-kpis">
+        <div class="metric status-ok"><span>Datos OK</span><strong>21</strong><div class="metric-kicker">Listos para leer</div></div>
+        <div class="metric status-stale"><span>Alertas</span><strong>1</strong><div class="metric-kicker">Revisar fuente</div></div>
+        <div class="metric status-ok"><span>Bloqueos</span><strong>0</strong><div class="metric-kicker">Gate publico</div></div>
+        <div class="metric status-ok"><span>Ultimo periodo</span><strong>2026-07-24</strong><div class="metric-kicker">Corte de datos</div></div>
+      </div>
+      <div class="trust-copy">
+        <h2>Como leer el estado</h2>
+        <p>Un indicador en verde paso controles basicos de disponibilidad, trazabilidad y frescura. Una alerta indica que la fuente debe revisarse antes de usar el dato como evidencia fuerte. Un bloqueo impide tratar el indicador como publicable para lectura headline.</p>
+        <p>El reporte detallado de salud esta en <a href="data_health.md">data_health.md</a>.</p>
+      </div>
+    
+    </section>
+    <footer class="footer">
+      <div>Generado 2026-07-24. ColPulse no representa ni sustituye a las entidades fuente.</div>
+      <div class="links"><a href="index.html">Volver al pulso</a><a href="package_manifest.json">Package manifest</a></div>
+      <div class="signature">Por Felipe Cuello Castro</div>
+    </footer>
+  </main>
+</body>
+</html>

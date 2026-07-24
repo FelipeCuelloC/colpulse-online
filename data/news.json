@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-07-24T13:08:04.209381+00:00",
+  "mode": "curated_links",
+  "disclaimer": "La tendencia editorial no califica confiabilidad ni verifica una noticia.",
+  "items": [
+    {
+      "title_es": "Dolar barato les pasa factura a los exportadores colombianos",
+      "title_en": "Colombia's cheap dollar is hitting exporters",
+      "source": "Bloomberg Linea",
+      "domain": "bloomberglinea.com",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/dolar-barato-les-pasa-factura-a-los-exportadores-colombianos-sector-privado-pide-bajar-costos/",
+      "publishedAt": null,
+      "topic": "CAMBIARIO",
+      "orientation": "Centro",
+      "method": "editorial_review",
+      "status": "curated"
+    },
+    {
+      "title_es": "PIB de Colombia crecio 2.2% en el primer trimestre de 2026",
+      "title_en": "Colombia's GDP grew 2.2% in the first quarter of 2026",
+      "source": "Bloomberg Linea",
+      "domain": "bloomberglinea.com",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/pib-de-colombia-crecio-22-en-el-primer-trimestre-de-2026/",
+      "publishedAt": null,
+      "topic": "ACTIVIDAD",
+      "orientation": "Centro",
+      "method": "editorial_review",
+      "status": "curated"
+    },
+    {
+      "title_es": "Que viene para la economia de Colombia en 2026",
+      "title_en": "What's next for Colombia's economy in 2026",
+      "source": "Bloomberg Linea",
+      "domain": "bloomberglinea.com",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/que-viene-para-la-economia-de-colombia-tras-la-primera-vuelta-presidencial/",
+      "publishedAt": null,
+      "topic": "ECONOMIA",
+      "orientation": "Centro",
+      "method": "editorial_review",
+      "status": "curated"
+    },
+    {
+      "title_es": "Diez senales de alerta de la economia colombiana en 2026",
+      "title_en": "Ten warning signs for Colombia's economy in 2026",
+      "source": "Bloomberg Linea",
+      "domain": "bloomberglinea.com",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/diez-senales-de-alerta-de-la-economia-colombiana-en-2026/",
+      "publishedAt": null,
+      "topic": "FISCAL",
+      "orientation": "Centro",
+      "method": "editorial_review",
+      "status": "curated"
+    },
+    {
+      "title_es": "Banco Mundial recorta la perspectiva de crecimiento de Colombia",
+      "title_en": "World Bank cuts Colombia's growth outlook",
+      "source": "Bloomberg Linea",
+      "domain": "bloomberglinea.com",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/banco-mundial-no-cree-que-colombia-logre-crecer-al-25-ni-en-2026-ni-en-2027/",
+      "publishedAt": null,
+      "topic": "CRECIMIENTO",
+      "orientation": "Centro",
+      "method": "editorial_review",
+      "status": "curated"
+    },
+    {
+      "title_es": "Colombia enfrenta una desaceleracion por el ciclo de tasas",
+      "title_en": "Colombia faces a slowdown amid the rate cycle",
+      "source": "Bloomberg Linea",
+      "domain": "bloomberglinea.com",
+      "url": "https://www.bloomberglinea.com/latinoamerica/colombia/colombia-rumbo-a-un-freno-economico-por-ciclo-alcista-de-tasas-del-banco-central/",
+      "publishedAt": null,
+      "topic": "TASAS",
+      "orientation": "Centro",
+      "method": "editorial_review",
+      "status": "curated"
+    }
+  ]
+}

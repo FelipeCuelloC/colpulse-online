@@ -1,0 +1,107 @@
+{
+  "files": [
+    {
+      "name": "analysis_data.json",
+      "size_bytes": 23137
+    },
+    {
+      "name": "articles.html",
+      "size_bytes": 4282
+    },
+    {
+      "name": "audit.html",
+      "size_bytes": 9716
+    },
+    {
+      "name": "bvc_equities.json",
+      "size_bytes": 254368
+    },
+    {
+      "name": "colombia_departments.geojson",
+      "size_bytes": 1226219
+    },
+    {
+      "name": "colombia_today.json",
+      "size_bytes": 4182
+    },
+    {
+      "name": "data_health.md",
+      "size_bytes": 3586
+    },
+    {
+      "name": "departments.html",
+      "size_bytes": 8402
+    },
+    {
+      "name": "global_pulse.json",
+      "size_bytes": 14241
+    },
+    {
+      "name": "index.html",
+      "size_bytes": 303424
+    },
+    {
+      "name": "indicator_data.json",
+      "size_bytes": 6760348
+    },
+    {
+      "name": "indicators.html",
+      "size_bytes": 9829
+    },
+    {
+      "name": "linkedin_post.md",
+      "size_bytes": 1190
+    },
+    {
+      "name": "main_chart.png",
+      "size_bytes": 60857
+    },
+    {
+      "name": "methodology.html",
+      "size_bytes": 12205
+    },
+    {
+      "name": "model_registry.md",
+      "size_bytes": 822
+    },
+    {
+      "name": "neighbors.geojson",
+      "size_bytes": 8651
+    },
+    {
+      "name": "news.html",
+      "size_bytes": 7124
+    },
+    {
+      "name": "news_data.json",
+      "size_bytes": 4016
+    },
+    {
+      "name": "regional_data.json",
+      "size_bytes": 174251
+    },
+    {
+      "name": "site.css",
+      "size_bytes": 23961
+    },
+    {
+      "name": "site.js",
+      "size_bytes": 8613
+    },
+    {
+      "name": "status.html",
+      "size_bytes": 3526
+    },
+    {
+      "name": "support.js",
+      "size_bytes": 65990
+    }
+  ],
+  "generated_at": "2026-07-24T13:08:04.350970+00:00",
+  "health_counts": {
+    "ok": 21,
+    "stale": 1
+  },
+  "latest_period": "2026-07-24",
+  "publish_blocking_count": 0
+}
