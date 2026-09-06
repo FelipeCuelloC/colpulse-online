@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#101418"/>
+  <path d="M0 470 C190 390 270 520 430 420 C600 315 720 370 860 275 C990 186 1080 230 1200 156 L1200 630 L0 630 Z" fill="#0f7a5b" opacity="0.85"/>
+  <path d="M108 330h128l68-178 116 334 82-236h244" fill="none" stroke="#f3c66b" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="420" cy="316" r="230" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="16"/>
+  <text x="690" y="246" fill="#ffffff" font-family="Arial, sans-serif" font-size="78" font-weight="800">ColPulse</text>
+  <text x="694" y="320" fill="#d9e1e8" font-family="Arial, sans-serif" font-size="34" font-weight="700">Inteligencia economica para Colombia</text>
+  <text x="696" y="376" fill="#f3c66b" font-family="Arial, sans-serif" font-size="28" font-weight="700">Datos oficiales / trazabilidad / lectura ejecutiva</text>
+</svg>
