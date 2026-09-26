@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-09-26T15:09:50.269471+00:00",
+  "version": "2026-09-26",
+  "okCount": 21,
+  "alerts": 1,
+  "blocks": 0,
+  "artifactOkCount": 4,
+  "artifactCount": 7,
+  "latestOfficialPeriod": "2026-09-26",
+  "files": [
+    {
+      "name": "series.json",
+      "hash": "2a1ce5ebd42944fa9a46c917817554f6b13975828a0ea103b5f6f03619627143",
+      "size": 7938,
+      "sourceCutTimestamp": "2026-09-26",
+      "fetchedAt": "2026-09-26T15:09:49.559828+00:00",
+      "status": "ok",
+      "severity": "ok"
+    },
+    {
+      "name": "bvc.json",
+      "hash": "593f38816dfa1b9a99ad45a67e4038046edb68e7e682aed742cb3ce1654563e2",
+      "size": 336228,
+      "sourceCutTimestamp": "2026-08-01",
+      "fetchedAt": "2026-09-26T15:09:49.559828+00:00",
+      "status": "pending",
+      "severity": "info"
+    },
+    {
+      "name": "news.json",
+      "hash": "038c53688756fe824cabefbce6084d464b9b667e678a484e5b16a30a76fbf044",
+      "size": 3437,
+      "sourceCutTimestamp": "2026-09-26T15:09:49.962322+00:00",
+      "fetchedAt": "2026-09-26T15:09:49.559828+00:00",
+      "status": "ok",
+      "severity": "ok"
+    },
+    {
+      "name": "regions.json",
+      "hash": "d47fc0367d1217ca37f4527962e22dd350b132bdd4df7dbd3fb1b1ac1a41c80f",
+      "size": 163983,
+      "sourceCutTimestamp": "2026-09-26T15:08:50.415623+00:00",
+      "fetchedAt": "2026-09-26T15:09:49.559828+00:00",
+      "status": "ok",
+      "severity": "ok"
+    },
+    {
+      "name": "analysis.json",
+      "hash": "ba3ce053b7817e3f2150b37d32025fed5394adb2885dc00b338019dbe4b6219e",
+      "size": 23221,
+      "sourceCutTimestamp": "2026-09-26T15:09:49.994237+00:00",
+      "fetchedAt": "2026-09-26T15:09:49.559828+00:00",
+      "status": "ok",
+      "severity": "ok"
+    },
+    {
+      "name": "global.json",
+      "hash": "5fb2b40ff0014e47b00a949b177a023de005fdf4096947101230c12adb98884b",
+      "size": 14237,
+      "sourceCutTimestamp": null,
+      "fetchedAt": "2026-09-26T15:09:49.559828+00:00",
+      "status": "pending",
+      "severity": "info"
+    },
+    {
+      "name": "today.json",
+      "hash": "12734ab9d8e6381b5bab0d6bef8c951784b5d8174c31752807b476ee72f67c2b",
+      "size": 4180,
+      "sourceCutTimestamp": null,
+      "fetchedAt": "2026-09-26T15:09:49.559828+00:00",
+      "status": "pending",
+      "severity": "info"
+    }
+  ]
+}
