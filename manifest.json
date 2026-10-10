@@ -1,0 +1,123 @@
+{
+  "files": [
+    {
+      "name": "about.html",
+      "size_bytes": 14161
+    },
+    {
+      "name": "analysis_data.json",
+      "size_bytes": 22793
+    },
+    {
+      "name": "articles.html",
+      "size_bytes": 5985
+    },
+    {
+      "name": "audit.html",
+      "size_bytes": 14746
+    },
+    {
+      "name": "bvc_equities.json",
+      "size_bytes": 353773
+    },
+    {
+      "name": "colombia_departments.geojson",
+      "size_bytes": 1226219
+    },
+    {
+      "name": "colombia_today.json",
+      "size_bytes": 4181
+    },
+    {
+      "name": "data_health.md",
+      "size_bytes": 5898
+    },
+    {
+      "name": "departments.html",
+      "size_bytes": 10078
+    },
+    {
+      "name": "fixed_income.html",
+      "size_bytes": 5013
+    },
+    {
+      "name": "global_pulse.json",
+      "size_bytes": 14241
+    },
+    {
+      "name": "index.html",
+      "size_bytes": 311417
+    },
+    {
+      "name": "indicator_data.json",
+      "size_bytes": 6839622
+    },
+    {
+      "name": "indicators.html",
+      "size_bytes": 15168
+    },
+    {
+      "name": "lab.html",
+      "size_bytes": 9960
+    },
+    {
+      "name": "linkedin_post.md",
+      "size_bytes": 1189
+    },
+    {
+      "name": "main_chart.png",
+      "size_bytes": 60426
+    },
+    {
+      "name": "methodology.html",
+      "size_bytes": 13877
+    },
+    {
+      "name": "model_registry.md",
+      "size_bytes": 934
+    },
+    {
+      "name": "neighbors.geojson",
+      "size_bytes": 8651
+    },
+    {
+      "name": "news.html",
+      "size_bytes": 8786
+    },
+    {
+      "name": "news_data.json",
+      "size_bytes": 4016
+    },
+    {
+      "name": "regional_data.json",
+      "size_bytes": 174251
+    },
+    {
+      "name": "site.css",
+      "size_bytes": 37133
+    },
+    {
+      "name": "site.js",
+      "size_bytes": 8613
+    },
+    {
+      "name": "status.html",
+      "size_bytes": 5192
+    },
+    {
+      "name": "support.js",
+      "size_bytes": 65990
+    },
+    {
+      "name": "trace.html",
+      "size_bytes": 31959
+    }
+  ],
+  "generated_at": "2026-10-10T16:26:58.706548+00:00",
+  "health_counts": {
+    "integration": 10,
+    "ok": 22
+  },
+  "latest_period": "2026-10-10",
+  "publish_blocking_count": 0
+}
