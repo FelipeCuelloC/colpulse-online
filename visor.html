@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visor de Colombia | ColPulse</title>
+  <meta name="description" content="Mapa de Colombia con datos oficiales por departamento, cifras nacionales y lo que más se movió. Prototipo en pruebas: muestra datos, no recomienda nada.">
+  <meta name="author" content="Felipe Cuello Castro">
+  <link rel="canonical" href="https://colpulse.online/visor.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ColPulse">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:title" content="Visor de Colombia | ColPulse">
+  <meta property="og:description" content="Mapa de Colombia con datos oficiales por departamento, cifras nacionales y lo que más se movió. Prototipo en pruebas: muestra datos, no recomienda nada.">
+  <meta property="og:url" content="https://colpulse.online/visor.html">
+  <meta property="og:image" content="https://colpulse.online/social-card.svg">
+  <meta property="og:image:alt" content="ColPulse: inteligencia económica para Colombia con datos oficiales y trazables.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Visor de Colombia | ColPulse">
+  <meta name="twitter:description" content="Mapa de Colombia con datos oficiales por departamento, cifras nacionales y lo que más se movió. Prototipo en pruebas: muestra datos, no recomienda nada.">
+  <meta name="twitter:image" content="https://colpulse.online/social-card.svg">
+  <meta name="twitter:image:alt" content="ColPulse: inteligencia económica para Colombia con datos oficiales y trazables.">
+  <script defer src="analytics.js" data-ga-id="G-HYHSPV34V6"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://colpulse.online/#website","url":"https://colpulse.online","name":"ColPulse","description":"ColPulse es un terminal público de inteligencia económica para Colombia: datos oficiales, trazabilidad e insights ejecutivos.","inLanguage":["es","en"],"author":{"@id":"https://colpulse.online/#author"},"publisher":{"@id":"https://colpulse.online/#author"}},{"@type":"Person","@id":"https://colpulse.online/#author","name":"Felipe Cuello Castro","jobTitle":"Economista","description":"Analista económico y de mercados que construye sus propias herramientas de datos.","url":"https://colpulse.online/about.html","sameAs":["https://github.com/FelipeCuelloC","https://www.linkedin.com/in/felipe-cuello-castro-221669266/"]},{"@type":"WebPage","@id":"https://colpulse.online/visor.html#webpage","url":"https://colpulse.online/visor.html","name":"Visor de Colombia | ColPulse","description":"Mapa de Colombia con datos oficiales por departamento, cifras nacionales y lo que más se movió. Prototipo en pruebas: muestra datos, no recomienda nada.","inLanguage":"es","isPartOf":{"@id":"https://colpulse.online/#website"},"author":{"@id":"https://colpulse.online/#author"},"breadcrumb":{"@id":"https://colpulse.online/visor.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://colpulse.online/visor.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://colpulse.online"},{"@type":"ListItem","position":2,"name":"Visor de Colombia","item":"https://colpulse.online/visor.html"}]}]}</script>
+  <link rel="stylesheet" href="site.css">
+  <meta name="robots" content="noindex">
+</head>
+<body class="visor-page">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="topbar">
+    <div class="brand"><span class="mark" aria-hidden="true"><svg viewBox="0 0 27 26" role="img" aria-label="ColPulse"><rect x="0" y="9" width="3" height="8"/><rect x="6" y="5" width="3" height="16"/><rect x="12" y="0" width="3" height="26"/><rect x="18" y="5" width="3" height="16"/><rect x="24" y="9" width="3" height="8"/></svg></span><span class="brand-name">ColPulse<span class="brand-dot">.</span></span></div>
+    <nav class="site-nav" aria-label="Secciones"><a href="index.html">Inicio</a><details class="nav-drop" name="site-nav"><summary>Datos</summary><ul class="nav-drop-list"><li><a href="indicators.html">Indicadores</a></li><li><a href="fixed_income.html">Renta fija (TES)</a></li><li><a href="index.html#mapa">Mapa</a></li><li><a href="index.html#bolsa">Bolsa</a></li><li><a href="news.html">Radar</a></li><li><a href="legislativo.html">Novedades legislativas</a></li></ul></details><details class="nav-drop" name="site-nav"><summary>Herramientas</summary><ul class="nav-drop-list"><li><a href="simulador.html">Simulador de inversiones</a></li></ul></details><details class="nav-drop" name="site-nav"><summary>Laboratorio</summary><ul class="nav-drop-list"><li><a href="lab.html">Laboratorio</a></li><li><a href="about.html">Caso de estudio</a></li><li><a href="caso_politica_monetaria.html">Caso: política monetaria</a></li><li><a href="index.html#analisis">Análisis</a></li></ul></details><details class="nav-drop" name="site-nav"><summary>Transparencia</summary><ul class="nav-drop-list"><li><a href="methodology.html">Metodología</a></li><li><a href="trace.html">Linaje</a></li><li><a href="audit.html">Auditoría</a></li><li><a href="status.html">Estado</a></li></ul></details></nav>
+    <span class="header-label">Datos abiertos. Contexto claro.</span>
+    <details class="nav-menu"><summary>Menú</summary><nav class="nav-menu-panel" aria-label="Secciones (menú)"><ul><li><a href="index.html">Inicio</a></li></ul><p class="nav-group-title">Datos</p><ul><li><a href="indicators.html">Indicadores</a></li><li><a href="fixed_income.html">Renta fija (TES)</a></li><li><a href="index.html#mapa">Mapa</a></li><li><a href="index.html#bolsa">Bolsa</a></li><li><a href="news.html">Radar</a></li><li><a href="legislativo.html">Novedades legislativas</a></li></ul><p class="nav-group-title">Herramientas</p><ul><li><a href="simulador.html">Simulador de inversiones</a></li></ul><p class="nav-group-title">Laboratorio</p><ul><li><a href="lab.html">Laboratorio</a></li><li><a href="about.html">Caso de estudio</a></li><li><a href="caso_politica_monetaria.html">Caso: política monetaria</a></li><li><a href="index.html#analisis">Análisis</a></li></ul><p class="nav-group-title">Transparencia</p><ul><li><a href="methodology.html">Metodología</a></li><li><a href="trace.html">Linaje</a></li><li><a href="audit.html">Auditoría</a></li><li><a href="status.html">Estado</a></li></ul></nav></details>
+  </header>
+  <main class="trust-main" id="contenido" tabindex="-1">
+    <section class="section section-surface trust-page">
+      <span class="eyebrow">Prototipo · Mapa y fichas</span>
+      <h1>Visor de Colombia</h1>
+      <style>
+/* Visor: tokens y componentes ui-* de chrome.py; prefijo .vz. Los colores del mapa viven en visor.js. */
+.visor-page .trust-main { max-width: 1280px; }
+.visor-page .trust-main .trust-page h1 { max-width: none; margin-bottom: var(--sp-2); }
+.vz { display: flex; flex-direction: column; gap: var(--sp-4); font-size: var(--fs-small); }
+.vz .ui-notice { margin: 0; }
+.vz .intro { margin: 0; color: var(--ink-2); max-width: 80ch; font-size: var(--fs-body); }
+.vz .ui-panel { padding: var(--sp-4) var(--sp-5); }
+.visor-page .vz h2 { margin: 0 0 var(--sp-2); font-family: var(--serif); font-size: var(--fs-h3); font-weight: 500; line-height: 1.3; }
+.visor-page .vz h3 { margin: 0 0 6px; font-size: var(--fs-small); font-weight: 600; }
+.visor-page .vz h3.nom { margin: 0 0 var(--sp-1); font-family: var(--serif); font-size: var(--fs-h3); font-weight: 500; }
+.vz .sub { margin: 0 0 var(--sp-3); color: var(--muted); font-size: var(--fs-small); }
+.vz .note { color: var(--muted); font-size: var(--fs-label); margin: 6px 0 0; }
+.vz .ui-state { margin: 0 0 var(--sp-3); }
+.vz .ui-state[hidden] { display: none; }
+.vz .ui-source { margin-top: var(--sp-2); padding-top: var(--sp-2); }
+.vz .badge { display: inline-block; margin-top: var(--sp-1); padding: 1px 6px; border: 1px solid var(--edge-warn); border-radius: var(--radius-1); background: var(--tint-warn); color: var(--warn); font-size: var(--fs-meta); font-weight: 600; white-space: nowrap; }
+.vz .cifras { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--sp-2); margin: 0; padding: 0; list-style: none; }
+.vz .cifra { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: var(--radius-3); padding: var(--sp-3); background: var(--white); min-width: 0; }
+.vz .cifra .et { display: block; font-size: var(--fs-meta); font-weight: 500; color: var(--ink-2); }
+.vz .cifra .val { display: block; margin-top: var(--sp-1); font-family: var(--mono); font-size: 22px; font-variant-numeric: tabular-nums; line-height: 1.3; color: var(--ink); }
+.vz .cifra .val small { font-size: var(--fs-meta); color: var(--muted); }
+.vz .cifra .meta { display: block; font-size: var(--fs-meta); color: var(--muted); line-height: 1.4; }
+.vz .cifra .ui-source { margin-top: auto; }
+.vz .grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(300px, 1fr); gap: var(--sp-4); align-items: start; }
+.vz fieldset { border: 0; margin: 0 0 var(--sp-3); padding: 0; min-width: 0; }
+.vz legend { font-weight: 600; padding: 0; margin-bottom: var(--sp-1); }
+.vz .capas { display: flex; flex-direction: column; gap: 2px; }
+.vz .capas label { display: flex; gap: var(--sp-2); align-items: flex-start; min-height: 36px; padding: var(--sp-1); border-radius: var(--radius-2); cursor: pointer; }
+.vz .capas label:hover { background: var(--soft); }
+.vz .capas input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--accent-deep); flex: none; }
+.vz #mapa-marco { position: relative; border: 1px solid var(--border); border-radius: var(--radius-2); background: var(--soft); overflow: hidden; }
+.vz #mapa { height: 540px; width: 100%; }
+.vz #mapa .maplibregl-canvas { outline: none; }
+.vz #mapa .maplibregl-canvas-container:focus-visible, .vz #mapa canvas:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
+.vz #mapa-aviso { margin: 0; }
+.vz .lectura { min-height: 22px; margin: var(--sp-2) 0 0; font-family: var(--mono); font-size: var(--fs-label); }
+.vz .leyenda { margin: var(--sp-3) 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: var(--sp-1) var(--sp-4); font-size: var(--fs-label); }
+.vz .leyenda li { display: flex; align-items: center; gap: 6px; }
+.vz .leyenda i { display: inline-block; width: 18px; height: 12px; border: 1px solid var(--control); flex: none; }
+.vz .leyenda i.sin { background: repeating-linear-gradient(45deg, var(--white) 0 3px, var(--control) 3px 4px); }
+.vz .leyenda .n { color: var(--muted); }
+.vz .field { display: flex; flex-direction: column; gap: var(--sp-1); margin-bottom: var(--sp-3); }
+.vz .field label { font-weight: 600; }
+.vz select { width: 100%; font: inherit; padding: var(--sp-2) var(--sp-3); min-height: 44px; border: 1px solid var(--control); border-radius: var(--radius-2); background: var(--white); color: var(--ink); }
+.vz .ficha dl { margin: 0 0 var(--sp-2); display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--sp-2); }
+.vz .ficha .ind { border-top: 1px solid var(--border); padding-top: var(--sp-2); }
+.vz .ficha dl.ind { border-top: 0; padding-top: 0; }
+.vz .ficha dt { font-size: var(--fs-label); color: var(--ink-2); }
+.vz .ficha dd { margin: 0; }
+.vz .ficha .v { font-family: var(--mono); font-size: 20px; font-variant-numeric: tabular-nums; }
+.vz .ficha .v small { font-family: var(--sans); font-size: var(--fs-label); color: var(--muted); }
+.vz .ficha .pos { font-size: var(--fs-small); }
+.vz .noticias { border: 1px dashed var(--control); border-radius: var(--radius-2); padding: var(--sp-2) var(--sp-3); margin-top: var(--sp-3); }
+.vz .noticias h3 { margin: 0 0 2px; }
+.vz .noticias p { margin: 0; font-size: var(--fs-small); color: var(--muted); }
+.vz .ui-table-wrap { margin: 0; }
+.vz .ui-table { font-variant-numeric: tabular-nums; }
+.vz .ui-table thead th.num { white-space: normal; }
+.vz th button { all: unset; display: inline-flex; align-items: center; min-height: 32px; padding: 2px; box-sizing: border-box; font-weight: 600; cursor: pointer; }
+.vz th button:focus-visible, .vz td button:focus-visible, .vz tbody th button:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: var(--radius-1); }
+.vz th[aria-sort="ascending"] button::after { content: " a0b2"; font-family: Arial, sans-serif; font-size: 0.75em; }
+.vz th[aria-sort="descending"] button::after { content: " a0bc"; font-family: Arial, sans-serif; font-size: 0.75em; }
+.vz tbody th button { all: unset; display: inline-flex; align-items: center; min-height: 32px; box-sizing: border-box; color: var(--accent-deep); font-weight: 400; text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
+.vz .ui-table tbody th { font-weight: 400; background: transparent; }
+.vz tr.sel td, .vz tr.sel th { background: var(--tint-ok); }
+.vz .movidos { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--sp-2); }
+.vz .movidos li { border: 1px solid var(--border); border-radius: var(--radius-3); padding: var(--sp-3); }
+.vz .movidos .nm { font-weight: 600; }
+.vz .movidos .raz { font-family: var(--mono); font-size: var(--fs-label); }
+.vz details summary { display: flex; align-items: center; min-height: 44px; cursor: pointer; font-weight: 600; color: var(--accent-deep); }
+.vz .fuentes p { margin: 0 0 6px; font-size: var(--fs-small); max-width: none; }
+@media (max-width: 900px) {
+  .vz .grid { grid-template-columns: minmax(0, 1fr); }
+  .vz #mapa { height: 420px; }
+}
+@media (max-width: 560px) {
+  .vz .ui-panel { padding: var(--sp-3); }
+  .vz #mapa { height: 380px; }
+  .vz .ui-table th, .vz .ui-table td { padding: 6px var(--sp-1); font-size: var(--fs-label); }
+}
+</style>
+      <link rel="stylesheet" href="vendor/maplibre-gl.css">
+      <div class="vz" id="visor">
+        <p class="ui-notice ui-notice--warn" role="note"><span class="ui-notice__icon" aria-hidden="true">!</span><span><strong>Prototipo: página en pruebas.</strong> Puede cambiar o desaparecer. Muestra datos oficiales; no recomienda ni decide nada.</span></p>
+        <p class="intro">Un mapa de Colombia con datos oficiales por departamento, las cifras nacionales del día y los indicadores que más se movieron. Cada cifra trae su fuente y su fecha de corte.</p>
+
+        <section class="ui-panel" aria-labelledby="h-cifras">
+          <h2 id="h-cifras">Cifras nacionales</h2>
+          <p class="ui-state ui-state--loading" id="cifras-estado" role="status"><span class="ui-state__label">Cargando</span>Cargando las cifras nacionales…</p>
+          <ul class="cifras" id="cifras"></ul>
+        </section>
+
+        <div class="grid">
+          <section class="ui-panel" aria-labelledby="h-mapa">
+            <h2 id="h-mapa">Mapa por departamentos</h2>
+            <fieldset>
+              <legend>Capa del mapa</legend>
+              <div class="capas" id="capas"><p class="ui-state ui-state--loading" role="status"><span class="ui-state__label">Cargando</span>Cargando las capas…</p></div>
+            </fieldset>
+            <p class="note" id="capa-info"></p>
+            <div id="mapa-marco">
+              <div id="mapa" role="region" aria-label="Mapa de Colombia por departamentos. Si no puedes usar el mapa, la lista de departamentos y la tabla de abajo tienen los mismos datos."></div>
+              <p class="ui-state ui-state--loading" id="mapa-aviso" role="status"><span class="ui-state__label">Cargando</span>Cargando el mapa…</p>
+            </div>
+            <p class="lectura" id="lectura" aria-hidden="true"></p>
+            <ul class="leyenda" id="leyenda" aria-label="Leyenda de colores"></ul>
+            <p class="note" id="mapa-nota"></p>
+            <p class="note" id="mapa-creditos">Límites: <a href="https://www.geoboundaries.org" target="_blank" rel="noopener">geoBoundaries</a> y © colaboradores de <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>.</p>
+          </section>
+
+          <section class="ui-panel ficha" aria-labelledby="h-ficha">
+            <h2 id="h-ficha">Ficha del departamento</h2>
+            <div class="field">
+              <label for="depto-sel">Departamento</label>
+              <select id="depto-sel" disabled><option value="">Cargando…</option></select>
+            </div>
+            <div id="ficha" aria-live="polite"><p class="note">Elige un departamento en el mapa, en la lista o en la tabla.</p></div>
+            <div class="noticias" id="noticias">
+              <h3>Noticias locales</h3>
+              <p>Llegarán con el Radar de noticias. Por ahora esta ficha no muestra noticias.</p>
+            </div>
+          </section>
+        </div>
+
+        <section class="ui-panel" aria-labelledby="h-tabla">
+          <h2 id="h-tabla">Tabla de la capa activa</h2>
+          <p class="sub" id="tabla-sub">Los mismos valores del mapa, en texto.</p>
+          <div class="ui-table-wrap" role="region" aria-label="Tabla de la capa activa" tabindex="0"><table id="tabla"></table></div>
+        </section>
+
+        <section class="ui-panel" aria-labelledby="h-mov">
+          <h2 id="h-mov">Lo que más se movió</h2>
+          <p class="sub">Indicadores nacionales cuyo último dato cambió más de lo habitual. Describe movimiento: no dice qué tan importante es ni por qué pasó.</p>
+          <p class="ui-state ui-state--loading" id="mov-estado" role="status"><span class="ui-state__label">Cargando</span>Leyendo los datos de esta sección…</p>
+          <ul class="movidos" id="movidos"></ul>
+          <details><summary>Cómo se elige</summary><p class="note" id="mov-regla"></p></details>
+        </section>
+
+        <section class="ui-panel" aria-labelledby="h-agenda">
+          <h2 id="h-agenda">Agenda</h2>
+          <p class="ui-state ui-state--loading" id="agenda-estado" role="status"><span class="ui-state__label">Cargando</span>Leyendo los datos de esta sección…</p>
+          <p class="note" id="agenda-detalle"></p>
+        </section>
+
+        <section class="ui-panel fuentes" aria-labelledby="h-fuentes">
+          <h2 id="h-fuentes">Fuentes y límites</h2>
+          <p>Datos por departamento: DANE, Cuentas nacionales departamentales. Hoy es el único indicador por departamento que tiene el sitio; las tres capas salen de él.</p>
+          <p>Cifras nacionales y lo que más se movió: las mismas fuentes oficiales del resto del sitio (<a href="indicators.html">ver indicadores</a>).</p>
+          <p id="basemap-info">Mapa base: cargando…</p>
+          <p id="limites-info">Límites departamentales: <a href="https://www.geoboundaries.org" target="_blank" rel="noopener">geoBoundaries</a> (www.geoboundaries.org), con datos de © colaboradores de <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> (licencia ODbL), simplificados para el mapa. Son líneas de referencia, no un deslinde oficial.</p>
+          <p>Este visor explica datos. No es una recomendación ni un sitio oficial del Gobierno.</p>
+        </section>
+
+        <noscript><p class="ui-state ui-state--error"><span class="ui-state__label">Sin JavaScript</span>Este visor necesita JavaScript. Los datos están en <a href="data/regions.json">data/regions.json</a> y <a href="data/today.json">data/today.json</a>, y la lista de departamentos en <a href="departments.html">departments.html</a>.</p></noscript>
+      </div>
+      <script src="vendor/maplibre-gl.js" defer></script>
+      <script src="visor.js" defer></script>
+
+    </section>
+    <footer class="footer">
+      <div class="footer-message">Prototipo en pruebas. Cada dato trae su fuente y su fecha de corte.</div>
+      <div class="links"><a href="departments.html">Departamentos</a><a href="indicators.html">Indicadores</a><a href="methodology.html">Metodología</a></div>
+      <p class="disclaimer">Proyecto educativo y de portafolio. ColPulse no es asesoría financiera ni recomendación de inversión. ColPulse utiliza información pública oficial, pero no está afiliado, avalado ni operado por las entidades fuente.</p>
+      <div class="signature">Por Felipe Cuello Castro</div>
+    </footer>
+  </main>
+</body>
+</html>

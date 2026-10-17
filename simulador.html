@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulador de inversiones | ColPulse</title>
+  <meta name="description" content="Mira cómo podría crecer tu ahorro según dónde lo pongas: un caso malo, uno normal y uno bueno, con supuestos tomados de datos oficiales de Colombia. Herramienta educativa.">
+  <meta name="author" content="Felipe Cuello Castro">
+  <link rel="canonical" href="https://colpulse.online/simulador.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ColPulse">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:title" content="Simulador de inversiones | ColPulse">
+  <meta property="og:description" content="Mira cómo podría crecer tu ahorro según dónde lo pongas: un caso malo, uno normal y uno bueno, con supuestos tomados de datos oficiales de Colombia. Herramienta educativa.">
+  <meta property="og:url" content="https://colpulse.online/simulador.html">
+  <meta property="og:image" content="https://colpulse.online/social-card.svg">
+  <meta property="og:image:alt" content="ColPulse: inteligencia económica para Colombia con datos oficiales y trazables.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Simulador de inversiones | ColPulse">
+  <meta name="twitter:description" content="Mira cómo podría crecer tu ahorro según dónde lo pongas: un caso malo, uno normal y uno bueno, con supuestos tomados de datos oficiales de Colombia. Herramienta educativa.">
+  <meta name="twitter:image" content="https://colpulse.online/social-card.svg">
+  <meta name="twitter:image:alt" content="ColPulse: inteligencia económica para Colombia con datos oficiales y trazables.">
+  <script defer src="analytics.js" data-ga-id="G-HYHSPV34V6"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://colpulse.online/#website","url":"https://colpulse.online","name":"ColPulse","description":"ColPulse es un terminal público de inteligencia económica para Colombia: datos oficiales, trazabilidad e insights ejecutivos.","inLanguage":["es","en"],"author":{"@id":"https://colpulse.online/#author"},"publisher":{"@id":"https://colpulse.online/#author"}},{"@type":"Person","@id":"https://colpulse.online/#author","name":"Felipe Cuello Castro","jobTitle":"Economista","description":"Analista económico y de mercados que construye sus propias herramientas de datos.","url":"https://colpulse.online/about.html","sameAs":["https://github.com/FelipeCuelloC","https://www.linkedin.com/in/felipe-cuello-castro-221669266/"]},{"@type":"WebPage","@id":"https://colpulse.online/simulador.html#webpage","url":"https://colpulse.online/simulador.html","name":"Simulador de inversiones | ColPulse","description":"Mira cómo podría crecer tu ahorro según dónde lo pongas: un caso malo, uno normal y uno bueno, con supuestos tomados de datos oficiales de Colombia. Herramienta educativa.","inLanguage":"es","isPartOf":{"@id":"https://colpulse.online/#website"},"author":{"@id":"https://colpulse.online/#author"},"breadcrumb":{"@id":"https://colpulse.online/simulador.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://colpulse.online/simulador.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://colpulse.online"},{"@type":"ListItem","position":2,"name":"Simulador de inversiones","item":"https://colpulse.online/simulador.html"}]}]}</script>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="topbar">
+    <div class="brand"><span class="mark" aria-hidden="true"><svg viewBox="0 0 27 26" role="img" aria-label="ColPulse"><rect x="0" y="9" width="3" height="8"/><rect x="6" y="5" width="3" height="16"/><rect x="12" y="0" width="3" height="26"/><rect x="18" y="5" width="3" height="16"/><rect x="24" y="9" width="3" height="8"/></svg></span><span class="brand-name">ColPulse<span class="brand-dot">.</span></span></div>
+    <nav class="site-nav" aria-label="Secciones"><a href="index.html">Inicio</a><details class="nav-drop" name="site-nav"><summary>Datos</summary><ul class="nav-drop-list"><li><a href="indicators.html">Indicadores</a></li><li><a href="fixed_income.html">Renta fija (TES)</a></li><li><a href="index.html#mapa">Mapa</a></li><li><a href="index.html#bolsa">Bolsa</a></li><li><a href="news.html">Radar</a></li><li><a href="legislativo.html">Novedades legislativas</a></li></ul></details><details class="nav-drop" name="site-nav"><summary aria-current="true">Herramientas</summary><ul class="nav-drop-list"><li><a href="simulador.html" aria-current="page">Simulador de inversiones</a></li></ul></details><details class="nav-drop" name="site-nav"><summary>Laboratorio</summary><ul class="nav-drop-list"><li><a href="lab.html">Laboratorio</a></li><li><a href="about.html">Caso de estudio</a></li><li><a href="caso_politica_monetaria.html">Caso: política monetaria</a></li><li><a href="index.html#analisis">Análisis</a></li></ul></details><details class="nav-drop" name="site-nav"><summary>Transparencia</summary><ul class="nav-drop-list"><li><a href="methodology.html">Metodología</a></li><li><a href="trace.html">Linaje</a></li><li><a href="audit.html">Auditoría</a></li><li><a href="status.html">Estado</a></li></ul></details></nav>
+    <span class="header-label">Datos abiertos. Contexto claro.</span>
+    <details class="nav-menu"><summary>Menú</summary><nav class="nav-menu-panel" aria-label="Secciones (menú)"><ul><li><a href="index.html">Inicio</a></li></ul><p class="nav-group-title">Datos</p><ul><li><a href="indicators.html">Indicadores</a></li><li><a href="fixed_income.html">Renta fija (TES)</a></li><li><a href="index.html#mapa">Mapa</a></li><li><a href="index.html#bolsa">Bolsa</a></li><li><a href="news.html">Radar</a></li><li><a href="legislativo.html">Novedades legislativas</a></li></ul><p class="nav-group-title">Herramientas</p><ul><li><a href="simulador.html" aria-current="page">Simulador de inversiones</a></li></ul><p class="nav-group-title">Laboratorio</p><ul><li><a href="lab.html">Laboratorio</a></li><li><a href="about.html">Caso de estudio</a></li><li><a href="caso_politica_monetaria.html">Caso: política monetaria</a></li><li><a href="index.html#analisis">Análisis</a></li></ul><p class="nav-group-title">Transparencia</p><ul><li><a href="methodology.html">Metodología</a></li><li><a href="trace.html">Linaje</a></li><li><a href="audit.html">Auditoría</a></li><li><a href="status.html">Estado</a></li></ul></nav></details>
+  </header>
+  <main class="trust-main" id="contenido" tabindex="-1">
+    <section class="section section-surface trust-page">
+      <span class="eyebrow">Herramienta · Simulación</span>
+      <h1>Simulador de inversiones</h1>
+      <style>
+/* Simulador: solo forma (tokens y componentes ui-* de chrome.py). Prefijo .sim; sin hex propios. */
+.sim { --sim-line: var(--ink-2); --sim-band-wide: color-mix(in srgb, var(--chart-blue) 16%, var(--white)); --sim-band-mid: color-mix(in srgb, var(--chart-blue) 40%, var(--white)); --sim-ref: var(--muted); --sim-good: var(--accent-deep); --sim-mix: var(--chart-olive); display: flex; flex-direction: column; gap: var(--sp-4); }
+.sim .ui-notice { margin: 0; }
+.sim .intro { margin: 0; color: var(--ink-2); max-width: 62ch; }
+.sim .ui-panel h2 { margin: 0 0 var(--sp-1); font-size: var(--fs-h3); line-height: 1.3; }
+.sim .ui-panel > p.sub { margin: 0 0 var(--sp-4); color: var(--muted); font-size: var(--fs-small); }
+.sim .inputs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--sp-4); }
+.sim .field { display: flex; flex-direction: column; gap: var(--sp-1); min-width: 0; }
+.sim .field label { font-size: var(--fs-small); font-weight: 600; }
+.sim .field small { color: var(--muted); font-size: var(--fs-meta); font-family: var(--mono); }
+.sim .field--narrow { max-width: 340px; margin-bottom: var(--sp-3); }
+.sim input[type=number], .sim input[type=text], .sim select { width: 100%; min-height: 44px; font: inherit; font-family: var(--mono); font-size: var(--fs-small); padding: 9px 10px; border: 1px solid var(--control); border-radius: var(--radius-2); background: var(--white); color: var(--ink); }
+.sim select { font-family: var(--sans); }
+.sim input[type=range] { width: 100%; min-height: 32px; accent-color: var(--accent-deep); }
+.sim input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--accent-deep); }
+.sim .ends { display: flex; justify-content: space-between; gap: var(--sp-3); color: var(--muted); font-size: var(--fs-small); }
+.sim .nivel { font-weight: 600; margin: var(--sp-3) 0 2px; }
+.sim .split { display: flex; flex-direction: column; gap: var(--sp-2); margin-top: var(--sp-4); }
+.sim .split .it { display: grid; grid-template-columns: minmax(0, 1fr) 48px; gap: var(--sp-1) var(--sp-3); align-items: center; }
+.sim .split .bar { grid-column: 1 / -1; height: 8px; border-radius: var(--radius-2); background: var(--soft); overflow: hidden; }
+.sim .split .bar i { display: block; height: 100%; background: var(--sim-mix); }
+.sim .split b { font-family: var(--mono); font-weight: 500; text-align: right; }
+.sim .tres { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--sp-3); margin: var(--sp-2) 0 var(--sp-4); }
+.sim .caso { border: 1px solid var(--border); border-radius: var(--radius-3); padding: var(--sp-3) var(--sp-4); background: var(--white); }
+.sim .caso span { display: block; color: var(--muted); font-size: var(--fs-small); }
+.sim .caso b { display: block; font-family: var(--mono); font-size: 22px; font-weight: 500; font-variant-numeric: tabular-nums; margin: 2px 0; color: var(--ink); }
+.sim .caso.normal { background: var(--soft); border-color: var(--control); }
+.sim .ops { display: flex; flex-direction: column; gap: var(--sp-3); }
+.sim .op { border: 1px solid var(--border); border-radius: var(--radius-3); padding: var(--sp-3) var(--sp-4); display: flex; flex-direction: column; gap: var(--sp-3); }
+.sim .op.mia { background: var(--soft); border-color: var(--control); }
+.sim .op small { display: block; color: var(--muted); }
+.sim .op dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); gap: var(--sp-2) var(--sp-4); margin: 0; }
+.sim .op dt { color: var(--muted); font-size: var(--fs-label); }
+.sim .op dd { margin: 0; font-weight: 600; }
+.sim .op dd.num { font-family: var(--mono); font-weight: 500; font-variant-numeric: tabular-nums; }
+.sim .frases { display: flex; flex-direction: column; gap: var(--sp-2); margin: 0 0 var(--sp-4); padding: 0; list-style: none; }
+.sim .frases li { padding-left: var(--sp-3); border-left: 3px solid var(--border); max-width: none; }
+.sim .chart-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--sp-2) var(--sp-4); margin-bottom: var(--sp-2); }
+.sim .legend { display: flex; gap: var(--sp-2) var(--sp-4); flex-wrap: wrap; color: var(--ink-2); font-size: var(--fs-label); }
+.sim .legend i { display: inline-block; width: 14px; height: 10px; margin-right: 5px; vertical-align: middle; }
+.sim .legend .k-wide { background: var(--sim-band-wide); border: 1px solid var(--sim-band-mid); }
+.sim .legend .k-mid { background: var(--sim-band-mid); }
+.sim .legend .k-line { background: var(--sim-line); height: 3px; }
+.sim .legend .k-ref { height: 0; border-top: 2px dashed var(--sim-ref); }
+.sim .legend .k-good { background: var(--sim-good); height: 2px; }
+.sim #chart { min-height: 280px; }
+.sim svg { width: 100%; height: auto; display: block; }
+.sim svg text { font-family: var(--mono); font-size: 11px; fill: var(--muted); }
+.sim .ui-table-wrap { margin: 0; }
+.sim .ui-table { font-variant-numeric: tabular-nums; }
+.sim .ui-table th, .sim .ui-table td { text-align: right; white-space: nowrap; }
+.sim .ui-table th:first-child, .sim .ui-table td:first-child { text-align: left; white-space: normal; min-width: 200px; }
+.sim .ui-table thead th { font-size: var(--fs-label); white-space: normal; }
+.sim .ui-table td small { display: block; color: var(--muted); white-space: normal; }
+.sim .ui-table.fuentes td, .sim .ui-table.fuentes th { white-space: normal; text-align: left; }
+.sim .ui-table.fuentes td.num { text-align: right; white-space: nowrap; }
+.sim #sup input { width: 78px; min-height: 36px; padding: 5px 6px; }
+.sim details { border-top: 1px solid var(--border); padding-top: var(--sp-3); margin-top: var(--sp-3); }
+.sim details:first-of-type { border-top: 0; margin-top: 0; padding-top: 0; }
+.sim summary { display: flex; align-items: center; min-height: 44px; cursor: pointer; font-weight: 600; }
+.sim .assump { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: var(--sp-3); margin-top: var(--sp-3); }
+.sim .ofertas { display: grid; grid-template-columns: minmax(0, 1fr) 120px; gap: var(--sp-2) var(--sp-3); max-width: 520px; margin-top: var(--sp-3); }
+.sim .prose ul { margin: var(--sp-2) 0; padding-left: 20px; }
+.sim .prose li { max-width: 78ch; }
+.sim .muted { color: var(--muted); font-size: var(--fs-small); }
+.sim .gap-top { margin: var(--sp-3) 0 0; }
+.sim .gap-mid { margin: var(--sp-3) 0 var(--sp-2); }
+.sim .checks { display: flex; flex-direction: column; gap: var(--sp-2); margin-top: var(--sp-3); }
+.sim .checks label { display: flex; align-items: flex-start; gap: var(--sp-2); min-height: 32px; }
+.sim .checks input { margin-top: 3px; flex: none; }
+.sim .ui-btn { margin-top: var(--sp-3); }
+.sim .ui-state { margin: 0 0 var(--sp-3); }
+.sim .ui-source { margin-top: var(--sp-4); }
+.sim .chart-series { transform-box: fill-box; }
+@media (max-width: 560px) {
+  .sim .ui-panel { padding: var(--sp-4); }
+  .sim .ofertas { grid-template-columns: minmax(0, 1fr) 96px; }
+}
+</style>
+      <div class="sim">
+        <p class="ui-notice ui-notice--warn" role="note"><span class="ui-notice__icon" aria-hidden="true">!</span><span><strong>Esto no es una recomendación de inversión.</strong> Es una herramienta para aprender. Los resultados dependen de supuestos y no son una promesa.</span></p>
+        <p class="intro">Mira cómo podría crecer tu ahorro según dónde lo pongas. Nadie sabe qué va a pasar, así que te mostramos un caso malo, uno normal y uno bueno.</p>
+
+        <section class="ui-panel">
+          <h2>1. Tu plan</h2>
+          <p class="sub">Los números de abajo son un ejemplo. Cámbialos por los tuyos.</p>
+          <div class="inputs">
+            <div class="field"><label for="monto">¿Cuánto tienes hoy?</label><input id="monto" type="number" inputmode="numeric" min="0" step="500000" value="10000000"><small id="montot"></small></div>
+            <div class="field"><label for="aporte">¿Cuánto puedes ahorrar cada mes?</label><input id="aporte" type="number" inputmode="numeric" min="0" step="50000" value="500000"><small id="aportet"></small></div>
+            <div class="field"><label for="meta">¿A cuánto quieres llegar?</label><input id="meta" type="number" inputmode="numeric" min="0" step="5000000" value="80000000"><small id="metat"></small></div>
+            <div class="field"><label for="anios">¿En cuántos años? <strong id="aniosv">10</strong></label><input id="anios" type="range" min="1" max="30" value="10"></div>
+          </div>
+        </section>
+
+        <section class="ui-panel">
+          <h2>2. ¿Cuánto riesgo aceptas?</h2>
+          <p class="sub">Más riesgo significa que tu plata puede crecer más, pero también que puede bajar más en el camino. Mueve la barra y mira cómo se reparte.</p>
+          <input id="riesgo" type="range" min="0" max="100" value="50" aria-label="Nivel de riesgo">
+          <div class="ends"><span>Más tranquilo</span><span>Más arriesgado</span></div>
+          <p class="nivel" id="nivel"></p>
+          <div class="split" id="mixout"></div>
+        </section>
+
+        <section class="ui-panel" aria-live="polite">
+          <h2>3. Lo que podría pasar</h2>
+          <p class="sub" id="sub3"></p>
+          <div class="tres" id="tres"></div>
+          <ul class="frases" id="frases"></ul>
+          <div class="chart-head">
+            <div class="legend"><span><i class="k-wide"></i>Casi todos los casos</span><span><i class="k-mid"></i>Los casos más comunes</span><span><i class="k-line"></i>Caso normal</span><span><i class="k-ref"></i>Lo que tú pusiste</span><span><i class="k-good"></i>Tu meta</span></div>
+            <button type="button" class="ui-trace-btn" id="trazar">Ver el trazo del caso normal</button>
+          </div>
+          <div id="chart" data-animation-slot="chart-reveal"></div>
+          <p class="ui-source"><span>Fuente: cálculo de ColPulse en tu navegador, con los datos de partida y los supuestos de «De dónde salen los números».</span><time id="sim-corte">Corte de los datos: cargando…</time></p>
+        </section>
+
+        <section class="ui-panel">
+          <h2>¿Y si lo pusieras todo en una sola cosa?</h2>
+          <p class="sub">La misma plata y el mismo tiempo, pero toda en una opción. Sirve para comparar con tu mezcla.</p>
+          <div class="field field--narrow"><label for="orden">Mostrar primero</label>
+            <select id="orden">
+              <option value="med">Lo que más da en un caso normal</option>
+              <option value="p5">Lo que menos baja en un caso malo</option>
+              <option value="meta">Lo que más te acerca a tu meta</option>
+            </select></div>
+          <div class="ops" id="tabla"></div>
+          <p class="muted gap-top">No hay una opción que gane en todo. Cuando algo paga mucho, casi siempre es porque quien pone la plata asume más riesgo, aunque aquí no se vea. Las opciones en dólares pueden bajar en pesos cuando el dólar baja.</p>
+        </section>
+
+        <section class="ui-panel">
+          <h2>De dónde salen los números</h2>
+          <p class="ui-state ui-state--loading" id="fuente-estado" role="status"><span class="ui-state__label">Cargando</span>Cargando los datos de partida…</p>
+          <div class="ui-table-wrap" role="region" aria-label="Datos de partida con su fecha y su fuente" tabindex="0"><table class="ui-table fuentes" id="fuentes"></table></div>
+          <p class="muted gap-mid">Lo que no sale de datos es un supuesto del autor: está escrito a mano y puedes cambiarlo abajo.</p>
+          <div class="ui-table-wrap" role="region" aria-label="Supuestos del autor" tabindex="0"><table class="ui-table fuentes" id="autor"></table></div>
+        </section>
+
+        <section class="ui-panel">
+          <details>
+            <summary>Para curiosos: cambiar los supuestos</summary>
+            <div class="checks">
+              <label><input type="checkbox" id="real" checked> Mostrar todo en plata de hoy (descuenta que los precios suben cada año)</label>
+              <label><input type="checkbox" id="imp" checked> Descontar impuestos de forma aproximada</label>
+            </div>
+            <div class="assump">
+              <div class="field"><label for="tope">Máximo en una sola opción (%)</label><input id="tope" type="number" min="15" max="100" step="5" value="50"></div>
+              <div class="field"><label for="infl">Cuánto suben los precios al año (%)</label><input id="infl" type="number" step="0.1" value="5"><small id="inflt"></small></div>
+              <div class="field"><label for="sinf">Qué tan incierta es esa subida de precios (puntos)</label><input id="sinf" type="number" min="0" step="0.1" value="1.5"></div>
+              <div class="field"><label for="dep">Cuánto sube el dólar al año (%)</label><input id="dep" type="number" step="0.1" value="2.7"></div>
+              <div class="field"><label for="volfx">Qué tanto se mueve el dólar (%)</label><input id="volfx" type="number" min="0" step="0.5" value="14"></div>
+              <div class="field"><label for="rhofx">Relación entre el dólar y las acciones de EE.UU.</label><input id="rhofx" type="number" min="-0.9" max="0.9" step="0.05" value="-0.3"></div>
+              <div class="field"><label for="duda">Margen de error de los supuestos (puntos)</label><input id="duda" type="number" min="0" step="0.1" value="2"></div>
+            </div>
+            <p class="muted gap-mid">Cuánto esperamos que dé cada opción al año, y qué tanto se mueve.</p>
+            <div class="ui-table-wrap" role="region" aria-label="Supuestos por opción" tabindex="0"><table class="ui-table" id="sup"></table></div>
+            <button type="button" class="ui-btn ui-btn--outline" id="otra">Volver a simular con otros casos</button>
+          </details>
+          <details>
+            <summary>¿Te ofrecieron un CDT? Compara las tasas</summary>
+            <p class="muted gap-top">Escribe un nombre y la tasa anual que te ofrecen (pregunta por la "tasa efectiva anual"). Todavía no traemos las tasas ofrecidas porque no tenemos una fuente confiable.</p>
+            <div class="ofertas">
+              <input id="on0" type="text" placeholder="Oferta 1" aria-label="Nombre de la oferta 1"><input id="ot0" type="number" min="0" step="0.05" placeholder="% al año" aria-label="Tasa de la oferta 1">
+              <input id="on1" type="text" placeholder="Oferta 2" aria-label="Nombre de la oferta 2"><input id="ot1" type="number" min="0" step="0.05" placeholder="% al año" aria-label="Tasa de la oferta 2">
+              <input id="on2" type="text" placeholder="Oferta 3" aria-label="Nombre de la oferta 3"><input id="ot2" type="number" min="0" step="0.05" placeholder="% al año" aria-label="Tasa de la oferta 3">
+            </div>
+            <p id="ofout" class="gap-top">Escribe las tasas que te ofrezcan.</p>
+            <button type="button" class="ui-btn ui-btn--outline" id="usar">Usar la más alta en el simulador</button>
+          </details>
+        </section>
+
+        <section class="ui-panel prose">
+          <h2>Ten en cuenta</h2>
+          <ul>
+            <li>El simulador no te conoce. No sabe de tus deudas, tus ingresos ni si vas a necesitar la plata antes.</li>
+            <li>No adivina el futuro. Usa supuestos sobre cuánto da cada opción, y si cambian, cambia el resultado.</li>
+            <li id="nota-tasas">Las tasas en Colombia están altas hoy.</li>
+            <li id="nota-hist">Para las acciones colombianas, el dólar y los precios usamos lo que pasó antes.</li>
+            <li>Para las opciones en dólares usamos un análisis propio de octubre de 2026, que espera una década floja para las acciones de EE.UU. porque hoy están caras (supuesto del autor).</li>
+            <li>Los impuestos son una aproximación. No reemplazan tu declaración de renta.</li>
+            <li>Que algo haya pasado antes no significa que vuelva a pasar.</li>
+          </ul>
+        </section>
+        <noscript><p class="ui-state ui-state--error"><span class="ui-state__label">Sin JavaScript</span>Este simulador necesita JavaScript para calcular. Los datos de partida están en <a href="data/simulador.json">data/simulador.json</a>.</p></noscript>
+      </div>
+      <script src="simulador.js" defer></script>
+
+    </section>
+    <footer class="footer">
+      <div class="footer-message">Herramienta educativa. Los supuestos tienen fecha y fuente en la propia página.</div>
+      <div class="links"><a href="fixed_income.html">Renta fija</a><a href="methodology.html">Metodología</a><a href="indicators.html">Indicadores</a></div>
+      <p class="disclaimer">Proyecto educativo y de portafolio. ColPulse no es asesoría financiera ni recomendación de inversión. ColPulse utiliza información pública oficial, pero no está afiliado, avalado ni operado por las entidades fuente.</p>
+      <div class="signature">Por Felipe Cuello Castro</div>
+    </footer>
+  </main>
+</body>
+</html>
