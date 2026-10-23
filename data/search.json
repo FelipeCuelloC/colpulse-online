@@ -1,0 +1,1641 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-10-23T16:00:06.090782+00:00",
+  "count": 115,
+  "entries": [
+    {
+      "type": "indicator",
+      "id": "brent_usd",
+      "title_es": "Precio Brent",
+      "keywords": [
+        "precio brent",
+        "brent usd",
+        "petroleo",
+        "crudo"
+      ],
+      "url": "indicators/brent_usd.html",
+      "view": "#/indicador/brent_usd",
+      "extra": {
+        "unit": "USD/bbl",
+        "cut": "2026-10-20"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "captaciones_publico",
+      "title_es": "Captaciones del p\u00fablico",
+      "keywords": [
+        "captaciones del publico",
+        "captaciones publico",
+        "ahorro",
+        "depositos",
+        "cdt"
+      ],
+      "url": "indicators/captaciones_publico.html",
+      "view": "#/indicador/captaciones_publico",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "cartera_bruta",
+      "title_es": "Cartera bruta",
+      "keywords": [
+        "cartera bruta",
+        "credito",
+        "prestamos"
+      ],
+      "url": "indicators/cartera_bruta.html",
+      "view": "#/indicador/cartera_bruta",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "cartera_vencida",
+      "title_es": "Cartera vencida",
+      "keywords": [
+        "cartera vencida",
+        "credito",
+        "morosidad"
+      ],
+      "url": "indicators/cartera_vencida.html",
+      "view": "#/indicador/cartera_vencida",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "chicago_financial_conditions",
+      "title_es": "chicago_financial_conditions",
+      "keywords": [
+        "chicago_financial_conditions",
+        "chicago financial conditions"
+      ],
+      "url": null,
+      "view": "#/indicador/chicago_financial_conditions",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-10-16"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "coal_australia",
+      "title_es": "coal_australia",
+      "keywords": [
+        "coal_australia",
+        "coal australia"
+      ],
+      "url": null,
+      "view": "#/indicador/coal_australia",
+      "extra": {
+        "unit": "USD/ton",
+        "cut": "2026-09-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "coffee_global",
+      "title_es": "coffee_global",
+      "keywords": [
+        "coffee_global",
+        "coffee global"
+      ],
+      "url": null,
+      "view": "#/indicador/coffee_global",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-09-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "colcap_monthly",
+      "title_es": "COLCAP mensual",
+      "keywords": [
+        "colcap mensual",
+        "colcap monthly",
+        "bolsa",
+        "acciones",
+        "msci colcap"
+      ],
+      "url": "indicators/colcap_monthly.html",
+      "view": "#/indicador/colcap_monthly",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-09-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "dxy_broad",
+      "title_es": "\u00cdndice amplio del d\u00f3lar",
+      "keywords": [
+        "indice amplio del dolar",
+        "dxy broad",
+        "dolar global"
+      ],
+      "url": "indicators/dxy_broad.html",
+      "view": "#/indicador/dxy_broad",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-10-16"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "embi_proxy_hy",
+      "title_es": "Spread riesgo emergente (proxy)",
+      "keywords": [
+        "spread riesgo emergente (proxy)",
+        "embi proxy hy",
+        "riesgo pais",
+        "spread"
+      ],
+      "url": "indicators/embi_proxy_hy.html",
+      "view": "#/indicador/embi_proxy_hy",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-22"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "exportaciones_fob",
+      "title_es": "Exportaciones FOB",
+      "keywords": [
+        "exportaciones fob",
+        "comercio exterior",
+        "ventas externas"
+      ],
+      "url": "indicators/exportaciones_fob.html",
+      "view": "#/indicador/exportaciones_fob",
+      "extra": {
+        "unit": "thousand_usd_fob",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "fed_funds",
+      "title_es": "Tasa fondos federales",
+      "keywords": [
+        "tasa fondos federales",
+        "fed funds",
+        "reserva federal",
+        "fed"
+      ],
+      "url": "indicators/fed_funds.html",
+      "view": "#/indicador/fed_funds",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "food_global",
+      "title_es": "food_global",
+      "keywords": [
+        "food_global",
+        "food global"
+      ],
+      "url": null,
+      "view": "#/indicador/food_global",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-09-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "ibr_overnight",
+      "title_es": "IBR overnight",
+      "keywords": [
+        "ibr overnight",
+        "tasa interbancaria",
+        "liquidez"
+      ],
+      "url": "indicators/ibr_overnight.html",
+      "view": "#/indicador/ibr_overnight",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-22"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "icv",
+      "title_es": "\u00cdndice de calidad de cartera",
+      "keywords": [
+        "indice de calidad de cartera",
+        "icv",
+        "credito",
+        "morosidad",
+        "calidad de cartera"
+      ],
+      "url": "indicators/icv.html",
+      "view": "#/indicador/icv",
+      "extra": {
+        "unit": "ratio",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "importaciones",
+      "title_es": "Importaciones",
+      "keywords": [
+        "importaciones",
+        "comercio exterior",
+        "compras externas"
+      ],
+      "url": "indicators/importaciones.html",
+      "view": "#/indicador/importaciones",
+      "extra": {
+        "unit": "thousand_usd_cif",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "ipc_mom",
+      "title_es": "IPC variaci\u00f3n mensual",
+      "keywords": [
+        "ipc variacion mensual",
+        "ipc mom",
+        "inflacion",
+        "precios",
+        "ipc"
+      ],
+      "url": "indicators/ipc_mom.html",
+      "view": "#/indicador/ipc_mom",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-09-30"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "ipc_yoy",
+      "title_es": "IPC variaci\u00f3n anual",
+      "keywords": [
+        "ipc variacion anual",
+        "ipc yoy",
+        "inflacion",
+        "precios",
+        "ipc"
+      ],
+      "url": "indicators/ipc_yoy.html",
+      "view": "#/indicador/ipc_yoy",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-09-30"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "ise",
+      "title_es": "Indicador de Seguimiento a la Econom\u00eda",
+      "keywords": [
+        "indicador de seguimiento a la economia",
+        "ise",
+        "actividad economica",
+        "crecimiento",
+        "pib mensual"
+      ],
+      "url": "indicators/ise.html",
+      "view": "#/indicador/ise",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "policy_rate",
+      "title_es": "Tasa de pol\u00edtica monetaria",
+      "keywords": [
+        "tasa de politica monetaria",
+        "policy rate",
+        "tasa de interes",
+        "banrep",
+        "banco de la republica"
+      ],
+      "url": "indicators/policy_rate.html",
+      "view": "#/indicador/policy_rate",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-23"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "stl_financial_stress",
+      "title_es": "stl_financial_stress",
+      "keywords": [
+        "stl_financial_stress",
+        "stl financial stress"
+      ],
+      "url": null,
+      "view": "#/indicador/stl_financial_stress",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-10-16"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tasa_desocupacion",
+      "title_es": "Tasa de desocupaci\u00f3n",
+      "keywords": [
+        "tasa de desocupacion",
+        "tasa desocupacion",
+        "desempleo",
+        "empleo",
+        "trabajo"
+      ],
+      "url": "indicators/tasa_desocupacion.html",
+      "view": "#/indicador/tasa_desocupacion",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tasa_global_participacion",
+      "title_es": "Tasa global de participaci\u00f3n",
+      "keywords": [
+        "tasa global de participacion",
+        "tasa global participacion",
+        "empleo",
+        "fuerza laboral"
+      ],
+      "url": "indicators/tasa_global_participacion.html",
+      "view": "#/indicador/tasa_global_participacion",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tasa_ocupacion",
+      "title_es": "Tasa de ocupaci\u00f3n",
+      "keywords": [
+        "tasa de ocupacion",
+        "tasa ocupacion",
+        "empleo",
+        "trabajo"
+      ],
+      "url": "indicators/tasa_ocupacion.html",
+      "view": "#/indicador/tasa_ocupacion",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-08-31"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_10y",
+      "title_es": "TES pesos 10 a\u00f1os (cero cup\u00f3n)",
+      "keywords": [
+        "tes pesos 10 anos (cero cupon)",
+        "tes 10y"
+      ],
+      "url": "indicators/tes_10y.html",
+      "view": "#/indicador/tes_10y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_bei_10y",
+      "title_es": "Inflaci\u00f3n impl\u00edcita 10 a\u00f1os",
+      "keywords": [
+        "inflacion implicita 10 anos",
+        "tes bei 10y"
+      ],
+      "url": "indicators/tes_bei_10y.html",
+      "view": "#/indicador/tes_bei_10y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_bei_5y",
+      "title_es": "Inflaci\u00f3n impl\u00edcita 5 a\u00f1os",
+      "keywords": [
+        "inflacion implicita 5 anos",
+        "tes bei 5y"
+      ],
+      "url": "indicators/tes_bei_5y.html",
+      "view": "#/indicador/tes_bei_5y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_cop_1y",
+      "title_es": "TES pesos 1 a\u00f1o (cero cup\u00f3n)",
+      "keywords": [
+        "tes pesos 1 ano (cero cupon)",
+        "tes cop 1y"
+      ],
+      "url": "indicators/tes_cop_1y.html",
+      "view": "#/indicador/tes_cop_1y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_cop_5y",
+      "title_es": "TES pesos 5 a\u00f1os (cero cup\u00f3n)",
+      "keywords": [
+        "tes pesos 5 anos (cero cupon)",
+        "tes cop 5y"
+      ],
+      "url": "indicators/tes_cop_5y.html",
+      "view": "#/indicador/tes_cop_5y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_fwd_5y5y",
+      "title_es": "Forward TES pesos 5a5a",
+      "keywords": [
+        "forward tes pesos 5a5a",
+        "tes fwd 5y5y"
+      ],
+      "url": "indicators/tes_fwd_5y5y.html",
+      "view": "#/indicador/tes_fwd_5y5y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_slope_10_1",
+      "title_es": "Pendiente TES pesos 10a-1a",
+      "keywords": [
+        "pendiente tes pesos 10a-1a",
+        "tes slope 10 1"
+      ],
+      "url": "indicators/tes_slope_10_1.html",
+      "view": "#/indicador/tes_slope_10_1",
+      "extra": {
+        "unit": "bp",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_uvr_10y",
+      "title_es": "TES UVR 10 a\u00f1os (cero cup\u00f3n)",
+      "keywords": [
+        "tes uvr 10 anos (cero cupon)",
+        "tes uvr 10y"
+      ],
+      "url": "indicators/tes_uvr_10y.html",
+      "view": "#/indicador/tes_uvr_10y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_uvr_1y",
+      "title_es": "TES UVR 1 a\u00f1o (cero cup\u00f3n)",
+      "keywords": [
+        "tes uvr 1 ano (cero cupon)",
+        "tes uvr 1y"
+      ],
+      "url": "indicators/tes_uvr_1y.html",
+      "view": "#/indicador/tes_uvr_1y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "tes_uvr_5y",
+      "title_es": "TES UVR 5 a\u00f1os (cero cup\u00f3n)",
+      "keywords": [
+        "tes uvr 5 anos (cero cupon)",
+        "tes uvr 5y"
+      ],
+      "url": "indicators/tes_uvr_5y.html",
+      "view": "#/indicador/tes_uvr_5y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-02"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "trm",
+      "title_es": "TRM",
+      "keywords": [
+        "trm",
+        "dolar",
+        "tipo de cambio",
+        "usd",
+        "peso"
+      ],
+      "url": "indicators/trm.html",
+      "view": "#/indicador/trm",
+      "extra": {
+        "unit": "COP/USD",
+        "cut": "2026-10-23"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "trm_month_end",
+      "title_es": "TRM cierre de mes",
+      "keywords": [
+        "trm cierre de mes",
+        "trm month end",
+        "dolar",
+        "tipo de cambio"
+      ],
+      "url": "indicators/trm_month_end.html",
+      "view": "#/indicador/trm_month_end",
+      "extra": {
+        "unit": "COP/USD",
+        "cut": "2026-10-23"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "trm_monthly_average",
+      "title_es": "TRM promedio mensual",
+      "keywords": [
+        "trm promedio mensual",
+        "trm monthly average",
+        "dolar",
+        "tipo de cambio"
+      ],
+      "url": "indicators/trm_monthly_average.html",
+      "view": "#/indicador/trm_monthly_average",
+      "extra": {
+        "unit": "COP/USD",
+        "cut": "2026-10-23"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_cpi",
+      "title_es": "us_cpi",
+      "keywords": [
+        "us_cpi",
+        "us cpi"
+      ],
+      "url": null,
+      "view": "#/indicador/us_cpi",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-09-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_curve_10y2y",
+      "title_es": "us_curve_10y2y",
+      "keywords": [
+        "us_curve_10y2y",
+        "us curve 10y2y"
+      ],
+      "url": null,
+      "view": "#/indicador/us_curve_10y2y",
+      "extra": {
+        "unit": "pp",
+        "cut": "2026-10-22"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_curve_10y3m",
+      "title_es": "us_curve_10y3m",
+      "keywords": [
+        "us_curve_10y3m",
+        "us curve 10y3m"
+      ],
+      "url": null,
+      "view": "#/indicador/us_curve_10y3m",
+      "extra": {
+        "unit": "pp",
+        "cut": "2026-10-22"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_hy_oas",
+      "title_es": "us_hy_oas",
+      "keywords": [
+        "us_hy_oas",
+        "us hy oas"
+      ],
+      "url": null,
+      "view": "#/indicador/us_hy_oas",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-22"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_industrial_production",
+      "title_es": "us_industrial_production",
+      "keywords": [
+        "us_industrial_production",
+        "us industrial production"
+      ],
+      "url": null,
+      "view": "#/indicador/us_industrial_production",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-09-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_real_gdp",
+      "title_es": "us_real_gdp",
+      "keywords": [
+        "us_real_gdp",
+        "us real gdp"
+      ],
+      "url": null,
+      "view": "#/indicador/us_real_gdp",
+      "extra": {
+        "unit": "billion_2017_usd",
+        "cut": "2026-04-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_recession_probability",
+      "title_es": "us_recession_probability",
+      "keywords": [
+        "us_recession_probability",
+        "us recession probability"
+      ],
+      "url": null,
+      "view": "#/indicador/us_recession_probability",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-08-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_retail_sales",
+      "title_es": "us_retail_sales",
+      "keywords": [
+        "us_retail_sales",
+        "us retail sales"
+      ],
+      "url": null,
+      "view": "#/indicador/us_retail_sales",
+      "extra": {
+        "unit": "million_usd",
+        "cut": "2026-09-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_treasury_10y",
+      "title_es": "us_treasury_10y",
+      "keywords": [
+        "us_treasury_10y",
+        "us treasury 10y"
+      ],
+      "url": null,
+      "view": "#/indicador/us_treasury_10y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_treasury_2y",
+      "title_es": "us_treasury_2y",
+      "keywords": [
+        "us_treasury_2y",
+        "us treasury 2y"
+      ],
+      "url": null,
+      "view": "#/indicador/us_treasury_2y",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "us_unemployment",
+      "title_es": "us_unemployment",
+      "keywords": [
+        "us_unemployment",
+        "us unemployment"
+      ],
+      "url": null,
+      "view": "#/indicador/us_unemployment",
+      "extra": {
+        "unit": "%",
+        "cut": "2026-09-01"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "vix",
+      "title_es": "vix",
+      "keywords": [
+        "vix"
+      ],
+      "url": null,
+      "view": "#/indicador/vix",
+      "extra": {
+        "unit": "index",
+        "cut": "2026-10-22"
+      }
+    },
+    {
+      "type": "indicator",
+      "id": "wti_usd",
+      "title_es": "wti_usd",
+      "keywords": [
+        "wti_usd",
+        "wti usd"
+      ],
+      "url": null,
+      "view": "#/indicador/wti_usd",
+      "extra": {
+        "unit": "USD/bbl",
+        "cut": "2026-10-20"
+      }
+    },
+    {
+      "type": "department",
+      "id": "antioquia",
+      "title_es": "Antioquia",
+      "keywords": [
+        "antioquia"
+      ],
+      "url": "departments/antioquia.html",
+      "view": "#/departamento/antioquia",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "atlantico",
+      "title_es": "Atl\u00e1ntico",
+      "keywords": [
+        "atlantico"
+      ],
+      "url": "departments/atlantico.html",
+      "view": "#/departamento/atlantico",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "bogota-d-c",
+      "title_es": "Bogot\u00e1 D.C.",
+      "keywords": [
+        "bogota d.c.",
+        "bogota d c"
+      ],
+      "url": "departments/bogota-d-c.html",
+      "view": "#/departamento/bogota-d-c",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "bolivar",
+      "title_es": "Bol\u00edvar",
+      "keywords": [
+        "bolivar"
+      ],
+      "url": "departments/bolivar.html",
+      "view": "#/departamento/bolivar",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "boyaca",
+      "title_es": "Boyac\u00e1",
+      "keywords": [
+        "boyaca"
+      ],
+      "url": "departments/boyaca.html",
+      "view": "#/departamento/boyaca",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "caldas",
+      "title_es": "Caldas",
+      "keywords": [
+        "caldas"
+      ],
+      "url": "departments/caldas.html",
+      "view": "#/departamento/caldas",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "caqueta",
+      "title_es": "Caquet\u00e1",
+      "keywords": [
+        "caqueta"
+      ],
+      "url": "departments/caqueta.html",
+      "view": "#/departamento/caqueta",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "cauca",
+      "title_es": "Cauca",
+      "keywords": [
+        "cauca"
+      ],
+      "url": "departments/cauca.html",
+      "view": "#/departamento/cauca",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "cesar",
+      "title_es": "Cesar",
+      "keywords": [
+        "cesar"
+      ],
+      "url": "departments/cesar.html",
+      "view": "#/departamento/cesar",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "cordoba",
+      "title_es": "C\u00f3rdoba",
+      "keywords": [
+        "cordoba"
+      ],
+      "url": "departments/cordoba.html",
+      "view": "#/departamento/cordoba",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "cundinamarca",
+      "title_es": "Cundinamarca",
+      "keywords": [
+        "cundinamarca"
+      ],
+      "url": "departments/cundinamarca.html",
+      "view": "#/departamento/cundinamarca",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "choco",
+      "title_es": "Choc\u00f3",
+      "keywords": [
+        "choco"
+      ],
+      "url": "departments/choco.html",
+      "view": "#/departamento/choco",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "huila",
+      "title_es": "Huila",
+      "keywords": [
+        "huila"
+      ],
+      "url": "departments/huila.html",
+      "view": "#/departamento/huila",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "la-guajira",
+      "title_es": "La Guajira",
+      "keywords": [
+        "la guajira"
+      ],
+      "url": "departments/la-guajira.html",
+      "view": "#/departamento/la-guajira",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "magdalena",
+      "title_es": "Magdalena",
+      "keywords": [
+        "magdalena"
+      ],
+      "url": "departments/magdalena.html",
+      "view": "#/departamento/magdalena",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "meta",
+      "title_es": "Meta",
+      "keywords": [
+        "meta"
+      ],
+      "url": "departments/meta.html",
+      "view": "#/departamento/meta",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "narino",
+      "title_es": "Nari\u00f1o",
+      "keywords": [
+        "narino"
+      ],
+      "url": "departments/narino.html",
+      "view": "#/departamento/narino",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "norte-de-santander",
+      "title_es": "Norte de Santander",
+      "keywords": [
+        "norte de santander"
+      ],
+      "url": "departments/norte-de-santander.html",
+      "view": "#/departamento/norte-de-santander",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "quindio",
+      "title_es": "Quind\u00edo",
+      "keywords": [
+        "quindio"
+      ],
+      "url": "departments/quindio.html",
+      "view": "#/departamento/quindio",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "risaralda",
+      "title_es": "Risaralda",
+      "keywords": [
+        "risaralda"
+      ],
+      "url": "departments/risaralda.html",
+      "view": "#/departamento/risaralda",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "santander",
+      "title_es": "Santander",
+      "keywords": [
+        "santander"
+      ],
+      "url": "departments/santander.html",
+      "view": "#/departamento/santander",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "sucre",
+      "title_es": "Sucre",
+      "keywords": [
+        "sucre"
+      ],
+      "url": "departments/sucre.html",
+      "view": "#/departamento/sucre",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "tolima",
+      "title_es": "Tolima",
+      "keywords": [
+        "tolima"
+      ],
+      "url": "departments/tolima.html",
+      "view": "#/departamento/tolima",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "valle-del-cauca",
+      "title_es": "Valle del Cauca",
+      "keywords": [
+        "valle del cauca"
+      ],
+      "url": "departments/valle-del-cauca.html",
+      "view": "#/departamento/valle-del-cauca",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "arauca",
+      "title_es": "Arauca",
+      "keywords": [
+        "arauca"
+      ],
+      "url": "departments/arauca.html",
+      "view": "#/departamento/arauca",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "casanare",
+      "title_es": "Casanare",
+      "keywords": [
+        "casanare"
+      ],
+      "url": "departments/casanare.html",
+      "view": "#/departamento/casanare",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "putumayo",
+      "title_es": "Putumayo",
+      "keywords": [
+        "putumayo"
+      ],
+      "url": "departments/putumayo.html",
+      "view": "#/departamento/putumayo",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "san-andres-providencia-y-santa-catalina-archipielago",
+      "title_es": "San Andr\u00e9s, Providencia y Santa Catalina (Archipi\u00e9lago)",
+      "keywords": [
+        "san andres, providencia y santa catalina (archipielago)",
+        "san andres providencia y santa catalina archipielago"
+      ],
+      "url": "departments/san-andres-providencia-y-santa-catalina-archipielago.html",
+      "view": "#/departamento/san-andres-providencia-y-santa-catalina-archipielago",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "amazonas",
+      "title_es": "Amazonas",
+      "keywords": [
+        "amazonas"
+      ],
+      "url": "departments/amazonas.html",
+      "view": "#/departamento/amazonas",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "guainia",
+      "title_es": "Guain\u00eda",
+      "keywords": [
+        "guainia"
+      ],
+      "url": "departments/guainia.html",
+      "view": "#/departamento/guainia",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "guaviare",
+      "title_es": "Guaviare",
+      "keywords": [
+        "guaviare"
+      ],
+      "url": "departments/guaviare.html",
+      "view": "#/departamento/guaviare",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "vaupes",
+      "title_es": "Vaup\u00e9s",
+      "keywords": [
+        "vaupes"
+      ],
+      "url": "departments/vaupes.html",
+      "view": "#/departamento/vaupes",
+      "extra": null
+    },
+    {
+      "type": "department",
+      "id": "vichada",
+      "title_es": "Vichada",
+      "keywords": [
+        "vichada"
+      ],
+      "url": "departments/vichada.html",
+      "view": "#/departamento/vichada",
+      "extra": null
+    },
+    {
+      "type": "stock",
+      "id": "CELSIA",
+      "title_es": "Celsia",
+      "keywords": [
+        "celsia",
+        "energia"
+      ],
+      "url": null,
+      "view": "#/accion/CELSIA",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "CEMARGOS",
+      "title_es": "Cementos Argos",
+      "keywords": [
+        "cementos argos",
+        "cemargos",
+        "materiales"
+      ],
+      "url": null,
+      "view": "#/accion/CEMARGOS",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "ECOPETROL",
+      "title_es": "Ecopetrol",
+      "keywords": [
+        "ecopetrol",
+        "energia"
+      ],
+      "url": null,
+      "view": "#/accion/ECOPETROL",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "GEB",
+      "title_es": "Grupo Energia Bogota",
+      "keywords": [
+        "grupo energia bogota",
+        "geb",
+        "energia"
+      ],
+      "url": null,
+      "view": "#/accion/GEB",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "GRUPOARGOS",
+      "title_es": "Grupo Argos",
+      "keywords": [
+        "grupo argos",
+        "grupoargos",
+        "inversiones"
+      ],
+      "url": null,
+      "view": "#/accion/GRUPOARGOS",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "GRUPOAVAL",
+      "title_es": "Grupo Aval",
+      "keywords": [
+        "grupo aval",
+        "grupoaval",
+        "banca"
+      ],
+      "url": null,
+      "view": "#/accion/GRUPOAVAL",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-19"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "GRUPOCIBEST",
+      "title_es": "Grupo Cibest",
+      "keywords": [
+        "grupo cibest",
+        "grupocibest",
+        "banca"
+      ],
+      "url": null,
+      "view": "#/accion/GRUPOCIBEST",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "GRUPOSURA",
+      "title_es": "Grupo Sura",
+      "keywords": [
+        "grupo sura",
+        "gruposura",
+        "inversiones"
+      ],
+      "url": null,
+      "view": "#/accion/GRUPOSURA",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "ISA",
+      "title_es": "ISA",
+      "keywords": [
+        "isa",
+        "infra"
+      ],
+      "url": null,
+      "view": "#/accion/ISA",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "MINEROS",
+      "title_es": "Mineros",
+      "keywords": [
+        "mineros",
+        "materiales"
+      ],
+      "url": null,
+      "view": "#/accion/MINEROS",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "NUTRESA",
+      "title_es": "Grupo Nutresa",
+      "keywords": [
+        "grupo nutresa",
+        "nutresa",
+        "alimentos"
+      ],
+      "url": null,
+      "view": "#/accion/NUTRESA",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "PFCEMARGOS",
+      "title_es": "Cementos Argos Preferencial",
+      "keywords": [
+        "cementos argos preferencial",
+        "pfcemargos",
+        "materiales"
+      ],
+      "url": null,
+      "view": "#/accion/PFCEMARGOS",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "PFDAVVNDA",
+      "title_es": "Banco Davivienda Preferencial",
+      "keywords": [
+        "banco davivienda preferencial",
+        "pfdavvnda",
+        "banca"
+      ],
+      "url": null,
+      "view": "#/accion/PFDAVVNDA",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "PFGRUPOCIBEST",
+      "title_es": "Grupo Cibest Preferencial",
+      "keywords": [
+        "grupo cibest preferencial",
+        "pfgrupocibest",
+        "banca"
+      ],
+      "url": null,
+      "view": "#/accion/PFGRUPOCIBEST",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "stock",
+      "id": "PFGRUPSURA",
+      "title_es": "Grupo Sura Preferencial",
+      "keywords": [
+        "grupo sura preferencial",
+        "pfgrupsura",
+        "inversiones"
+      ],
+      "url": null,
+      "view": "#/accion/PFGRUPSURA",
+      "extra": {
+        "unit": "COP",
+        "cut": "2026-10-21"
+      }
+    },
+    {
+      "type": "analysis",
+      "id": "dolar",
+      "title_es": "\u00bfQu\u00e9 est\u00e1 moviendo el d\u00f3lar?",
+      "keywords": [
+        "\u00bfque esta moviendo el dolar?",
+        "dolar",
+        "ols"
+      ],
+      "url": null,
+      "view": "#/analisis/dolar",
+      "extra": null
+    },
+    {
+      "type": "analysis",
+      "id": "inflacion",
+      "title_es": "\u00bfHacia d\u00f3nde va la inflaci\u00f3n?",
+      "keywords": [
+        "\u00bfhacia donde va la inflacion?",
+        "inflacion",
+        "sarimax"
+      ],
+      "url": null,
+      "view": "#/analisis/inflacion",
+      "extra": null
+    },
+    {
+      "type": "analysis",
+      "id": "tasa",
+      "title_es": "\u00bfSubir\u00e1 o bajar\u00e1 la tasa BanRep?",
+      "keywords": [
+        "\u00bfsubira o bajara la tasa banrep?",
+        "tasa",
+        "logit ordenado"
+      ],
+      "url": null,
+      "view": "#/analisis/tasa",
+      "extra": null
+    },
+    {
+      "type": "analysis",
+      "id": "empleo",
+      "title_es": "\u00bfEst\u00e1 mejorando el empleo?",
+      "keywords": [
+        "\u00bfesta mejorando el empleo?",
+        "empleo",
+        "stl"
+      ],
+      "url": null,
+      "view": "#/analisis/empleo",
+      "extra": null
+    },
+    {
+      "type": "analysis",
+      "id": "recesion",
+      "title_es": "\u00bfQu\u00e9 tan probable es una recesi\u00f3n a 12 meses?",
+      "keywords": [
+        "\u00bfque tan probable es una recesion a 12 meses?",
+        "recesion",
+        "probit"
+      ],
+      "url": null,
+      "view": "#/analisis/recesion",
+      "extra": null
+    },
+    {
+      "type": "analysis",
+      "id": "colcap",
+      "title_es": "\u00bfEl COLCAP est\u00e1 caro o barato?",
+      "keywords": [
+        "\u00bfel colcap esta caro o barato?",
+        "colcap",
+        "valoracion"
+      ],
+      "url": null,
+      "view": "#/analisis/colcap",
+      "extra": null
+    },
+    {
+      "type": "analysis",
+      "id": "transmision",
+      "title_es": "\u00bfQu\u00e9 tan r\u00e1pido transmite BanRep su tasa?",
+      "keywords": [
+        "\u00bfque tan rapido transmite banrep su tasa?",
+        "transmision",
+        "ols"
+      ],
+      "url": null,
+      "view": "#/analisis/transmision",
+      "extra": null
+    },
+    {
+      "type": "analysis",
+      "id": "passthrough",
+      "title_es": "\u00bfCu\u00e1nto traslada el d\u00f3lar a los precios?",
+      "keywords": [
+        "\u00bfcuanto traslada el dolar a los precios?",
+        "passthrough",
+        "ols"
+      ],
+      "url": null,
+      "view": "#/analisis/passthrough",
+      "extra": null
+    },
+    {
+      "type": "analysis",
+      "id": "credito",
+      "title_es": "\u00bfEst\u00e1 sana la cartera de cr\u00e9dito?",
+      "keywords": [
+        "\u00bfesta sana la cartera de credito?",
+        "credito",
+        "descriptivo"
+      ],
+      "url": null,
+      "view": "#/analisis/credito",
+      "extra": null
+    },
+    {
+      "type": "view",
+      "id": "inicio",
+      "title_es": "Inicio \u00b7 Colombia hoy",
+      "title_en": "Home \u00b7 Colombia today",
+      "keywords": [
+        "inicio \u00b7 colombia hoy",
+        "portada",
+        "hoy",
+        "resumen"
+      ],
+      "url": null,
+      "view": "#/inicio",
+      "extra": null
+    },
+    {
+      "type": "view",
+      "id": "mapa",
+      "title_es": "Mapa departamental",
+      "title_en": "Department map",
+      "keywords": [
+        "mapa departamental",
+        "departamentos",
+        "territorios",
+        "regiones"
+      ],
+      "url": null,
+      "view": "#/mapa",
+      "extra": null
+    },
+    {
+      "type": "view",
+      "id": "bolsa",
+      "title_es": "Bolsa de Valores (BVC)",
+      "title_en": "Colombian stock market (BVC)",
+      "keywords": [
+        "bolsa de valores (bvc)",
+        "acciones",
+        "colcap",
+        "mercado"
+      ],
+      "url": null,
+      "view": "#/bolsa",
+      "extra": null
+    },
+    {
+      "type": "view",
+      "id": "radar",
+      "title_es": "Radar de noticias",
+      "title_en": "News radar",
+      "keywords": [
+        "radar de noticias",
+        "noticias",
+        "prensa",
+        "medios"
+      ],
+      "url": null,
+      "view": "#/radar",
+      "extra": null
+    },
+    {
+      "type": "view",
+      "id": "analisis",
+      "title_es": "An\u00e1lisis econom\u00e9trico",
+      "title_en": "Econometric analysis",
+      "keywords": [
+        "analisis econometrico",
+        "modelos",
+        "preguntas",
+        "econometria"
+      ],
+      "url": null,
+      "view": "#/analisis",
+      "extra": null
+    },
+    {
+      "type": "view",
+      "id": "indicadores",
+      "title_es": "Indicadores oficiales",
+      "title_en": "Official indicators",
+      "keywords": [
+        "indicadores oficiales",
+        "datos",
+        "series",
+        "cifras"
+      ],
+      "url": null,
+      "view": "#/indicadores",
+      "extra": null
+    },
+    {
+      "type": "view",
+      "id": "metodologia",
+      "title_es": "Metodolog\u00eda",
+      "title_en": "Methodology",
+      "keywords": [
+        "metodologia",
+        "fuentes",
+        "principios",
+        "trazabilidad"
+      ],
+      "url": null,
+      "view": "#/metodologia",
+      "extra": null
+    },
+    {
+      "type": "view",
+      "id": "estado",
+      "title_es": "Estado de los datos",
+      "title_en": "Data health",
+      "keywords": [
+        "estado de los datos",
+        "salud",
+        "frescura",
+        "conectores"
+      ],
+      "url": null,
+      "view": "#/estado",
+      "extra": null
+    }
+  ]
+}

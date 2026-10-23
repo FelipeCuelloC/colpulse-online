@@ -1,0 +1,159 @@
+{
+  "files": [
+    {
+      "name": "about.html",
+      "size_bytes": 39370
+    },
+    {
+      "name": "alerts_data.json",
+      "size_bytes": 4603
+    },
+    {
+      "name": "analysis_data.json",
+      "size_bytes": 39442
+    },
+    {
+      "name": "analytics.js",
+      "size_bytes": 19031
+    },
+    {
+      "name": "articles.html",
+      "size_bytes": 7753
+    },
+    {
+      "name": "audit.html",
+      "size_bytes": 19391
+    },
+    {
+      "name": "bvc_equities.json",
+      "size_bytes": 457528
+    },
+    {
+      "name": "caso_politica_monetaria.html",
+      "size_bytes": 115591
+    },
+    {
+      "name": "colombia_departments.geojson",
+      "size_bytes": 1226219
+    },
+    {
+      "name": "colombia_today.json",
+      "size_bytes": 6005
+    },
+    {
+      "name": "data_health.md",
+      "size_bytes": 5490
+    },
+    {
+      "name": "departments.html",
+      "size_bytes": 15025
+    },
+    {
+      "name": "fixed_income.html",
+      "size_bytes": 31811
+    },
+    {
+      "name": "global_pulse.json",
+      "size_bytes": 16325
+    },
+    {
+      "name": "index.html",
+      "size_bytes": 378214
+    },
+    {
+      "name": "indicator_data.json",
+      "size_bytes": 4051033
+    },
+    {
+      "name": "indicators.html",
+      "size_bytes": 25746
+    },
+    {
+      "name": "lab.html",
+      "size_bytes": 21147
+    },
+    {
+      "name": "legislativo.html",
+      "size_bytes": 8461
+    },
+    {
+      "name": "linkedin_post.md",
+      "size_bytes": 1346
+    },
+    {
+      "name": "main_chart.png",
+      "size_bytes": 60005
+    },
+    {
+      "name": "methodology.html",
+      "size_bytes": 69377
+    },
+    {
+      "name": "model_registry.md",
+      "size_bytes": 1011
+    },
+    {
+      "name": "neighbors.geojson",
+      "size_bytes": 8651
+    },
+    {
+      "name": "news.html",
+      "size_bytes": 211670
+    },
+    {
+      "name": "news_data.json",
+      "size_bytes": 1370402
+    },
+    {
+      "name": "regional_data.json",
+      "size_bytes": 174251
+    },
+    {
+      "name": "resumen.html",
+      "size_bytes": 39947
+    },
+    {
+      "name": "simulador.html",
+      "size_bytes": 24113
+    },
+    {
+      "name": "simulador.js",
+      "size_bytes": 24053
+    },
+    {
+      "name": "site.css",
+      "size_bytes": 88781
+    },
+    {
+      "name": "site.js",
+      "size_bytes": 8615
+    },
+    {
+      "name": "status.html",
+      "size_bytes": 19774
+    },
+    {
+      "name": "support.js",
+      "size_bytes": 65990
+    },
+    {
+      "name": "trace.html",
+      "size_bytes": 37966
+    },
+    {
+      "name": "visor.html",
+      "size_bytes": 20557
+    },
+    {
+      "name": "visor.js",
+      "size_bytes": 29685
+    }
+  ],
+  "generated_at": "2026-10-23T16:00:06.015602+00:00",
+  "health_counts": {
+    "ok": 21,
+    "stale": 11
+  },
+  "latest_period": "2026-10-23",
+  "publish_blocking_count": 0
+}

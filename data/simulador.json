@@ -1,0 +1,84 @@
+{
+  "colcap_variacion_anual": {
+    "corte": "2026-09-01",
+    "fuente": "Banco de la República, COLCAP mensual (índice sin dividendos); cálculo de ColPulse",
+    "metodo": "Crecimiento compuesto anual implícito en los valores mensuales: exp(12 × media de ln(P_t/P_t-1)) − 1.",
+    "unidad": "% anual",
+    "valor": 5.62,
+    "ventana": {
+      "desde": "2008-01",
+      "hasta": "2026-09"
+    }
+  },
+  "colcap_volatilidad": {
+    "corte": "2026-09-01",
+    "fuente": "Banco de la República, COLCAP mensual (índice sin dividendos); cálculo de ColPulse",
+    "metodo": "Desviación estándar muestral de ln(P_t/P_t-1) de los valores mensuales, por raíz de 12.",
+    "unidad": "% anual",
+    "valor": 16.33,
+    "ventana": {
+      "desde": "2008-01",
+      "hasta": "2026-09"
+    }
+  },
+  "dolar_variacion_anual": {
+    "corte": "2026-09-30",
+    "fuente": "Banco de la República, TRM (cierre de cada mes); cálculo de ColPulse",
+    "metodo": "Crecimiento compuesto anual implícito en los cierres mensuales: exp(12 × media de ln(P_t/P_t-1)) − 1.",
+    "unidad": "% anual",
+    "valor": 2.96,
+    "ventana": {
+      "desde": "2008-01",
+      "hasta": "2026-09"
+    }
+  },
+  "dolar_volatilidad": {
+    "corte": "2026-09-30",
+    "fuente": "Banco de la República, TRM (cierre de cada mes); cálculo de ColPulse",
+    "metodo": "Desviación estándar muestral de ln(P_t/P_t-1) de los cierres mensuales, por raíz de 12.",
+    "unidad": "% anual",
+    "valor": 13.82,
+    "ventana": {
+      "desde": "2008-01",
+      "hasta": "2026-09"
+    }
+  },
+  "inflacion_promedio": {
+    "corte": "2026-09-30",
+    "fuente": "DANE, IPC variación anual; cálculo de ColPulse",
+    "metodo": "Promedio simple de la variación anual mensual en la ventana.",
+    "unidad": "% anual",
+    "valor": 4.94,
+    "ventana": {
+      "desde": "2008-01",
+      "hasta": "2026-09"
+    }
+  },
+  "inflacion_ultima": {
+    "corte": "2026-09-30",
+    "fuente": "DANE, IPC variación anual; cálculo de ColPulse",
+    "metodo": "Último dato mensual de variación anual.",
+    "unidad": "% anual",
+    "valor": 6.28
+  },
+  "inflacion_variabilidad": {
+    "corte": "2026-09-30",
+    "fuente": "DANE, IPC variación anual; cálculo de ColPulse",
+    "metodo": "Desviación estándar muestral de la variación anual mensual en la ventana.",
+    "unidad": "puntos porcentuales",
+    "valor": 2.76,
+    "ventana": {
+      "desde": "2008-01",
+      "hasta": "2026-09"
+    }
+  },
+  "schema": "colpulse.simulador.v1",
+  "tes_10y": {
+    "corte": "2026-10-02",
+    "fuente": "Banco de la República, curva cero cupón de TES en pesos a 10 años (paquete ColPulse Research)",
+    "metodo": "Nodo de 10 años de la curva cero cupón en pesos, tal cual la publica el paquete.",
+    "nota": "Convenciones de cálculo sin verificar: léase como provisional.",
+    "unidad": "% anual",
+    "valor": 13.3
+  }
+}
