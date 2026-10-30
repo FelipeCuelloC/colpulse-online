@@ -1,0 +1,271 @@
+{
+  "agenda": {
+    "detail": "Para mostrar fechas próximas hace falta un calendario de publicaciones con fuente (por ejemplo, el de cada entidad). El proyecto todavía no tiene uno, y el Visor no inventa fechas.",
+    "message": "Aún no hay agenda cargada.",
+    "status": "empty"
+  },
+  "basemap": {
+    "attributionHtml": "<a href=\"https://openfreemap.org\" target=\"_blank\" rel=\"noopener\">OpenFreeMap</a> <a href=\"https://www.openmaptiles.org/\" target=\"_blank\" rel=\"noopener\">&copy; OpenMapTiles</a> Datos de <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>",
+    "id": "openfreemap-positron",
+    "label": "OpenFreeMap (estilo Positron)",
+    "styleUrl": "https://tiles.openfreemap.org/styles/positron",
+    "timeoutMs": 4000
+  },
+  "departments": [
+    {
+      "iso": "CO-AMA",
+      "name": "Amazonas",
+      "slug": "amazonas"
+    },
+    {
+      "iso": "CO-ANT",
+      "name": "Antioquia",
+      "slug": "antioquia"
+    },
+    {
+      "iso": "CO-ARA",
+      "name": "Arauca",
+      "slug": "arauca"
+    },
+    {
+      "iso": "CO-ATL",
+      "name": "Atlántico",
+      "slug": "atlantico"
+    },
+    {
+      "iso": "CO-BOL",
+      "name": "Bolívar",
+      "slug": "bolivar"
+    },
+    {
+      "iso": "CO-BOY",
+      "name": "Boyacá",
+      "slug": "boyaca"
+    },
+    {
+      "iso": "CO-CAL",
+      "name": "Caldas",
+      "slug": "caldas"
+    },
+    {
+      "iso": "CO-CAQ",
+      "name": "Caquetá",
+      "slug": "caqueta"
+    },
+    {
+      "iso": "CO-CAS",
+      "name": "Casanare",
+      "slug": "casanare"
+    },
+    {
+      "iso": "CO-CAU",
+      "name": "Cauca",
+      "slug": "cauca"
+    },
+    {
+      "iso": "CO-CES",
+      "name": "Cesar",
+      "slug": "cesar"
+    },
+    {
+      "iso": "CO-CHO",
+      "name": "Chocó",
+      "slug": "choco"
+    },
+    {
+      "iso": "CO-COR",
+      "name": "Córdoba",
+      "slug": "cordoba"
+    },
+    {
+      "iso": "CO-CUN",
+      "name": "Cundinamarca",
+      "slug": "cundinamarca"
+    },
+    {
+      "iso": "CO-DC",
+      "name": "Bogotá D.C.",
+      "slug": "bogota-d-c"
+    },
+    {
+      "iso": "CO-GUA",
+      "name": "Guainía",
+      "slug": "guainia"
+    },
+    {
+      "iso": "CO-GUV",
+      "name": "Guaviare",
+      "slug": "guaviare"
+    },
+    {
+      "iso": "CO-HUI",
+      "name": "Huila",
+      "slug": "huila"
+    },
+    {
+      "iso": "CO-LAG",
+      "name": "La Guajira",
+      "slug": "la-guajira"
+    },
+    {
+      "iso": "CO-MAG",
+      "name": "Magdalena",
+      "slug": "magdalena"
+    },
+    {
+      "iso": "CO-MET",
+      "name": "Meta",
+      "slug": "meta"
+    },
+    {
+      "iso": "CO-NAR",
+      "name": "Nariño",
+      "slug": "narino"
+    },
+    {
+      "iso": "CO-NSA",
+      "name": "Norte de Santander",
+      "slug": "norte-de-santander"
+    },
+    {
+      "iso": "CO-PUT",
+      "name": "Putumayo",
+      "slug": "putumayo"
+    },
+    {
+      "iso": "CO-QUI",
+      "name": "Quindío",
+      "slug": "quindio"
+    },
+    {
+      "iso": "CO-RIS",
+      "name": "Risaralda",
+      "slug": "risaralda"
+    },
+    {
+      "iso": "CO-SAN",
+      "name": "Santander",
+      "slug": "santander"
+    },
+    {
+      "iso": "CO-SAP",
+      "name": "San Andrés, Providencia y Santa Catalina (Archipiélago)",
+      "slug": "san-andres-providencia-y-santa-catalina-archipielago"
+    },
+    {
+      "iso": "CO-SUC",
+      "name": "Sucre",
+      "slug": "sucre"
+    },
+    {
+      "iso": "CO-TOL",
+      "name": "Tolima",
+      "slug": "tolima"
+    },
+    {
+      "iso": "CO-VAC",
+      "name": "Valle del Cauca",
+      "slug": "valle-del-cauca"
+    },
+    {
+      "iso": "CO-VAU",
+      "name": "Vaupés",
+      "slug": "vaupes"
+    },
+    {
+      "iso": "CO-VID",
+      "name": "Vichada",
+      "slug": "vichada"
+    }
+  ],
+  "generatedAt": "2026-10-30T17:22:46.454990+00:00",
+  "layers": [
+    {
+      "ageDays": 303,
+      "coverage": {
+        "of": 33,
+        "with": 33
+      },
+      "cut": "2025-12-31",
+      "cutYear": "2025",
+      "decimals": 0,
+      "how": "Valor de lo producido en el departamento en el año, a precios de ese año. Un departamento grande tiene un valor mayor.",
+      "id": "pib",
+      "label": "PIB departamental",
+      "preliminary": true,
+      "previousCutYear": "2024",
+      "source": "DANE, Cuentas nacionales departamentales",
+      "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+      "stale": false,
+      "thresholdDays": 370,
+      "unit": "miles de millones de pesos"
+    },
+    {
+      "ageDays": 303,
+      "coverage": {
+        "of": 33,
+        "with": 33
+      },
+      "cut": "2025-12-31",
+      "cutYear": "2025",
+      "decimals": 1,
+      "how": "Qué parte del PIB sumado de los 33 territorios corresponde a este departamento.",
+      "id": "participacion",
+      "label": "Participación en el PIB de los departamentos",
+      "preliminary": true,
+      "previousCutYear": "2024",
+      "source": "DANE, Cuentas nacionales departamentales",
+      "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+      "stale": false,
+      "thresholdDays": 370,
+      "unit": "%"
+    },
+    {
+      "ageDays": 303,
+      "coverage": {
+        "of": 33,
+        "with": 33
+      },
+      "cut": "2025-12-31",
+      "cutYear": "2025",
+      "decimals": 1,
+      "how": "Cuánto cambió el PIB en pesos corrientes. Incluye el cambio de precios: no es crecimiento real.",
+      "id": "variacion",
+      "label": "Cambio del PIB frente al año anterior",
+      "preliminary": true,
+      "previousCutYear": "2024",
+      "source": "DANE, Cuentas nacionales departamentales",
+      "sourceUrl": "https://www.dane.gov.co/files/operaciones/PIB/anex-PIBDep-TotalDep-2025pr.xlsx",
+      "stale": false,
+      "thresholdDays": 370,
+      "unit": "% nominal"
+    }
+  ],
+  "movers": {
+    "evaluated": 13,
+    "items": [
+      {
+        "change": -3.1141,
+        "changeKind": "percent",
+        "direction": "down",
+        "id": "ise",
+        "latestPeriod": "2026-08-31",
+        "latestValue": 125.6468,
+        "name": "Indicador de Seguimiento a la Economía",
+        "previousPeriod": "2026-07-31",
+        "previousValue": 129.6853,
+        "ratio": 2.58,
+        "source": "DANE · ISE",
+        "stale": false,
+        "typicalChange": 1.2074,
+        "unit": "index"
+      }
+    ],
+    "minRatio": 2.0,
+    "reason": null,
+    "rule": "Se toman los indicadores mensuales de Colombia con al menos 26 meses seguidos de datos. Para cada uno se mide el último cambio mensual (en puntos si el indicador ya es un porcentaje; en % del nivel si no) y se compara con el cambio típico de los 24 meses anteriores (desviación estándar de esos cambios). Se listan, de mayor a menor, los que se movieron al menos 2 veces lo habitual, hasta 5. Describe cuánto se movió el último dato frente a su propia historia: no mide importancia ni explica la causa. Las series sin ajuste estacional pueden moverse por la época del año.",
+    "status": "ok",
+    "window": 24
+  },
+  "schema": "colpulse.visor.v1"
+}
