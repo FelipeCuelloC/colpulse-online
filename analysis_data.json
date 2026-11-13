@@ -1,0 +1,789 @@
+{
+  "schema_version": "1.1",
+  "generated_at": "2026-11-13T18:56:23.632969+00:00",
+  "method_note": "Modelos econometricos con backtest fuera de muestra; no son datos oficiales ni prueba causal.",
+  "questions": [
+    {
+      "key": "dolar",
+      "indicator_id": "trm_month_end",
+      "status": "estimated",
+      "history_count": 263,
+      "frequency": "monthly",
+      "readiness_reason": "Historia mensual suficiente para evaluar modelos univariados simples.",
+      "benchmark": {
+        "model": "naive_last_value",
+        "horizon_periods": 1,
+        "n_predictions": 262,
+        "mae": 85.6052290076336,
+        "mape": 0.0298738686076869,
+        "bias": 3.565458015267174
+      },
+      "candidate": {
+        "model": "ols_trm_drivers",
+        "benchmark_model": "naive_last_value",
+        "decision": "reject",
+        "mae_improvement_pct": -0.2013141115502755,
+        "message": "candidate does not improve enough against benchmark"
+      },
+      "result": {
+        "key": "dolar",
+        "indicator_id": "trm_month_end",
+        "model_name": "ols_trm_drivers",
+        "status": "estimated",
+        "pending_reason": null,
+        "coefficients": [
+          {
+            "name": "Δlog Brent",
+            "beta": -0.04817105497644633,
+            "std_err": 0.01442979589319634,
+            "t_stat": -3.3383046671615793,
+            "p_value": 0.0008429127161393941,
+            "significance": "***"
+          },
+          {
+            "name": "Δ(Fed−BanRep)",
+            "beta": 0.006061114294913898,
+            "std_err": 0.005628093240651083,
+            "t_stat": 1.076939211158613,
+            "p_value": 0.2815074240038038,
+            "significance": ""
+          },
+          {
+            "name": "Δlog DXY",
+            "beta": 1.3421361569245889,
+            "std_err": 0.11907796212286505,
+            "t_stat": 11.271070926959332,
+            "p_value": 1.8233848221412205e-29,
+            "significance": "***"
+          },
+          {
+            "name": "ΔVIX (riesgo global)",
+            "beta": 0.00048028393076491216,
+            "std_err": 0.000508768417674404,
+            "t_stat": 0.9440128633776143,
+            "p_value": 0.34516307495693843,
+            "significance": ""
+          }
+        ],
+        "diagnostics": {
+          "r2": 0.44335078650031867,
+          "r2_adj": 0.43422538955770096,
+          "aic": -1030.0524613114108,
+          "n_obs": 249,
+          "risk_proxy": "vix",
+          "regressor_basis": "end_of_period",
+          "unexplained_pct": -5.351341045498172,
+          "dm_h1_statistic": -0.8118504140077281,
+          "dm_h1_p_value": 0.4201409078238626,
+          "dm_h1_n_pairs": 60,
+          "dm_h1_status": "calculada"
+        },
+        "forecast": null,
+        "contributions": [
+          {
+            "name": "Δlog DXY",
+            "contribution_pct": 0.7703194977278953
+          },
+          {
+            "name": "Δlog Brent",
+            "contribution_pct": -0.17306383264249733
+          },
+          {
+            "name": "Δ(Fed−BanRep)",
+            "contribution_pct": -0.15152785737284746
+          },
+          {
+            "name": "ΔVIX (riesgo global)",
+            "contribution_pct": 0.05381363133343223
+          },
+          {
+            "name": "No explicado (constante + residuo)",
+            "contribution_pct": -5.351341045498172
+          }
+        ],
+        "answer_es": "Dato observado: la TRM de fin de mes bajó 4.9% en 2026-10 frente al cierre del mes anterior. Estimación del modelo: en la descomposición el término más grande fue Δlog DXY (+0.8 pp) y quedaron -5.4 pp sin explicar; es una asociación del mismo mes, no una causa identificada. El modelo ajusta el 44% de la variación mensual de la TRM (errores HAC) y su evaluación fuera de muestra es condicional a los regresores observados del mismo mes, no un pronóstico. El riesgo se mide con el VIX (volatilidad global); el proxy de riesgo emergente (ICE BofA EM HY) se incorporará cuando acumule al menos 10 años de historia. Muestra: 249 meses.",
+        "answer_simple_es": "Dato observado: la TRM de fin de mes bajó 4.9% en 2026-10 frente al cierre del mes anterior. Estimación del modelo: en la descomposición el término más grande fue Δlog DXY (+0.8 pp) y quedaron -5.4 pp sin explicar; es una asociación del mismo mes, no una causa identificada. Muestra: 249 meses.",
+        "evidence_type": "association",
+        "purpose": "description",
+        "caveats": [
+          "Regresión contemporánea: los coeficientes miden asociación en el mismo mes, no causalidad identificada.",
+          "Los aportes son una descomposición contable del ajuste; el residuo no explicado se publica aparte.",
+          "El backtest es condicional: usa los regresores observados del mes evaluado, por eso no es un pronóstico.",
+          "El riesgo emergente es un proxy corporativo (ICE BofA EM HY), no el EMBI soberano de Colombia.",
+          "La TRM de una fecha se certifica con operaciones del día hábil anterior; el desfase frente a precios externos es de un día."
+        ],
+        "observed_es": "Dato observado: la TRM de fin de mes bajó 4.9% en 2026-10 frente al cierre del mes anterior.",
+        "estimate_es": "Estimación del modelo: en la descomposición el término más grande fue Δlog DXY (+0.8 pp) y quedaron -5.4 pp sin explicar; es una asociación del mismo mes, no una causa identificada.",
+        "sample_note_es": "Muestra: 249 meses.",
+        "n_obs": 249,
+        "sample_start": "2006-02",
+        "sample_end": "2026-10",
+        "generated_at": "2026-11-13T18:54:49.144385+00:00",
+        "backtest": {
+          "mae": 102.83876962936323,
+          "benchmark_mae": 111.70949999999996,
+          "benchmark_basis": "matched_origins",
+          "benchmark_mae_matched": 111.70949999999996,
+          "benchmark_mae_full_sample": 85.6052290076336,
+          "improvement_pct": 7.940891661529896,
+          "n_predictions": 60,
+          "horizon_periods": 1,
+          "kind": "conditional_ex_post",
+          "evaluation_start": "2021-11",
+          "evaluation_end": "2026-10",
+          "data_vintage": "latest_published_values_not_real_time_vintages",
+          "decision": "informative"
+        }
+      }
+    },
+    {
+      "key": "inflacion",
+      "indicator_id": "ipc_yoy",
+      "status": "estimated",
+      "history_count": 262,
+      "frequency": "monthly",
+      "readiness_reason": "Historia mensual suficiente para evaluar modelos univariados simples.",
+      "benchmark": {
+        "model": "naive_last_value",
+        "horizon_periods": 1,
+        "n_predictions": 261,
+        "mae": 0.2677340006867658,
+        "mape": 0.05926432716070828,
+        "bias": 0.003311231774153306
+      },
+      "candidate": {
+        "model": "rolling_mean_3",
+        "benchmark_model": "naive_last_value",
+        "decision": "reject",
+        "mae_improvement_pct": -0.6938606540820098,
+        "message": "candidate does not improve enough against benchmark"
+      },
+      "result": {
+        "key": "inflacion",
+        "indicator_id": "ipc_yoy",
+        "model_name": "sarimax_ipc_yoy",
+        "status": "estimated",
+        "pending_reason": null,
+        "coefficients": [],
+        "diagnostics": {
+          "aic": -27.05607559303985,
+          "order": "(2, 1, 1)x(0, 0, 1, 12)",
+          "ljung_box_p": 0.5544080210179054,
+          "sigma2": 0.04221447298815018,
+          "n_obs": 262,
+          "forecast_interval_level": 0.8,
+          "backtest_selection": "AIC dentro de cada ventana de entrenamiento; reseleccion cada 24 meses",
+          "backtest_orders": "(2, 1, 1)x(0, 0, 1, 12)",
+          "backtest_mae_h1": 0.12558380848201126,
+          "naive_mae_h1": 0.2398925840145098,
+          "backtest_mae_h3": 0.25292509433978017,
+          "naive_mae_h3": 0.6338470843325523,
+          "backtest_mae_h6": 0.46854005415327016,
+          "naive_mae_h6": 1.271781825135471,
+          "interval_coverage_h1": 0.9722222222222222,
+          "interval_coverage_n_h1": 36,
+          "interval_coverage_h3": 0.9722222222222222,
+          "interval_coverage_n_h3": 36,
+          "interval_coverage_h6": 0.9722222222222222,
+          "interval_coverage_n_h6": 36,
+          "dm_h1_statistic": -2.9396969152523065,
+          "dm_h1_p_value": 0.00578570525214692,
+          "dm_h1_n_pairs": 36,
+          "dm_h1_status": "calculada",
+          "dm_h3_statistic": -1.7258717794328438,
+          "dm_h3_p_value": 0.09319018932593431,
+          "dm_h3_n_pairs": 36,
+          "dm_h3_status": "calculada",
+          "dm_h6_statistic": -1.3912954161326496,
+          "dm_h6_p_value": 0.17291700513139693,
+          "dm_h6_n_pairs": 36,
+          "dm_h6_status": "calculada"
+        },
+        "forecast": [
+          {
+            "period": "2026-11",
+            "value": 6.519403296201009,
+            "lower": 6.245680700565539,
+            "upper": 6.793125891836479
+          },
+          {
+            "period": "2026-12",
+            "value": 6.752369533985915,
+            "lower": 6.242220824228955,
+            "upper": 7.262518243742875
+          },
+          {
+            "period": "2027-01",
+            "value": 6.475332834411818,
+            "lower": 5.733147900421111,
+            "upper": 7.217517768402525
+          },
+          {
+            "period": "2027-02",
+            "value": 6.410169844173198,
+            "lower": 5.4393485363937595,
+            "upper": 7.380991151952636
+          },
+          {
+            "period": "2027-03",
+            "value": 6.2715029337880654,
+            "lower": 5.073946001498911,
+            "upper": 7.46905986607722
+          },
+          {
+            "period": "2027-04",
+            "value": 6.087949552864077,
+            "lower": 4.664629261682374,
+            "upper": 7.51126984404578
+          }
+        ],
+        "contributions": null,
+        "answer_es": "Dato observado: la inflación anual fue 6.3% en 2026-10 (DANE). Estimación del modelo: 6.1% a 6 meses (intervalo del modelo al 80%: 4.7% a 7.5%), por debajo del dato actual y por encima del rango meta (3% ± 1 pp). SARIMAX(2, 1, 1)x(0, 0, 1, 12): extrapolación univariada de la propia serie; no incorpora política monetaria, tasa de cambio ni choques de oferta. A 6 meses su error absoluto medio fuera de muestra fue 0.47 pp, menor que el de repetir el último dato (1.27 pp). Los residuos no muestran autocorrelacion significativa al 5% (Ljung-Box p=0.55). Muestra: 262 meses; 36 evaluaciones fuera de muestra por horizonte.",
+        "answer_simple_es": "Dato observado: la inflación anual fue 6.3% en 2026-10 (DANE). Estimación del modelo: 6.1% a 6 meses (intervalo del modelo al 80%: 4.7% a 7.5%), por debajo del dato actual y por encima del rango meta (3% ± 1 pp). Muestra: 262 meses; 36 evaluaciones fuera de muestra por horizonte.",
+        "evidence_type": "model_estimate",
+        "purpose": "prediction",
+        "caveats": [
+          "Modelo univariado: extrapola la dinámica de la propia inflación anual, sin variables explicativas.",
+          "El intervalo es el del modelo al 80% y no incluye incertidumbre de especificación.",
+          "La variación anual del IPC tiene memoria mecánica de 12 meses (efecto base).",
+          "El IPC del DANE no se revisa, por lo que el backtest con datos actuales equivale a uno en tiempo real.",
+          "Dato observado: en el backtest, el valor observado cayó dentro del intervalo del modelo al 80% en 97% a 1 m (36 casos); 97% a 3 m (36 casos); 97% a 6 m (36 casos). Es una medición histórica con pocos casos, no un ajuste del intervalo publicado."
+        ],
+        "observed_es": "Dato observado: la inflación anual fue 6.3% en 2026-10 (DANE).",
+        "estimate_es": "Estimación del modelo: 6.1% a 6 meses (intervalo del modelo al 80%: 4.7% a 7.5%), por debajo del dato actual y por encima del rango meta (3% ± 1 pp).",
+        "sample_note_es": "Muestra: 262 meses; 36 evaluaciones fuera de muestra por horizonte.",
+        "n_obs": 262,
+        "sample_start": "2005-01",
+        "sample_end": "2026-10",
+        "generated_at": "2026-11-13T18:55:42.574962+00:00",
+        "backtest": {
+          "mae": 0.12558380848201126,
+          "benchmark_mae": 0.2398925840145098,
+          "benchmark_basis": "matched_origins",
+          "benchmark_mae_matched": 0.2398925840145098,
+          "benchmark_mae_full_sample": 0.2677340006867658,
+          "improvement_pct": 47.64998301305747,
+          "n_predictions": 36,
+          "horizon_periods": 1,
+          "kind": "ex_ante",
+          "evaluation_start": "2023-11",
+          "evaluation_end": "2026-10",
+          "data_vintage": "latest_published_values_not_real_time_vintages",
+          "decision": "promote"
+        }
+      }
+    },
+    {
+      "key": "tasa",
+      "indicator_id": "policy_rate",
+      "status": "estimated",
+      "history_count": 7986,
+      "frequency": "daily",
+      "readiness_reason": "Historia o frecuencia insuficiente para modelos avanzados.",
+      "benchmark": {
+        "model": "naive_last_value",
+        "horizon_periods": 1,
+        "n_predictions": 7985,
+        "mae": 0.0056042579837194744,
+        "mape": 0.000977757757864179,
+        "bias": 0.0007201001878522229
+      },
+      "candidate": {
+        "model": "rolling_mean_3",
+        "benchmark_model": "naive_last_value",
+        "decision": "reject",
+        "mae_improvement_pct": -1.0005010647626205,
+        "message": "candidate does not improve enough against benchmark"
+      },
+      "result": {
+        "key": "tasa",
+        "indicator_id": "policy_rate",
+        "model_name": "ordered_logit_policy_moves",
+        "status": "estimated",
+        "pending_reason": null,
+        "coefficients": [
+          {
+            "name": "Brecha IPC vs meta 3%",
+            "beta": 0.12399230094907839,
+            "std_err": 0.05364277006800647,
+            "t_stat": 2.311444781689782,
+            "p_value": 0.020808299837779543,
+            "significance": "**"
+          },
+          {
+            "name": "Momentum IPC (Δ3m)",
+            "beta": 1.3256587416354035,
+            "std_err": 0.18692947312587094,
+            "t_stat": 7.091758830041516,
+            "p_value": 1.3241813276435593e-12,
+            "significance": "***"
+          },
+          {
+            "name": "Spread IBR − política",
+            "beta": 0.30317140797699016,
+            "std_err": 1.7636107072637832,
+            "t_stat": 0.17190381455970874,
+            "p_value": 0.8635131476460607,
+            "significance": ""
+          }
+        ],
+        "diagnostics": {
+          "pseudo_r2": 0.18588296536521898,
+          "hit_rate": 0.6666666666666666,
+          "baseline_hit_rate": 0.6111111111111112,
+          "validation_n": 36,
+          "n_obs": 222,
+          "n_moves": 80,
+          "validation_extra_hits": 2,
+          "target_month": "2026-11",
+          "unit_of_analysis": "cambio de la tasa entre cierres de mes"
+        },
+        "forecast": null,
+        "contributions": [
+          {
+            "name": "baja",
+            "contribution_pct": 7.835019011295666
+          },
+          {
+            "name": "mantiene",
+            "contribution_pct": 73.81539286800677
+          },
+          {
+            "name": "sube",
+            "contribution_pct": 18.349588120697568
+          }
+        ],
+        "answer_es": "Dato observado: la tasa de política cerró 2026-10 en 12.25% y la inflación anual en 6.3%. Estimación del modelo: para el cierre de 2026-11 la mayor probabilidad es una tasa sin cambio (baja 8%, mantiene 74%, sube 18%). Modelo mensual (logit ordenado) sobre el cambio de la tasa entre cierres de mes, no un pronóstico por reunión de la Junta: usa la brecha de inflación frente a la meta, su variación en tres meses y el spread IBR−política del mes anterior (pseudo-R² 0.19). Muestra: 222 meses; en los últimos 36 meses, fuera de muestra, acertó 67% frente a 61% de apostar siempre al resultado más frecuente: una ventaja de 2 meses, pequeña.",
+        "answer_simple_es": "Dato observado: la tasa de política cerró 2026-10 en 12.25% y la inflación anual en 6.3%. Estimación del modelo: para el cierre de 2026-11 la mayor probabilidad es una tasa sin cambio (baja 8%, mantiene 74%, sube 18%). Muestra: 222 meses; en los últimos 36 meses, fuera de muestra, acertó 67% frente a 61% de apostar siempre al resultado más frecuente: una ventaja de 2 meses, pequeña.",
+        "evidence_type": "model_estimate",
+        "purpose": "prediction",
+        "caveats": [
+          "Unidad de análisis mensual: BanRep no decide todos los meses, así que 'mantiene' incluye meses sin reunión.",
+          "Validación con una sola partición temporal; la ventaja sobre la clase mayoritaria es de pocos meses.",
+          "No usa expectativas, comunicados ni votaciones de la Junta.",
+          "Los coeficientes de un logit no son efectos marginales en puntos porcentuales."
+        ],
+        "observed_es": "Dato observado: la tasa de política cerró 2026-10 en 12.25% y la inflación anual en 6.3%.",
+        "estimate_es": "Estimación del modelo: para el cierre de 2026-11 la mayor probabilidad es una tasa sin cambio (baja 8%, mantiene 74%, sube 18%).",
+        "sample_note_es": "Muestra: 222 meses; en los últimos 36 meses, fuera de muestra, acertó 67% frente a 61% de apostar siempre al resultado más frecuente: una ventaja de 2 meses, pequeña.",
+        "n_obs": 222,
+        "sample_start": "2008-05",
+        "sample_end": "2026-10",
+        "generated_at": "2026-11-13T18:55:42.669857+00:00",
+        "backtest": null
+      }
+    },
+    {
+      "key": "empleo",
+      "indicator_id": "tasa_desocupacion",
+      "status": "estimated",
+      "history_count": 256,
+      "frequency": "monthly",
+      "readiness_reason": "Historia mensual suficiente para evaluar modelos univariados simples.",
+      "benchmark": {
+        "model": "naive_last_value",
+        "horizon_periods": 1,
+        "n_predictions": 255,
+        "mae": 0.8820493044488447,
+        "mape": 0.07112039304241592,
+        "bias": -0.02437044369918303
+      },
+      "candidate": {
+        "model": "rolling_mean_3",
+        "benchmark_model": "naive_last_value",
+        "decision": "reject",
+        "mae_improvement_pct": -0.11569744501718518,
+        "message": "candidate does not improve enough against benchmark"
+      },
+      "result": {
+        "key": "empleo",
+        "indicator_id": "tasa_desocupacion",
+        "model_name": "stl_unemployment",
+        "status": "estimated",
+        "pending_reason": null,
+        "coefficients": [],
+        "diagnostics": {
+          "trend_level": 8.891142735851137,
+          "trend_slope_pp_year": -0.4662327255309445,
+          "seasonal_strength": 0.5364505043171757,
+          "verdict": "mejorando",
+          "n_obs": 256
+        },
+        "forecast": null,
+        "contributions": null,
+        "answer_es": "Dato observado: la tasa de desempleo nacional fue 8.6% en 2026-09 (serie original, sin desestacionalizar). Lectura descriptiva: la tendencia STL está en 8.9% y desciende (-0.5 pp/año en sus últimos seis meses). Fuerza estacional 54%. Es una sola tasa: no incorpora ocupación, participación ni informalidad, y el extremo de la tendencia se revisa cuando llegan datos nuevos. Muestra: 256 meses.",
+        "answer_simple_es": "Dato observado: la tasa de desempleo nacional fue 8.6% en 2026-09 (serie original, sin desestacionalizar). Lectura descriptiva: quitando la estacionalidad, el desempleo está cerca de 8.9% y viene bajando. Muestra: 256 meses.",
+        "evidence_type": "descriptive",
+        "purpose": "description",
+        "caveats": [
+          "Descomposición STL de una sola serie (tasa de desempleo nacional, sin desestacionalizar en la fuente).",
+          "STL es un filtro de dos lados: el extremo final de la tendencia se revisa con cada dato nuevo.",
+          "La pendiente se mide con los últimos seis meses de la tendencia; el umbral de ±0.3 pp/año es una convención.",
+          "No distingue si el desempleo baja por más ocupación o por menor participación laboral."
+        ],
+        "observed_es": "Dato observado: la tasa de desempleo nacional fue 8.6% en 2026-09 (serie original, sin desestacionalizar).",
+        "estimate_es": "Lectura descriptiva: la tendencia STL está en 8.9% y desciende (-0.5 pp/año en sus últimos seis meses).",
+        "sample_note_es": "Muestra: 256 meses.",
+        "n_obs": 256,
+        "sample_start": "2005-01",
+        "sample_end": "2026-09",
+        "generated_at": "2026-11-13T18:55:42.693774+00:00",
+        "backtest": null
+      }
+    },
+    {
+      "key": "recesion",
+      "indicator_id": "ise",
+      "status": "baseline_available",
+      "history_count": 260,
+      "frequency": "monthly",
+      "readiness_reason": "Los 21 meses-evento de contracción anual del ISE corresponden a 9 episodios y el mayor concentra 57% de ellos; con tan pocos episodios independientes un probit no identifica una probabilidad publicable. Se muestra el dato observado del ISE, no una probabilidad.",
+      "benchmark": {
+        "model": "naive_last_value",
+        "horizon_periods": 1,
+        "n_predictions": 259,
+        "mae": 1.1589579181133074,
+        "mape": 0.011672675014915455,
+        "bias": 0.23751912383430132
+      },
+      "candidate": {
+        "model": "rolling_mean_3",
+        "benchmark_model": "naive_last_value",
+        "decision": "reject",
+        "mae_improvement_pct": -0.044706056013274105,
+        "message": "candidate does not improve enough against benchmark"
+      },
+      "result": null
+    },
+    {
+      "key": "colcap",
+      "indicator_id": "colcap_monthly",
+      "status": "estimated",
+      "history_count": 226,
+      "frequency": "monthly",
+      "readiness_reason": "Historia mensual suficiente para evaluar modelos univariados simples.",
+      "benchmark": {
+        "model": "naive_last_value",
+        "horizon_periods": 1,
+        "n_predictions": 225,
+        "mae": 48.82993333333334,
+        "mape": 0.034213946668393405,
+        "bias": 7.171240000000001
+      },
+      "candidate": {
+        "model": "rolling_mean_3",
+        "benchmark_model": "naive_last_value",
+        "decision": "reject",
+        "mae_improvement_pct": -0.4795976214129283,
+        "message": "candidate does not improve enough against benchmark"
+      },
+      "result": {
+        "key": "colcap",
+        "indicator_id": "colcap_monthly",
+        "model_name": "colcap_real_valuation",
+        "status": "estimated",
+        "pending_reason": null,
+        "coefficients": [
+          {
+            "name": "Tasa de política",
+            "beta": -0.053643587390510894,
+            "std_err": 0.01228323241659211,
+            "t_stat": -4.367220742159815,
+            "p_value": 1.2583753292868595e-05,
+            "significance": "***"
+          }
+        ],
+        "diagnostics": {
+          "z_score_real": 0.2329033068046555,
+          "percentile": 68.14159292035399,
+          "rate_adjusted_residual": 0.3916599838817696,
+          "r2": 0.3876671475898976,
+          "verdict": "alto",
+          "relative_position": "alto",
+          "deflator_basis": "ipc_mom_encadenado",
+          "index_basis": "COLCAP mensual BanRep (índice de precio, COP)",
+          "verdict_basis": "percentil",
+          "cointegrated": false,
+          "adf_colcap_p_value": 0.5147900584517336,
+          "kpss_colcap_p_value": 0.01,
+          "adf_rate_p_value": 0.056251870363985004,
+          "kpss_rate_p_value": 0.01582644138109896,
+          "eg_p_value": 0.6942383767657198,
+          "n_obs": 226
+        },
+        "forecast": null,
+        "contributions": null,
+        "answer_es": "Dato observado: el COLCAP mensual fue 2,536.5 puntos en 2026-10 (BanRep). Lectura descriptiva: deflactado por IPC está en el percentil 68 de su propia historia desde 2008 (z-score +0.2) y por encima de su propia historia (tercil alto del percentil histórico). Es una posición relativa, no una valoración: sin datos de utilidades por emisor no hay múltiplos P/E, el índice es de precio (no incluye dividendos) y una regresión entre niveles con tendencia puede ser espuria. La prueba de Engle-Granger no encuentra evidencia de cointegración entre el COLCAP real y la tasa de política (p=0.69): la relación de largo plazo no tiene respaldo estadístico, así que el residuo de esa regresión no se usa y la lectura sale solo del percentil histórico. Muestra: 226 meses.",
+        "answer_simple_es": "Dato observado: el COLCAP mensual fue 2,536.5 puntos en 2026-10 (BanRep). Lectura descriptiva: deflactado por IPC está en el percentil 68 de su propia historia desde 2008 (z-score +0.2) y por encima de su propia historia (tercil alto del percentil histórico). Muestra: 226 meses.",
+        "evidence_type": "descriptive",
+        "purpose": "description",
+        "caveats": [
+          "Posición relativa frente a la propia historia; no es una valoración por utilidades (no hay P/E).",
+          "Serie mensual de BanRep: índice de precio en COP, sin dividendos.",
+          "Percentil, z-score y terciles se calculan con toda la muestra, incluido el dato actual.",
+          "Regresión entre niveles con tendencia: el R² puede ser espurio y el coeficiente no es un efecto causal.",
+          "El residuo de la regresión solo se usa para la lectura si la prueba de Engle-Granger (5%) encuentra cointegración; si no, la lectura sale solo del percentil histórico."
+        ],
+        "observed_es": "Dato observado: el COLCAP mensual fue 2,536.5 puntos en 2026-10 (BanRep).",
+        "estimate_es": "Lectura descriptiva: deflactado por IPC está en el percentil 68 de su propia historia desde 2008 (z-score +0.2) y por encima de su propia historia (tercil alto del percentil histórico).",
+        "sample_note_es": "Muestra: 226 meses.",
+        "n_obs": 226,
+        "sample_start": "2008-01",
+        "sample_end": "2026-10",
+        "generated_at": "2026-11-13T18:55:42.718081+00:00",
+        "backtest": null
+      }
+    },
+    {
+      "key": "transmision",
+      "indicator_id": "ibr_overnight",
+      "status": "estimated",
+      "history_count": 4601,
+      "frequency": "daily",
+      "readiness_reason": "Historia o frecuencia insuficiente para modelos avanzados.",
+      "benchmark": {
+        "model": "naive_last_value",
+        "horizon_periods": 1,
+        "n_predictions": 4600,
+        "mae": 0.01730130434782608,
+        "mape": 0.003328356194599046,
+        "bias": 0.0006
+      },
+      "candidate": {
+        "model": "rolling_mean_3",
+        "benchmark_model": "naive_last_value",
+        "decision": "reject",
+        "mae_improvement_pct": -0.6602515815488377,
+        "message": "candidate does not improve enough against benchmark"
+      },
+      "result": {
+        "key": "transmision",
+        "indicator_id": "ibr_overnight",
+        "model_name": "ols_policy_passthrough_ibr",
+        "status": "estimated",
+        "pending_reason": null,
+        "coefficients": [
+          {
+            "name": "Δpolítica (t)",
+            "beta": 0.9825867081278264,
+            "std_err": 0.019492926179734086,
+            "t_stat": 50.40734772542141,
+            "p_value": 0.0,
+            "significance": "***"
+          },
+          {
+            "name": "Δpolítica (t−1)",
+            "beta": 0.012304485148641593,
+            "std_err": 0.023973613078400256,
+            "t_stat": 0.5132511778013005,
+            "p_value": 0.6077756307466373,
+            "significance": ""
+          },
+          {
+            "name": "Δpolítica (t−2)",
+            "beta": 0.009910237539591058,
+            "std_err": 0.02149910780193983,
+            "t_stat": 0.4609604096546217,
+            "p_value": 0.6448270094596886,
+            "significance": ""
+          }
+        ],
+        "diagnostics": {
+          "cumulative_passthrough": 1.004801430816059,
+          "current_spread_bp": -0.5000000000000782,
+          "median_spread_bp": 0.19999999999997797,
+          "cumulative_lower90": 0.9797241167477361,
+          "cumulative_upper90": 1.0298787448843822,
+          "r2": 0.9481788679309436,
+          "n_obs": 223
+        },
+        "forecast": null,
+        "contributions": null,
+        "answer_es": "Dato observado: al cierre de 2026-10 el IBR overnight estaba -1 pb frente a la tasa de política (mediana histórica +0 pb). Estimación del modelo: en la muestra, un cambio de 100 pb en la tasa de política coincide con 100 pb del IBR overnight entre el mismo mes y los dos siguientes (intervalo de 90%: 98 a 103 pb): relación casi completa. El IBR overnight se forma alrededor de la tasa de política, así que la relación es casi mecánica y no mide la transmisión a tasas de crédito o depósitos. R² del modelo: 95%. Muestra: 223 meses.",
+        "answer_simple_es": "Dato observado: al cierre de 2026-10 el IBR overnight estaba -1 pb frente a la tasa de política (mediana histórica +0 pb). Estimación del modelo: en la muestra, un cambio de 100 pb en la tasa de política coincide con 100 pb del IBR overnight entre el mismo mes y los dos siguientes (intervalo de 90%: 98 a 103 pb): relación casi completa. Muestra: 223 meses.",
+        "evidence_type": "association",
+        "purpose": "description",
+        "caveats": [
+          "El IBR overnight se forma alrededor de la tasa de política: el co-movimiento es casi mecánico.",
+          "No mide la transmisión a tasas de crédito, depósitos ni a la demanda.",
+          "Cambios entre cierres de mes; no distingue la fecha exacta de cada decisión."
+        ],
+        "observed_es": "Dato observado: al cierre de 2026-10 el IBR overnight estaba -1 pb frente a la tasa de política (mediana histórica +0 pb).",
+        "estimate_es": "Estimación del modelo: en la muestra, un cambio de 100 pb en la tasa de política coincide con 100 pb del IBR overnight entre el mismo mes y los dos siguientes (intervalo de 90%: 98 a 103 pb): relación casi completa.",
+        "sample_note_es": "Muestra: 223 meses.",
+        "n_obs": 223,
+        "sample_start": "2008-04",
+        "sample_end": "2026-10",
+        "generated_at": "2026-11-13T18:55:42.725635+00:00",
+        "backtest": null
+      }
+    },
+    {
+      "key": "passthrough",
+      "indicator_id": "ipc_mom",
+      "status": "estimated",
+      "history_count": 262,
+      "frequency": "monthly",
+      "readiness_reason": "Historia mensual suficiente para evaluar modelos univariados simples.",
+      "benchmark": {
+        "model": "naive_last_value",
+        "horizon_periods": 1,
+        "n_predictions": 261,
+        "mae": 0.22335238104586735,
+        "mape": 1.0889906989344225,
+        "bias": -0.0023862740127397297
+      },
+      "candidate": {
+        "model": "rolling_mean_3",
+        "benchmark_model": "naive_last_value",
+        "decision": "reject",
+        "mae_improvement_pct": -0.24535381715682145,
+        "message": "candidate does not improve enough against benchmark"
+      },
+      "result": {
+        "key": "passthrough",
+        "indicator_id": "ipc_mom",
+        "model_name": "ols_fx_passthrough_ipc",
+        "status": "estimated",
+        "pending_reason": null,
+        "coefficients": [
+          {
+            "name": "Δlog TRM (t−1)",
+            "beta": 0.00793928420210659,
+            "std_err": 0.005464811339325804,
+            "t_stat": 1.4528011506955447,
+            "p_value": 0.14627897238552384,
+            "significance": ""
+          },
+          {
+            "name": "Δlog TRM (t−2)",
+            "beta": 0.004139898844545771,
+            "std_err": 0.006694570937191411,
+            "t_stat": 0.6183964414428317,
+            "p_value": 0.5363140429809601,
+            "significance": ""
+          },
+          {
+            "name": "Δlog TRM (t−3)",
+            "beta": 0.005758125261570907,
+            "std_err": 0.0058884943477756505,
+            "t_stat": 0.9778603699850726,
+            "p_value": 0.3281433879105693,
+            "significance": ""
+          },
+          {
+            "name": "Δlog TRM (t−4)",
+            "beta": -0.003231959184295632,
+            "std_err": 0.005245695275599288,
+            "t_stat": -0.6161164563502787,
+            "p_value": 0.5378176616607708,
+            "significance": ""
+          },
+          {
+            "name": "Δlog TRM (t−5)",
+            "beta": 0.0038030715853233487,
+            "std_err": 0.005313410562539606,
+            "t_stat": 0.7157496189237872,
+            "p_value": 0.4741459664159555,
+            "significance": ""
+          },
+          {
+            "name": "Δlog TRM (t−6)",
+            "beta": 0.007242909077500293,
+            "std_err": 0.005591414855660768,
+            "t_stat": 1.295362491332144,
+            "p_value": 0.19519521095031522,
+            "significance": ""
+          }
+        ],
+        "diagnostics": {
+          "cumulative_passthrough_6m": 0.02565132978675128,
+          "passthrough_10pct_pp": 0.2565132978675128,
+          "passthrough_10pct_lower90_pp": -0.12353385934567328,
+          "passthrough_10pct_upper90_pp": 0.6365604550806989,
+          "cumulative_p_value": 0.26691458218448405,
+          "cumulative_significant_10pct": false,
+          "strength": "bajo",
+          "r2": 0.4725297276301468,
+          "n_obs": 255
+        },
+        "forecast": null,
+        "contributions": null,
+        "answer_es": "Dato observado: la inflación mensual fue 0.20% en 2026-10 y la TRM promedio varió +0.6% frente al mes anterior. Estimación del modelo: el traslado de una depreciación de 10% a la inflación acumulada de seis meses es 0.3 pp, pero no se distingue de cero (intervalo de 90%: -0.1 a 0.6 pp, p=0.27). Regresión con rezagos distribuidos, dummies de mes y errores HAC (R² 47%, n=255); no controla por precios internacionales, brecha de producto ni política monetaria, así que mide asociación, no un efecto causal identificado. Muestra: 255 meses.",
+        "answer_simple_es": "Dato observado: la inflación mensual fue 0.20% en 2026-10 y la TRM promedio varió +0.6% frente al mes anterior. Estimación del modelo: el traslado de una depreciación de 10% a la inflación acumulada de seis meses es 0.3 pp, pero no se distingue de cero (intervalo de 90%: -0.1 a 0.6 pp, p=0.27). Muestra: 255 meses.",
+        "evidence_type": "association",
+        "purpose": "description",
+        "caveats": [
+          "Forma reducida sin controles de precios externos, brecha de producto ni política monetaria: asociación, no efecto causal.",
+          "El número publicado es la suma de seis coeficientes; su intervalo se calcula sobre la suma con covarianza HAC.",
+          "Coeficiente constante en toda la muestra; el traslado puede cambiar con el régimen de inflación.",
+          "TRM promedio mensual frente a IPC mensual sin desestacionalizar; la estacionalidad se controla con dummies de mes."
+        ],
+        "observed_es": "Dato observado: la inflación mensual fue 0.20% en 2026-10 y la TRM promedio varió +0.6% frente al mes anterior.",
+        "estimate_es": "Estimación del modelo: el traslado de una depreciación de 10% a la inflación acumulada de seis meses es 0.3 pp, pero no se distingue de cero (intervalo de 90%: -0.1 a 0.6 pp, p=0.27).",
+        "sample_note_es": "Muestra: 255 meses.",
+        "n_obs": 255,
+        "sample_start": "2005-08",
+        "sample_end": "2026-10",
+        "generated_at": "2026-11-13T18:55:42.735816+00:00",
+        "backtest": null
+      }
+    },
+    {
+      "key": "credito",
+      "indicator_id": "icv",
+      "status": "estimated",
+      "history_count": 140,
+      "frequency": "monthly",
+      "readiness_reason": "Historia mensual suficiente para evaluar modelos univariados simples.",
+      "benchmark": {
+        "model": "naive_last_value",
+        "horizon_periods": 1,
+        "n_predictions": 139,
+        "mae": 0.0011782455860055992,
+        "mape": 0.025783037835773903,
+        "bias": 6.037780984388195e-05
+      },
+      "candidate": {
+        "model": "rolling_mean_3",
+        "benchmark_model": "naive_last_value",
+        "decision": "reject",
+        "mae_improvement_pct": -0.3728328710580289,
+        "message": "candidate does not improve enough against benchmark"
+      },
+      "result": {
+        "key": "credito",
+        "indicator_id": "icv",
+        "model_name": "credit_health_descriptive",
+        "status": "estimated",
+        "pending_reason": null,
+        "coefficients": [],
+        "diagnostics": {
+          "icv_latest": 0.04307404811648966,
+          "icv_robust_z": -0.5174189528903922,
+          "real_credit_growth_yoy": 2.164802718825043,
+          "n_obs": 140
+        },
+        "forecast": null,
+        "contributions": null,
+        "answer_es": "Dato observado: el indicador de calidad de cartera (ICV) fue 4.3% en 2026-08 (Superfinanciera). Lectura descriptiva: ese nivel está en línea con su mediana histórica (z-score robusto -0.5) y la cartera crece +2.2% real anual, deflactando la cartera nominal con la inflación anual. Muestra: 140 meses (muestra pequeña: el resultado puede cambiar con pocos datos nuevos).",
+        "answer_simple_es": "Dato observado: el indicador de calidad de cartera (ICV) fue 4.3% en 2026-08 (Superfinanciera). Lectura descriptiva: ese nivel está en línea con su mediana histórica (z-score robusto -0.5) y la cartera crece +2.2% real anual, deflactando la cartera nominal con la inflación anual. Muestra: 140 meses (muestra pequeña: el resultado puede cambiar con pocos datos nuevos).",
+        "evidence_type": "descriptive",
+        "purpose": "description",
+        "caveats": [
+          "Agregado del sistema: no distingue modalidades (consumo, comercial, vivienda, microcrédito) ni entidades.",
+          "El z-score robusto compara el ICV con su mediana y MAD de toda la muestra disponible, incluido el dato actual.",
+          "Crecimiento real = cartera nominal a 12 meses deflactada con la inflación anual del mismo corte."
+        ],
+        "observed_es": "Dato observado: el indicador de calidad de cartera (ICV) fue 4.3% en 2026-08 (Superfinanciera).",
+        "estimate_es": "Lectura descriptiva: ese nivel está en línea con su mediana histórica (z-score robusto -0.5) y la cartera crece +2.2% real anual, deflactando la cartera nominal con la inflación anual.",
+        "sample_note_es": "Muestra: 140 meses (muestra pequeña: el resultado puede cambiar con pocos datos nuevos).",
+        "n_obs": 140,
+        "sample_start": "2015-01",
+        "sample_end": "2026-08",
+        "generated_at": "2026-11-13T18:55:42.737501+00:00",
+        "backtest": null
+      }
+    }
+  ]
+}
