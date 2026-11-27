@@ -1,0 +1,659 @@
+{
+  "file_count": 130,
+  "files": [
+    {
+      "name": "index.html",
+      "sha256": "282c3660c8d22e280e0140320335433e9d5cb3b27187e26ce04e6314509a6123",
+      "size_bytes": 378213
+    },
+    {
+      "name": "site.css",
+      "sha256": "2cc328bf90c496b42f2c3402b5ef6b33b90959ba4d00b94acd287ba0d4127bcd",
+      "size_bytes": 88781
+    },
+    {
+      "name": "site.js",
+      "sha256": "944f4f027378bf73d53bdbc7a85420dad5fb1696b5b596d0285e29ab38564614",
+      "size_bytes": 8615
+    },
+    {
+      "name": "support.js",
+      "sha256": "45617d5d82ed9e7c3890bb2899dce8973994aabf69f38879860fbb846937f353",
+      "size_bytes": 65990
+    },
+    {
+      "name": "analytics.js",
+      "sha256": "8b43b3a57c666b8720b70d9ebf17e684885a17cfa884c2c2ca136771c3e56ebb",
+      "size_bytes": 19031
+    },
+    {
+      "name": "colombia_departments.geojson",
+      "sha256": "8ca0de2766bbb7f29ebce19fb438d98aff50781520859442da94456c925d8860",
+      "size_bytes": 1226219
+    },
+    {
+      "name": "neighbors.geojson",
+      "sha256": "cbf5b19e088250afde8cb9c4f710d6f60ac8cebba75161ec4ffc3ad14d172b7f",
+      "size_bytes": 8651
+    },
+    {
+      "name": "regional_data.json",
+      "sha256": "7477852083a48b29bea54365900fceb6bbafaf56564c8bf9ab3237ae2b02e742",
+      "size_bytes": 174251
+    },
+    {
+      "name": "indicator_data.json",
+      "sha256": "8400852a6fc867b16eadf897dcad61a002baa7b9fdea45978f9464a8fad19977",
+      "size_bytes": 4066141
+    },
+    {
+      "name": "analysis_data.json",
+      "sha256": "cfa1fd27ccce87a936df80859114d58ac6bcf7f19290e33ff87014b1851214b5",
+      "size_bytes": 39446
+    },
+    {
+      "name": "global_pulse.json",
+      "sha256": "c2abff090f27a525e81c802d284cb733e4c29fb5020fc5882271be3ecef3ba1f",
+      "size_bytes": 16324
+    },
+    {
+      "name": "news_data.json",
+      "sha256": "4f059c13664e0e9261e2e2bfd7951f6cac0f38e82b31b32a5f157e2607b64f82",
+      "size_bytes": 1382350
+    },
+    {
+      "name": "main_chart.png",
+      "sha256": "9e12ffb4cd81bba021ddc7c191ae430a81441e515642585a590439100f75600d",
+      "size_bytes": 61558
+    },
+    {
+      "name": "data_health.md",
+      "sha256": "bb66d5852ae49767ae4b8cef8246eaf4b5c29126add05896d300985d5a897768",
+      "size_bytes": 6611
+    },
+    {
+      "name": "articles.html",
+      "sha256": "86d6fafe4582c9099995b3a4451a506a66d8423cd3a2133761b77b7bdc1bbe5a",
+      "size_bytes": 7753
+    },
+    {
+      "name": "news.html",
+      "sha256": "a38affe3a711a870f8cb3df6a1dbbf21ccb716c6f97f1a8edcf5c6beaf995a3c",
+      "size_bytes": 200210
+    },
+    {
+      "name": "legislativo.html",
+      "sha256": "4c732fa6651c4fa84f6989654314e27402ef092ad3d5781a0a30805845f62424",
+      "size_bytes": 8461
+    },
+    {
+      "name": "indicators.html",
+      "sha256": "6d5539c031a8ed272fd226c80c960522059df9ee656c18a64edec3cc2a3e955a",
+      "size_bytes": 25762
+    },
+    {
+      "name": "departments.html",
+      "sha256": "516144575e9d9a63ac11c0ff9146c565561fd743b94b50f00685fda47b4cf23b",
+      "size_bytes": 15025
+    },
+    {
+      "name": "fixed_income.html",
+      "sha256": "2421d370702170b952e7b4152a2907609f1e668a48cd3efcab7f4d975eb66cf0",
+      "size_bytes": 31551
+    },
+    {
+      "name": "simulador.html",
+      "sha256": "f3f8939ad118416f9796ef90886ea3530c0fb03247054e4c2a8b52c18f9b5f85",
+      "size_bytes": 24113
+    },
+    {
+      "name": "simulador.js",
+      "sha256": "939b3a7ce2e649337621fd7bdaa7677f2981980d4081eaffef52dbba9d09bac8",
+      "size_bytes": 24053
+    },
+    {
+      "name": "visor.html",
+      "sha256": "6b2d2ef261543700b5518520958c4096537075a5ffe12a9bb530ebbddefaab15",
+      "size_bytes": 20557
+    },
+    {
+      "name": "visor.js",
+      "sha256": "77959ba3c2f6a5a6aedcc3b1a6c8e05bcf1b34d9855b4417be8828a7df3da507",
+      "size_bytes": 29685
+    },
+    {
+      "name": "lab.html",
+      "sha256": "d0bbff83ae7ed3e01a9f94056e16df513ff1d40bbbbcf5ece3cb32d1e1c91100",
+      "size_bytes": 21147
+    },
+    {
+      "name": "about.html",
+      "sha256": "33ca944c79a8309f81c5d32886b5a0ae96d3f4d016ca7d61c970ae725d12e097",
+      "size_bytes": 39370
+    },
+    {
+      "name": "caso_politica_monetaria.html",
+      "sha256": "7fc44335c7e9ca87f5456883b612505b15b16b506b9e190ce86252746b07a0ee",
+      "size_bytes": 115890
+    },
+    {
+      "name": "resumen.html",
+      "sha256": "bab6ccee6be1fb7604ecc589ab17091e733d2fc6e872844bb3b56bd2f2d58a1f",
+      "size_bytes": 40026
+    },
+    {
+      "name": "trace.html",
+      "sha256": "e1980396ce09d9e1679ceae57f9447956334d581e3b5a0a09b0e6481a10db16c",
+      "size_bytes": 38067
+    },
+    {
+      "name": "methodology.html",
+      "sha256": "676e4baba3b99b43e08e23fd1ccedf4ee1c3f8e492bcfa18d21ab368dde67a2c",
+      "size_bytes": 69377
+    },
+    {
+      "name": "status.html",
+      "sha256": "2b3904bb86a295107599b533eefd75ba4964f171aad7ca148db289f20a622660",
+      "size_bytes": 21394
+    },
+    {
+      "name": "audit.html",
+      "sha256": "68b8f26ccb2c4be27161c2f44f8aacc4082d5a4f09534dde738b44240695f004",
+      "size_bytes": 19655
+    },
+    {
+      "name": "linkedin_post.md",
+      "sha256": "f6e6c3ac6f047b3fe0c59ebb07d0cdc7d28187bd5a7f248015797d9bdcd3d1d6",
+      "size_bytes": 1346
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "64a6cc0a3df20ab664c8c4440e217b00310eda6ec4a91a9cb5e61b9c719cc59b",
+      "size_bytes": 3009
+    },
+    {
+      "name": "CNAME",
+      "sha256": "183350b53bb1bc1331aa91829cf4c0dba480dff14ff459402732ab1ded59448f",
+      "size_bytes": 17
+    },
+    {
+      "name": "indicators/brent_usd.html",
+      "sha256": "4de2ef00b4484922b49d351c6db0e31095c2ac9fa4fc984bef080c3b7477a2dc",
+      "size_bytes": 10702
+    },
+    {
+      "name": "indicators/captaciones_publico.html",
+      "sha256": "1d8640877aaa34cc4490587bbd8bb3da8ed0f94e98f961d54712b62fb9f2fed3",
+      "size_bytes": 10903
+    },
+    {
+      "name": "indicators/cartera_bruta.html",
+      "sha256": "725fdb024fcce279b2c32c939a689ca1c8fb7cab849894106a1f593d54d4f67d",
+      "size_bytes": 10764
+    },
+    {
+      "name": "indicators/cartera_vencida.html",
+      "sha256": "5018cd56e73520f6395c0ea72b7fd153f30cb48815ccd37d14cb66d55281fa6a",
+      "size_bytes": 10811
+    },
+    {
+      "name": "indicators/colcap_monthly.html",
+      "sha256": "70b49f31cd89420597864df52afe8179032c59835ccf1dc868a10bf164f18269",
+      "size_bytes": 10738
+    },
+    {
+      "name": "indicators/dxy_broad.html",
+      "sha256": "536e39173b92f6cf225f67719c4d5f66cdc488fb950ec2cf76483aa0c8ee4c43",
+      "size_bytes": 10769
+    },
+    {
+      "name": "indicators/embi_proxy_hy.html",
+      "sha256": "977086cd6352700739df0a88de2962b079b403b0afec0bfce9938d5504baa4ca",
+      "size_bytes": 10855
+    },
+    {
+      "name": "indicators/exportaciones_fob.html",
+      "sha256": "7ff423e637081fa0bbf97a85ad7ad60f23a133f592b9f4d79693a8a8bcfb7dfa",
+      "size_bytes": 10901
+    },
+    {
+      "name": "indicators/fed_funds.html",
+      "sha256": "a13aea1edcace45db474a3e5cc10e06b768c4bbb814769bb7f307edaf7816537",
+      "size_bytes": 10724
+    },
+    {
+      "name": "indicators/ibr_overnight.html",
+      "sha256": "621fb9caa442e5c8fbc1785189deaf6fe7f6714ff8bb942f56ca9b2fa16114ad",
+      "size_bytes": 10922
+    },
+    {
+      "name": "indicators/icv.html",
+      "sha256": "e668f560be274e2892b19577c600da094e9d868cf1ad306b7bd45e9a893c6a45",
+      "size_bytes": 10764
+    },
+    {
+      "name": "indicators/importaciones.html",
+      "sha256": "5e7a4d822c8da87a314dad814d0a292d149794946fb77d79ae607208816c6260",
+      "size_bytes": 11221
+    },
+    {
+      "name": "indicators/ipc_mom.html",
+      "sha256": "6ee8ed03774831e3720c5e3656bb01350ca4e0268df1bc0ac066b9585a36e643",
+      "size_bytes": 10790
+    },
+    {
+      "name": "indicators/ipc_yoy.html",
+      "sha256": "736fd656dbd1642e62f0983ad5eb3a1f8dd9eb9f256ede01419c0cca41a0fe80",
+      "size_bytes": 10769
+    },
+    {
+      "name": "indicators/ise.html",
+      "sha256": "1352c383fffe43e8daa20d1b0ec66d93fd4a19e8d1784f7eb0f0980b05d65468",
+      "size_bytes": 10872
+    },
+    {
+      "name": "indicators/policy_rate.html",
+      "sha256": "8e0fb429922208c77c1eb05b329f9bfce2f7dc01ea7902fb1413d4d1baf39d4b",
+      "size_bytes": 11012
+    },
+    {
+      "name": "indicators/tasa_desocupacion.html",
+      "sha256": "79fdf066f07ab5b4179498cc9c1d6966bd63c002449551b76c28e4a86b9f40f6",
+      "size_bytes": 10892
+    },
+    {
+      "name": "indicators/tasa_global_participacion.html",
+      "sha256": "bf99217548aababa2582a28bdf844465a3d84c463417d02a1cc6c0ff0b347491",
+      "size_bytes": 11060
+    },
+    {
+      "name": "indicators/tasa_ocupacion.html",
+      "sha256": "e129ac5e321f6cc365c07594999537290427d4094793b8257253942f87188282",
+      "size_bytes": 10904
+    },
+    {
+      "name": "indicators/tes_10y.html",
+      "sha256": "b06d829f6f5bacff76f4601732b2d9de08bec9494535219bee7813537aeeb145",
+      "size_bytes": 11259
+    },
+    {
+      "name": "indicators/tes_bei_10y.html",
+      "sha256": "69251efaf64546d23730aa5995f70830aef6528cc9955b634646cec75ea2de54",
+      "size_bytes": 11269
+    },
+    {
+      "name": "indicators/tes_bei_5y.html",
+      "sha256": "3e7c9688f88f48604c5e0804eb3fd9c02ad43a4a53806a503e7bfeecf0d7cd3c",
+      "size_bytes": 11252
+    },
+    {
+      "name": "indicators/tes_cop_1y.html",
+      "sha256": "babb84115e0c6f8293c64c8001ae8b828b20f697ae290d2261f05edc5c5ecac7",
+      "size_bytes": 11271
+    },
+    {
+      "name": "indicators/tes_cop_5y.html",
+      "sha256": "042ee9ace3c64b0ca9c219af7bbece7c7f9abd8c27d036779f1448310e53b7a5",
+      "size_bytes": 11278
+    },
+    {
+      "name": "indicators/tes_fwd_5y5y.html",
+      "sha256": "358b108c2b9d3ae980dc49dce22e69cdaacbe0cbe1154f60c44e351e4bd71657",
+      "size_bytes": 11238
+    },
+    {
+      "name": "indicators/tes_slope_10_1.html",
+      "sha256": "06aaef42b7a0057b6fb470c89669cd40e0d13be16f64f0e16c805b4baff2aad4",
+      "size_bytes": 11289
+    },
+    {
+      "name": "indicators/tes_uvr_10y.html",
+      "sha256": "0d485209f13f72bd31faf0e0e87e98bdded9c0631eea45ab31732bad07f8a802",
+      "size_bytes": 11282
+    },
+    {
+      "name": "indicators/tes_uvr_1y.html",
+      "sha256": "704780216edb0df046707a3bc23f5b506ff50a9842defed0fd7eae0d6adfcac6",
+      "size_bytes": 11258
+    },
+    {
+      "name": "indicators/tes_uvr_5y.html",
+      "sha256": "e4bf27dcea6870f9e541fb9c00dd1d7a0ac13091392a14c55e74e1294ba28b7f",
+      "size_bytes": 11265
+    },
+    {
+      "name": "indicators/trm.html",
+      "sha256": "eb549b8c08e29bef53e85e717a81e3ff64f8bc106ed3f1a3b99cb0d69ee1e9ab",
+      "size_bytes": 10806
+    },
+    {
+      "name": "indicators/trm_month_end.html",
+      "sha256": "129875130e46f6f9a7015a200a0b62505e4f2d6388c358a482df32fccbd7b398",
+      "size_bytes": 10775
+    },
+    {
+      "name": "indicators/trm_monthly_average.html",
+      "sha256": "d9610e027b4ec325c072af04f3d82944b22b4bde0f3078c575ead2add283f9e8",
+      "size_bytes": 10858
+    },
+    {
+      "name": "departments/amazonas.html",
+      "sha256": "4c5a3114e633eb20133fc82d547a749f687117ca57509dcd8812da4c1f77e282",
+      "size_bytes": 19751
+    },
+    {
+      "name": "departments/antioquia.html",
+      "sha256": "b0ed4b20bd45a4b66f829f5521251fd5c597baa5c57ad5a046c03a62c21585a2",
+      "size_bytes": 22814
+    },
+    {
+      "name": "departments/arauca.html",
+      "sha256": "15a959dfe4bfcb0023842899a85ca21fcff56c7f4b04d32beb3cc2d5e7cda828",
+      "size_bytes": 20118
+    },
+    {
+      "name": "departments/atlantico.html",
+      "sha256": "350a0e7a490e129b5e925448bb85a35437ac59b0b572d8e8fc07c560dc13bfbf",
+      "size_bytes": 22902
+    },
+    {
+      "name": "departments/bogota-d-c.html",
+      "sha256": "c67e28101ca5995611285b7d6e47ad703ecc36036da8fd087d241f60f9c14450",
+      "size_bytes": 23038
+    },
+    {
+      "name": "departments/bolivar.html",
+      "sha256": "2b4dd44b6875b4f0bd164a35d1916d7c6fda3b6089669676ad9af940eea01edd",
+      "size_bytes": 22850
+    },
+    {
+      "name": "departments/boyaca.html",
+      "sha256": "9a666d8529df0659d419f6e6defde41524626d068b8b6ec56d4c16a373058ccd",
+      "size_bytes": 22709
+    },
+    {
+      "name": "departments/caldas.html",
+      "sha256": "45680da35224e85186f513087704857ea89e76a7fb557a0e4c6c90e8e5edc8af",
+      "size_bytes": 21897
+    },
+    {
+      "name": "departments/caqueta.html",
+      "sha256": "1c194863c2d1f9c35d297353b910b367384bc1656bc8f68bf315be0ee96ba9d4",
+      "size_bytes": 20158
+    },
+    {
+      "name": "departments/casanare.html",
+      "sha256": "c07dab24c9880d0a569f2d881e31f302778a3d025592ff7f2650c8a6513802f8",
+      "size_bytes": 19800
+    },
+    {
+      "name": "departments/cauca.html",
+      "sha256": "e103c20c7d3115e99e7c31f0363dc5a190e0b8c0f21a8f335bb644fe76ba088d",
+      "size_bytes": 21391
+    },
+    {
+      "name": "departments/cesar.html",
+      "sha256": "ee3874ef7ee0bc3554694853bfe8ec0b7dc90e5774fcbf27c2da386e62e2108f",
+      "size_bytes": 22316
+    },
+    {
+      "name": "departments/choco.html",
+      "sha256": "229120cc3b57561cf674025704f392a3a42a2e553946426d79b2f9c83cfa92c4",
+      "size_bytes": 20323
+    },
+    {
+      "name": "departments/cordoba.html",
+      "sha256": "df5b4715783e0961ef3afbeef1ec3b03124c24fd2deca89b6872f497a6c1cb8c",
+      "size_bytes": 22485
+    },
+    {
+      "name": "departments/cundinamarca.html",
+      "sha256": "a6f22959864d7067e9d0670fc2ed162fb34e8c8b05446296db77b72610dea33c",
+      "size_bytes": 20928
+    },
+    {
+      "name": "departments/guainia.html",
+      "sha256": "090404b30f186c240ded7665ab63f49e0cc7943bb755e1bef2234a82bee9fac5",
+      "size_bytes": 19736
+    },
+    {
+      "name": "departments/guaviare.html",
+      "sha256": "894c7c8e52e8229571b1c740b6a84163783bc0fe78a1d94b81e586d087b91136",
+      "size_bytes": 19754
+    },
+    {
+      "name": "departments/huila.html",
+      "sha256": "2dcda9705d5030c56e61b7c14f7bb88fe8c402202801ed2464c30337a0765b5c",
+      "size_bytes": 22190
+    },
+    {
+      "name": "departments/la-guajira.html",
+      "sha256": "b04c74a49ebe0995d7a13d85f139f47f53edd74b2472b60f5cb6a829ed769976",
+      "size_bytes": 20375
+    },
+    {
+      "name": "departments/magdalena.html",
+      "sha256": "17d5c1f78f5002b9b742bb89b2f4f27919a4c30367b0c948a3126fc8d84403b4",
+      "size_bytes": 22967
+    },
+    {
+      "name": "departments/meta.html",
+      "sha256": "d924ad5092f76992d05d6ee2951186deb2798e02eb78a2072947bd62ebf8e8ad",
+      "size_bytes": 22837
+    },
+    {
+      "name": "departments/narino.html",
+      "sha256": "abdb647d9ea37d3321d9fc9e2d289822f4946e77372f9f2fac5e039665f57ea2",
+      "size_bytes": 20899
+    },
+    {
+      "name": "departments/norte-de-santander.html",
+      "sha256": "60330bfa1ec397530af8957830c4babf1cf56552a2b8bc0d4974511b945cbf04",
+      "size_bytes": 22876
+    },
+    {
+      "name": "departments/putumayo.html",
+      "sha256": "a3f143ef76891c17b5a6a9f157034ca072b078f59b39daef2c91553d6888ea09",
+      "size_bytes": 19779
+    },
+    {
+      "name": "departments/quindio.html",
+      "sha256": "bed2feb77787346231e105bccfb9fd97f1cf4450c643eac1c7848f48a6550b52",
+      "size_bytes": 22626
+    },
+    {
+      "name": "departments/risaralda.html",
+      "sha256": "83c480b70cbab21d3721459144d98d0f7e5f4d08c5ef3a6d339555982e23d007",
+      "size_bytes": 22423
+    },
+    {
+      "name": "departments/san-andres-providencia-y-santa-catalina-archipielago.html",
+      "sha256": "31328677a9b5a0edc16cbe9405b11c3322efa8bd7f51cbccdfa65a55877fa545",
+      "size_bytes": 21544
+    },
+    {
+      "name": "departments/santander.html",
+      "sha256": "7f9e62f001f828a7f88af41286b75019ce25838ad1272abb79ebf27a8a5167d1",
+      "size_bytes": 22777
+    },
+    {
+      "name": "departments/sucre.html",
+      "sha256": "f86c528b704bd8157190122b6ce6ada0b3d0a1cf02393ebbeb3960c43ea08595",
+      "size_bytes": 20417
+    },
+    {
+      "name": "departments/tolima.html",
+      "sha256": "2397697bde8bbaa74cba400357be23f45909dfc373a62236c735e12a599430c4",
+      "size_bytes": 22512
+    },
+    {
+      "name": "departments/valle-del-cauca.html",
+      "sha256": "193e3f737d8fe111d08b9b280b5d8f380fab2d91ee5f1b8bdf06fa5721770975",
+      "size_bytes": 22991
+    },
+    {
+      "name": "departments/vaupes.html",
+      "sha256": "a7bc178bf3bd9fb34e87c28cdd908620d8379eca4e3a72d50b960171b9f47294",
+      "size_bytes": 19711
+    },
+    {
+      "name": "departments/vichada.html",
+      "sha256": "ef7a1614363f63da1e0e986ece798c323869c3fabf49d68f7c23da78adbe2e5d",
+      "size_bytes": 19731
+    },
+    {
+      "name": "data/alerts.json",
+      "sha256": "dc0dff5a000185f8eab7b4b7acca2ea92baf960ad17b85dfe3edc7261488c604",
+      "size_bytes": 4106
+    },
+    {
+      "name": "data/analysis.json",
+      "sha256": "28864bc418cee26393a2dc11a18ab5ebb1ff7eca59b7b33f7a432309fe77882d",
+      "size_bytes": 40592
+    },
+    {
+      "name": "data/bvc.json",
+      "sha256": "568167af6ab6d09a4c375b87cfdeda899084140ff9cc3906a8fdbea76b165a10",
+      "size_bytes": 515144
+    },
+    {
+      "name": "data/global.json",
+      "sha256": "d3130c1c4380239e32bda7f48dcc78cc97f5d6bbbb9664742f8292352a50d087",
+      "size_bytes": 16368
+    },
+    {
+      "name": "data/manifest.json",
+      "sha256": "94193586613bdd0851d604a3317f0336449f0605044970c2ed10fa5e1cf0d6a4",
+      "size_bytes": 25229
+    },
+    {
+      "name": "data/news.json",
+      "sha256": "595622bc6c96b3dd3f1272083bbf7a6f6bc02396fe9a462438bef385d383510f",
+      "size_bytes": 512547
+    },
+    {
+      "name": "data/regions.json",
+      "sha256": "88eb320f8dfe54953890f3643ec13cae94ae69e15263bd7b3ef76f933dda75c6",
+      "size_bytes": 163981
+    },
+    {
+      "name": "data/search.json",
+      "sha256": "67a86bdbdd1f9ae9915734c702e7cff37b3b77d837537ae752f209114a1344da",
+      "size_bytes": 39030
+    },
+    {
+      "name": "data/series.json",
+      "sha256": "4f974d78e02642bb34c2d8b6e5bd08693f7c2c00bccecc3319653e439c90fd84",
+      "size_bytes": 15111
+    },
+    {
+      "name": "data/simulador.json",
+      "sha256": "500a1b89352eb39bd311c7c382abbb6afdecaeb4387ccf1114ea096c6ba247a9",
+      "size_bytes": 2959
+    },
+    {
+      "name": "data/today.json",
+      "sha256": "31ac46c91b63e934a9113b7937baffacd594864aea32024d3e2d840cc823ac9b",
+      "size_bytes": 6032
+    },
+    {
+      "name": "data/visor.json",
+      "sha256": "a61442c8c026481dc628a1f42651aeebe00d22de1a970b2641d954cc7cce132c",
+      "size_bytes": 8393
+    },
+    {
+      "name": "fonts/OFL.txt",
+      "sha256": "2af4fff5acb3ce4b400c8a003e96d817813f3a18c0c9ffb529534cf446f20aff",
+      "size_bytes": 4837
+    },
+    {
+      "name": "fonts/fraunces-latin-400-normal.woff2",
+      "sha256": "e558f39453a9c611908be04294b50dea5f21ae6c49b41c6e47f4115e91f90209",
+      "size_bytes": 17968
+    },
+    {
+      "name": "fonts/fraunces-latin-500-normal.woff2",
+      "sha256": "7975c1ef7caf89d0606dd985d35abe31a619c19262cf13f5a05938cc68fb27b2",
+      "size_bytes": 18000
+    },
+    {
+      "name": "fonts/fraunces-latin-600-normal.woff2",
+      "sha256": "3a1de7711d147bad4422825045f87597fd77cca72e7c96d3b0a81735d00dda82",
+      "size_bytes": 18096
+    },
+    {
+      "name": "fonts/ibm-plex-mono-latin-400-normal.woff2",
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7",
+      "size_bytes": 14708
+    },
+    {
+      "name": "fonts/ibm-plex-mono-latin-500-normal.woff2",
+      "sha256": "01d285447409c8a588692162439a038b8cbd7871309ee20267b0d2d91c6e8e22",
+      "size_bytes": 14888
+    },
+    {
+      "name": "fonts/ibm-plex-mono-latin-600-normal.woff2",
+      "sha256": "0d1f0b8d0722224e32e9f28261bdc86c79115be73444ae5eceb73976a1bcdf83",
+      "size_bytes": 15620
+    },
+    {
+      "name": "fonts/ibm-plex-mono-latin-700-normal.woff2",
+      "sha256": "4f84d86cfd060f4ded334358ff8a4c81d4db2ed5addd568359d693f44a87765a",
+      "size_bytes": 14908
+    },
+    {
+      "name": "fonts/ibm-plex-sans-latin-400-normal.woff2",
+      "sha256": "3b646991d30055a93a4ecc499713d4347953a74a947ecab435ab72070cbdab0e",
+      "size_bytes": 22588
+    },
+    {
+      "name": "fonts/ibm-plex-sans-latin-500-normal.woff2",
+      "sha256": "0717336fb31fcdcde4b8deb3675bb4a0f7f6d484864afcd6751ac29975962203",
+      "size_bytes": 24184
+    },
+    {
+      "name": "fonts/ibm-plex-sans-latin-600-normal.woff2",
+      "sha256": "8960851d691c054ed38e259bdcf1a6190d157b4203ed5bb32c632a863fb8ec2f",
+      "size_bytes": 24252
+    },
+    {
+      "name": "fonts/ibm-plex-sans-latin-700-normal.woff2",
+      "sha256": "42e7b0c143c19df9d99fd896e76b48f846edf0902d200bc29796b34d12c33aa7",
+      "size_bytes": 22832
+    },
+    {
+      "name": "vendor/MAPLIBRE_LICENSE.txt",
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2",
+      "size_bytes": 5984
+    },
+    {
+      "name": "vendor/REACT_LICENSE.txt",
+      "sha256": "f08a94bfb0bdc1d7f1cb59badaf0f8c551b10db871185622dbf1fd036affa9cb",
+      "size_bytes": 1107
+    },
+    {
+      "name": "vendor/maplibre-gl.css",
+      "sha256": "ab1e70d59ec40465bae7e7030da2f3ccf28133fd502e62bd598eefbadfd7a732",
+      "size_bytes": 70024
+    },
+    {
+      "name": "vendor/maplibre-gl.js",
+      "sha256": "45a9b07a9189ce56054c620a947ccf41e291e58c95e9b61533b740aaa65ee5cb",
+      "size_bytes": 1056837
+    },
+    {
+      "name": "vendor/react-dom.production.min.js",
+      "sha256": "13b1c0705b9fa93346936ed98bd4a858fea4cdacdb09e564f897c5ba6bd0943a",
+      "size_bytes": 132102
+    },
+    {
+      "name": "vendor/react.production.min.js",
+      "sha256": "d72610e728466bf70f27ecc9a1a14580fd8f1e75b977aa0612146cab0e80a3fe",
+      "size_bytes": 10782
+    }
+  ],
+  "packaged_at": "2026-11-27T20:25:52.348048+00:00",
+  "publication_version": "v2026.11.27",
+  "schema_version": "2.0",
+  "source_commit": "b328ad754e71fca18614b92b8bcd97f93aed16ad"
+}
